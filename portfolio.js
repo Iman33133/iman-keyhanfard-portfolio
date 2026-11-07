@@ -1,0 +1,75 @@
+(() => {
+  const posts = {
+    hormuz: [
+      ["7496840965723381760","Strait of Hormuz: Why Baghdad seeks transit permits","تنگه هرمز؛ چرا بغداد خواستار مجوز عبور نفتکش‌هاست","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_strait-of-hormuz-irreplaceable-for-baghdad-activity-7496840965723381760-WnwC",["Hormuz","Iraq","Maritime security"]],
+      ["7498627489217310720","Iran and Oman discuss a joint shipping framework","ایران و عمان درباره چارچوب مشترک کشتیرانی گفت‌وگو می‌کنند","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iran-and-oman-have-agreed-to-share-shipping-activity-7498627489217310720-n9wp",["Hormuz","Oman","Shipping"]],
+      ["7500072612694310913","IRGC says US MQ-9 drone was struck over Hormuz","سپاه: پهپاد MQ-9 آمریکا بر فراز تنگه هرمز هدف قرار گرفت","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_a-us-mq9-drone-was-struck-over-the-strait-activity-7500072612694310913-OYew",["Hormuz","Military","IRGC statement"]],
+      ["7487859320446160896","Frozen Iranian assets and restrictions on vessel passage","دارایی‌های بلوکه‌شده ایران و محدودیت عبور کشتی‌ها","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_new-iran-warns-that-any-country-or-company-activity-7487859320446160896-Z367",["Frozen assets","Maritime sanctions"]],
+      ["7497883642971586561","PGSA: vessels violating Iranian protocols face restrictions","نهاد مدیریت آبراه: کشتی‌های ناقض مقررات با محدودیت روبه‌رو می‌شوند","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_pgsa-%D9%86%D9%87%D8%A7%D8%AF-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A2%D8%A8%D8%B1%D8%A7%D9%87-%D8%AE%D9%84%DB%8C%D8%AC-%D9%81%D8%A7%D8%B1%D8%B3-pgsairan-activity-7497883642971586561-oTi6",["PGSA","Maritime rules"]],
+      ["7495469746591539200","Trump’s Hormuz claims contradicted by tanker data","ادعاهای ترامپ درباره هرمز با داده‌های نفتکش‌ها همخوانی ندارد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_politico-trumps-strait-of-hormuz-claims-activity-7495469746591539200-zFCM",["Trump","Tanker tracking"]],
+      ["7497882329206620160","Iran threatens action against more than 40 tankers","ایران کشتی‌های بیشتری را به توقیف تهدید می‌کند","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iran-threatens-to-seize-40-tankers-reuters-activity-7497882329206620160-L-BC",["Tankers","Maritime security"]],
+      ["7484162252527316993","IRGC says the Iranian route is the only active route in Hormuz","سپاه: مسیر ایرانی تنها مسیر فعال در تنگه هرمز است","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_irgc-the-only-active-route-in-the-strait-activity-7484162252527316993-9JuO",["IRGC","Hormuz control"]],
+      ["7495740713641414657","Oil prices rise amid uncertainty over Hormuz","افزایش قیمت نفت در پی نااطمینانی درباره تنگه هرمز","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_bullish-oil-rally-begins-brent-crude-activity-7495740713641414657-Kjm_",["Oil markets","Shipping"]],
+      ["7502594253232197632","Iran says Hormuz can reopen if the US stops threatening it","ایران: در صورت توقف تهدیدها و اقدامات آمریکا، هرمز باز خواهد شد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iran-will-open-hormuz-but-only-if-us-does-activity-7502594253232197632-1eGL",["Iran–US","Hormuz"]],
+      ["7499423287119167488","Pezeshkian says Islamabad MoU collapsed over Hormuz terms","پزشکیان: تفاهم‌نامه اسلام‌آباد بر سر شروط هرمز شکست خورد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_islamabad-mou-collapsed-over-hormuz-terms-activity-7499423287119167488-wUMB",["Islamabad MoU","Negotiations"]],
+      ["7496226888600866818","Oil prices climb as shipping disruption fears grow","افزایش قیمت نفت در پی نگرانی از اختلال در کشتیرانی","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_oil-prices-climbed-to-their-highest-levels-activity-7496226888600866818-YPpG",["Energy","Hormuz"]],
+      ["7502979928028581888","Mohsen Rezaei warns of a maritime exclusion zone","محسن رضایی از احتمال ایجاد منطقه منع تردد دریایی می‌گوید","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_washington-has-received-a-clear-warning-activity-7502979928028581888-z1o6",["Mohsen Rezaei","Maritime security"]]
+    ],
+    conflict: [
+      ["7501220928228417538","Israel Katz threatens strikes on Iranian infrastructure","تهدید وزیر جنگ اسرائیل به حمله به زیرساخت‌های ایران","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_big-israeli-defense-minister-israel-katz-activity-7501220928228417538-Rj3O",["Israel","Threats"]],
+      ["7502338746957189120","Ghalibaf: The rules of the game have changed","قالیباف: قواعد بازی تغییر کرده است","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_americans-must-understand-that-the-rules-activity-7502338746957189120-nnFT",["Ghalibaf","Iran's response"]],
+      ["7502979928028581888","Mohsen Rezaei warns Washington over Iran’s new missiles","محسن رضایی به واشنگتن درباره موشک‌های جدید ایران هشدار داد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_washington-has-received-a-clear-warning-activity-7502979928028581888-z1o6",["Mohsen Rezaei","Deterrence"]],
+      ["7502593643388706816","Mohsen Rezaei discusses a new Iranian missile test","محسن رضایی از آزمایش موشک جدید ایران می‌گوید","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_new-iranian-missile-tested-on-us-warship-activity-7502593643388706816-9vGj",["Missiles","US forces"]],
+      ["7497891686371549184","UN chief says Iran war exposes limits of superpower dominance","دبیرکل سازمان ملل: جنگ ایران محدودیت قدرت ابرقدرت‌ها را نشان داد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_un-chief-guterres-iran-war-exposes-limits-activity-7497891686371549184-ooXZ",["United Nations","War"]],
+      ["7497190768390873088","Pezeshkian speaks on Iran’s response and national resilience","پزشکیان درباره پاسخ ایران و تاب‌آوری ملی سخن گفت","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_irans-president-pezeshkian-delivers-a-activity-7497190768390873088-Vx8r",["Pezeshkian","Iran"]],
+      ["7487790023434690561","Iran says it remains open to dialogue but will defend itself","ایران: آماده گفت‌وگو هستیم اما از خود دفاع می‌کنیم","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iran-is-open-to-dialogue-but-will-defend-activity-7487790023434690561-lKeA",["Deterrence","Diplomacy"]],
+      ["7487391470132473856","Iran threatens a response after attack on Iranian ship","ایران پس از حمله به کشتی ایرانی از پاسخ خبر داد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_world-bodies-still-silent-eu-must-stop-activity-7487391470132473856-33Sa",["Iranian shipping","Response"]],
+      ["7497272159497814016","Netanyahu links his premiership to rejecting a Palestinian state","نتانیاهو ادامه نخست‌وزیری خود را به مخالفت با تشکیل کشور فلسطین گره زد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_netanyahu-as-long-as-i-am-prime-minister-activity-7497272159497814016-b3p_",["Netanyahu","Israel"]],
+      ["7502986252976119809","Iran conveys conditions to the US through intermediaries","ایران شروط خود را از طریق واسطه‌ها به آمریکا منتقل کرد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iran-conveyed-its-conditions-to-us-source-activity-7502986252976119809-Vj7n",["US–Iran","Mediators"]],
+      ["7509300507065290752","Araghchi addresses regional aggression and civilian casualties at ECO","عراقچی در نشست اکو از تجاوزات منطقه‌ای و تلفات غیرنظامیان گفت","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_full-video-of-the-speech-by-seyed-abbas-activity-7509300507065290752-zeAL",["Araghchi","Regional security"]],
+      ["7499457484693106691","Araghchi tells Kyodo Japan should hold Tokyo accountable","عراقچی در گفت‌وگو با کیودو از ژاپن خواست واشنگتن را پاسخگو کند","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_%E9%80%9F%E5%A0%B1%E6%97%A5%E6%9C%AC%E3%81%AF%E7%B1%B3%E7%8A%AF%E7%BD%AA%E3%81%AE%E8%AA%AC%E6%98%8E%E8%B2%AC%E4%BB%BB%E5%95%8F%E3%81%88%E3%81%A8%E3%82%A4%E3%83%A9%E3%83%B3-activity-7499457484693106691-9XRR",["Araghchi","Interview"]]
+    ],
+    diplomacy: [
+      ["7502986252976119809","Iran conveys conditions to the US through intermediaries","ایران شروط خود را از طریق واسطه‌ها به آمریکا منتقل کرد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iran-conveyed-its-conditions-to-us-source-activity-7502986252976119809-Vj7n",["US–Iran talks","Pakistan","Qatar"]],
+      ["7499423287119167488","Pezeshkian says Islamabad MoU collapsed over Hormuz terms","پزشکیان: تفاهم‌نامه اسلام‌آباد بر سر شروط هرمز شکست خورد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_islamabad-mou-collapsed-over-hormuz-terms-activity-7499423287119167488-wUMB",["Islamabad MoU","Pezeshkian"]],
+      ["7497607751150256129","Baghaei: Iran has long been both chess and poker players","بقایی: ایران مدت‌هاست هم شطرنج‌باز است و هم پوکرباز","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_weve-been-chess-players-for-a-long-time-activity-7497607751150256129-D-Jz",["Baghaei","Foreign Ministry"]],
+      ["7497526288816009216","Oman’s foreign minister to visit Tehran for regional talks","وزیر خارجه عمان برای گفت‌وگوهای منطقه‌ای به تهران می‌آید","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_omans-foreign-minister-to-visit-tehran-activity-7497526288816009216-S_87",["Oman","Regional diplomacy"]],
+      ["7499457484693106691","Araghchi interview with Kyodo News on US military operations","گفت‌وگوی عراقچی با کیودو درباره عملیات نظامی آمریکا","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_%E9%80%9F%E5%A0%B1%E6%97%A5%E6%9C%AC%E3%81%AF%E7%B1%B3%E7%8A%AF%E7%BD%AA%E3%81%AE%E8%AA%AC%E6%98%8E%E8%B2%AC%E4%BB%BB%E5%95%8F%E3%81%88%E3%81%A8%E3%82%A4%E3%83%A9%E3%83%B3-activity-7499457484693106691-9XRR",["Araghchi","Interview"]],
+      ["7509300507065290752","Full video: Araghchi’s address at the ECO foreign ministers’ meeting","ویدئوی کامل سخنرانی عراقچی در نشست وزیران خارجه اکو","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_full-video-of-the-speech-by-seyed-abbas-activity-7509300507065290752-zeAL",["Araghchi","ECO","United Nations"]],
+      ["7496840965723381760","Strait of Hormuz: Baghdad’s request during the Iranian speaker’s Iraq visit","تنگه هرمز؛ درخواست بغداد در جریان سفر رئیس مجلس ایران به عراق","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_strait-of-hormuz-irreplaceable-for-baghdad-activity-7496840965723381760-WnwC",["Iraq","Ghalibaf","Regional relations"]],
+      ["7497190768390873088","Pezeshkian’s remarks on regional relations and Iran’s position","مواضع پزشکیان درباره روابط منطقه‌ای و جایگاه ایران","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_irans-president-pezeshkian-delivers-a-activity-7497190768390873088-Vx8r",["Pezeshkian","Neighbors"]],
+      ["7496232427560882176","UAE moves to cut off Iran’s financial lifeline — regional implications","امارات در مسیر قطع شریان مالی ایران؛ پیامدهای منطقه‌ای","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_uae-moves-to-cut-off-irans-financial-lifeline-activity-7496232427560882176-jOoi",["UAE","Economic pressure"]],
+      ["7495469746591539200","Tanker tracking data challenges Trump’s claims on Hormuz","داده‌های ردیابی نفتکش‌ها ادعاهای ترامپ درباره هرمز را زیر سؤال می‌برد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_politico-trumps-strait-of-hormuz-claims-activity-7495469746591539200-zFCM",["Trump","Maritime diplomacy"]],
+      ["7498627489217310720","Iran and Oman discuss a joint maritime framework","ایران و عمان درباره چارچوب مشترک دریایی گفت‌وگو می‌کنند","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iran-and-oman-have-agreed-to-share-shipping-activity-7498627489217310720-n9wp",["Oman","Mediation","Hormuz"]]
+    ]
+  };
+  const groups = [
+    {id:"hormuz",en:"Hormuz & Maritime Security",fa:"تنگه هرمز و امنیت دریایی",items:posts.hormuz},
+    {id:"conflict",en:"War, Threats & Iran’s Response",fa:"جنگ، تهدیدها و پاسخ ایران",items:posts.conflict},
+    {id:"diplomacy",en:"Negotiations, Officials & Mediation",fa:"مذاکرات، مقامات و میانجی‌گری",items:posts.diplomacy}
+  ];
+  const root=document.getElementById("topicPortfolio");
+  if(!root)return;
+  const tabs=document.getElementById("topicTabs"),deck=document.getElementById("topicDeck"),counter=document.getElementById("topicCounter");
+  const prev=document.getElementById("topicPrev"),next=document.getElementById("topicNext");
+  let groupIndex=0,itemIndex=0;
+  const lang=()=>document.documentElement.lang==="fa"?"fa":"en";
+  const safe=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  function renderTabs(){
+    tabs.innerHTML=groups.map((g,i)=>'<button class="topic-tab" type="button" role="tab" aria-selected="'+(i===groupIndex)+'" data-group="'+i+'">'+safe(g[lang()])+' · '+g.items.length+'</button>').join("");
+    tabs.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{groupIndex=Number(b.dataset.group);itemIndex=0;render();}));
+  }
+  function render(){
+    const g=groups[groupIndex],p=g.items[itemIndex],isFa=lang()==="fa";
+    renderTabs();
+    const title=isFa?p[2]:p[1],url=p[3],tags=p[4];
+    deck.innerHTML='<div class="topic-embed"><iframe loading="lazy" title="'+safe(title)+'" src="https://www.linkedin.com/embed/feed/update/urn:li:activity:'+p[0]+'?compact=1" allowfullscreen></iframe></div><div class="topic-copy"><span class="topic-index">'+(isFa?"نمونه‌کار":"PORTFOLIO SAMPLE")+' '+String(itemIndex+1).padStart(2,"0")+' / '+String(g.items.length).padStart(2,"0")+'</span><h3>'+safe(title)+'</h3><p>'+(isFa?"این مطلب در صفحه عمومی لینکدین منتشر شده است. برای مشاهده متن کامل و رسانه اصلی، پست را در لینکدین باز کنید.":"Originally published on the public LinkedIn profile. Open the original post to view its full text and attached media.")+'</p><div class="topic-tags">'+tags.map(t=>'<span>'+safe(t)+'</span>').join("")+'</div><a class="topic-original" href="'+safe(url)+'" target="_blank" rel="noopener noreferrer">'+(isFa?"مشاهده پست اصلی در لینکدین ↗":"Open original LinkedIn post ↗")+'</a></div>';
+    counter.textContent=String(itemIndex+1).padStart(2,"0")+" / "+String(g.items.length).padStart(2,"0");
+    prev.disabled=itemIndex===0;next.disabled=itemIndex===g.items.length-1;
+  }
+  prev.addEventListener("click",()=>{if(itemIndex>0){itemIndex--;render();}});
+  next.addEventListener("click",()=>{if(itemIndex<groups[groupIndex].items.length-1){itemIndex++;render();}});
+  const langButton=document.getElementById("langSwitch");
+  if(langButton)langButton.addEventListener("click",()=>setTimeout(render,0));
+  render();
+})();
