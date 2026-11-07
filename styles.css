@@ -22,6 +22,7 @@ body:before{content:"IRAN  MEDIA";position:fixed;inset:18% -5% auto auto;z-index
 .footer-contact a{width:max-content;color:#e7eaf0;border-bottom:1px solid rgba(255,255,255,.15);padding-bottom:2px}
 .footer-end{align-items:flex-end;text-align:right}
 .contact-card strong[dir=ltr]{direction:ltr;unicode-bidi:isolate;display:inline-block}
+html[dir=rtl] .welcome-drop{animation-name:welcomeCompact;direction:ltr}
 @media(max-width:680px){
  .welcome-drop{top:106px;padding:9px 4%;text-align:center;min-height:48px}
  .welcome-name{font-size:17px;letter-spacing:.2px}
