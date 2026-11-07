@@ -42,6 +42,28 @@
       ["7495469746591539200","Tanker tracking data challenges Trump’s claims on Hormuz","داده‌های ردیابی نفتکش‌ها ادعاهای ترامپ درباره هرمز را زیر سؤال می‌برد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_politico-trumps-strait-of-hormuz-claims-activity-7495469746591539200-zFCM",["Trump","Maritime diplomacy"]],
       ["7498627489217310720","Iran and Oman discuss a joint maritime framework","ایران و عمان درباره چارچوب مشترک دریایی گفت‌وگو می‌کنند","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iran-and-oman-have-agreed-to-share-shipping-activity-7498627489217310720-n9wp",["Oman","Mediation","Hormuz"]]
     ]
+
+    nuclear: [
+      ["7498640944334827520","Iran showcases nuclear progress and fusion research","ایران دستاوردهای هسته‌ای و پژوهش‌های همجوشی را معرفی می‌کند","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iran-showcases-indigenous-nuclear-progress-activity-7498640944334827520-xJwb",["Nuclear technology","Fusion","Moeen Amini report"]],
+      ["7512085546488291329","Iranian MP: IAEA cooperation suspended pending nuclear-site security","نماینده مجلس: همکاری با آژانس تا تأمین امنیت تأسیسات هسته‌ای متوقف است","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_ahmadi-all-cooperation-with-the-iaea-activity-7512085546488291329-v1UI",["IAEA","Nuclear security","Parliament"]]
+    ],
+    energy: [
+      ["7496226888600866818","Oil prices climb amid fears of prolonged Hormuz disruption","افزایش قیمت نفت در پی نگرانی از اختلال طولانی در هرمز","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_oil-prices-climbed-to-their-highest-levels-activity-7496226888600866818-YPpG",["Oil markets","Energy security","Press TV"]],
+      ["7495740713641414657","Oil rally gathers pace amid regional shipping uncertainty","شتاب‌گرفتن رشد قیمت نفت در پی نااطمینانی کشتیرانی منطقه","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_bullish-oil-rally-begins-brent-crude-activity-7495740713641414657-Kjm_",["Brent crude","Oil markets","Hormuz"]]
+    ],
+    usPolitics: [
+      ["7497537097600266240","US House Speaker Mike Johnson discusses the Iran war and midterm elections","مایک جانسون درباره جنگ ایران و انتخابات میان‌دوره‌ای آمریکا سخن می‌گوید","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_can-republicans-hold-control-of-house-if-activity-7497537097600266240-9f48",["US politics","Mike Johnson","Midterm elections"]]
+    ],
+    jordan: [
+      ["7488842913385263104","Jordanian public figures urge leaders to tell US forces to leave","چهره‌های عمومی اردن خواستار خروج نیروهای آمریکایی شدند","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_jordanians-rare-challenge-to-their-leaders-activity-7488842913385263104--9jA",["Jordan","US military presence","Regional security"]]
+    ],
+    media: [
+      ["7497926139726798848","Guardian article author admits a controversial report on Iran was fabricated","نویسنده مقاله جنجالی گاردین درباره ایران به ساختگی‌بودن آن اذعان کرد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_after-16-years-author-of-anti-iranian-activity-7497926139726798848-aDIc",["Media accountability","Iran coverage","Verification"]],
+      ["7497245731460845568","IRIB releases controversial video alleging a plot involving Barron Trump","ویدئوی جنجالی صداوسیما درباره ادعای طرحی مرتبط با بارون ترامپ","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_urgent-iribs-controversial-video-assassination-activity-7497245731460845568-lQTY",["IRIB","Media narratives","US"]]
+    ],
+    president: [
+      ["7498634246014615552","Pezeshkian addresses the International Islamic Unity Conference","پزشکیان در کنفرانس بین‌المللی وحدت اسلامی سخنرانی کرد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iran-president-delivers-speech-at-40th-activity-7498634246014615552-Paj9",["Pezeshkian","Islamic Unity Conference","Regional relations"]]
+    ]
   };
 
   const groups=[
@@ -50,6 +72,12 @@
     {id:"diplomacy",en:"Diplomacy & Officials",fa:"دیپلماسی و مواضع مقامات",color:"#b18aff",items:posts.diplomacy},
     {id:"rezaei",en:"Mohsen Rezaei",fa:"محسن رضایی",color:"#e2a45b",items:[...posts.hormuz,...posts.conflict].filter((p,i,a)=>p[4].some(t=>/Mohsen Rezaei/i.test(t))&&a.findIndex(x=>x[0]===p[0])===i)},
     {id:"ghalibaf",en:"Mohammad Bagher Ghalibaf",fa:"محمدباقر قالیباف",color:"#71c7a5",items:[...posts.conflict,...posts.diplomacy].filter((p,i,a)=>(p[4].some(t=>/Ghalibaf/i.test(t))||/Ghalibaf/i.test(p[1]))&&a.findIndex(x=>x[0]===p[0])===i)}
+    ,{id:"nuclear",en:"Nuclear Technology & IAEA",fa:"فناوری هسته‌ای و آژانس",color:"#73c9d6",items:posts.nuclear}
+    ,{id:"energy",en:"Energy & Oil Markets",fa:"انرژی و بازار نفت",color:"#d8b45b",items:posts.energy}
+    ,{id:"usPolitics",en:"US Politics & Midterm Debate",fa:"سیاست آمریکا و انتخابات میان‌دوره‌ای",color:"#8fa5ff",items:posts.usPolitics}
+    ,{id:"jordan",en:"Jordan & US Military Presence",fa:"اردن و حضور نظامی آمریکا",color:"#c18d72",items:posts.jordan}
+    ,{id:"media",en:"Media Narratives & Accountability",fa:"روایت رسانه‌ای و پاسخ‌گویی",color:"#d58bb8",items:posts.media}
+    ,{id:"president",en:"President & National Speeches",fa:"رئیس‌جمهور و سخنرانی‌های ملی",color:"#8ac58a",items:posts.president}
   ];
   const root=document.getElementById("view-work");if(!root)return;
   const tabs=document.getElementById("topicTabs"),deck=document.getElementById("topicDeck"),counter=document.getElementById("topicCount");
