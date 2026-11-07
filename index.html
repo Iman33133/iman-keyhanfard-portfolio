@@ -117,26 +117,9 @@
         <h2 data-i18n="work_title">Selected stories<br><em>from my public feed.</em></h2>
         <p data-i18n="work_deck">A small selection of public posts from my professional LinkedIn profile. Each card opens the original post; this is not a complete client portfolio.</p>
       </div>
-      <div class="work-grid">
-        <a class="work-card" href="https://www.linkedin.com/posts/iman-keyhanfard-3b85439_ahmadi-all-cooperation-with-the-iaea-activity-7512085546488291329-v1UI" target="_blank" rel="noopener noreferrer">
-          <div class="work-image work-image-brief"><span>POLICY / IRAN</span><b>IAEA<br>COOPERATION</b><i>01</i></div>
-          <div class="work-meta"><span>NUCLEAR POLICY · IRAN</span><span>↗</span></div>
-          <h3 data-i18n="work1_title">Iran’s position on cooperation with the IAEA</h3>
-          <p data-i18n="work1_desc">A public post summarizing remarks by a member of Iran’s parliamentary National Security and Foreign Policy Committee.</p>
-        </a>
-        <a class="work-card" href="https://www.linkedin.com/posts/iman-keyhanfard-3b85439_americans-must-understand-that-the-rules-activity-7502338746957189120-nnFT" target="_blank" rel="noopener noreferrer">
-          <div class="work-image work-image-region"><span>REGIONAL AFFAIRS</span><b>THE RULES<br>HAVE CHANGED</b><i>02</i></div>
-          <div class="work-meta"><span>GEOPOLITICS · IRAN</span><span>↗</span></div>
-          <h3 data-i18n="work2_title">Iran’s regional deterrence messaging</h3>
-          <p data-i18n="work2_desc">A selected public post featuring remarks attributed to Iran’s parliamentary speaker on the regional security environment.</p>
-        </a>
-        <a class="work-card" href="https://www.linkedin.com/posts/iman-keyhanfard-3b85439_oil-prices-climbed-to-their-highest-levels-activity-7496226888600866818-YPpG" target="_blank" rel="noopener noreferrer">
-          <div class="work-image work-image-economy"><span>ENERGY / SHIPPING</span><b>STRAIT OF<br>HORMUZ</b><i>03</i></div>
-          <div class="work-meta"><span>ENERGY MARKETS · HORMUZ</span><span>↗</span></div>
-          <h3 data-i18n="work3_title">Oil markets and shipping through the Strait of Hormuz</h3>
-          <p data-i18n="work3_desc">A public post on oil-price movements and the risk of disruption to shipping through a strategic maritime corridor.</p>
-        </a>
-      </div>
+      <div class="portfolio-intro"><p data-i18n="portfolio_archive_intro">Explore verified public LinkedIn posts grouped by editorial subject. Use the topic tabs and slide controls to browse original posts, including their published media.</p></div>
+      <div id="topicPortfolio" class="topic-portfolio" aria-live="polite"><div class="topic-tabs" id="topicTabs"></div><div class="topic-deck" id="topicDeck"></div><div class="topic-controls"><button type="button" id="topicPrev" aria-label="Previous sample">←</button><span id="topicCounter">01 / 10</span><button type="button" id="topicNext" aria-label="Next sample">→</button></div></div>
+      <p class="portfolio-note" data-i18n="portfolio_note">LinkedIn embeds display the original post and its media where LinkedIn permits public embedding. Some posts may require opening LinkedIn directly.</p>
       <div class="capability-strip">
         <span data-i18n="capabilities_label">PRODUCTION &amp; EDITORIAL SERVICES</span>
         <div><b data-i18n="cap1">News and video packages</b><b data-i18n="cap2">Field reporting and interviews</b><b data-i18n="cap3">Photo and video coordination</b><b data-i18n="cap4">Persian–English translation</b><b data-i18n="cap5">Background research and briefs</b></div>
@@ -189,5 +172,6 @@
     </section>
   </main>
   <script src="script.js"></script>
+  <script src="portfolio.js"></script>
 </body>
 </html>
