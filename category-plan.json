@@ -1,0 +1,87 @@
+{
+  "title": "Portfolio editorial category plan",
+  "note": "Preserve every original category. Additions are based on publicly indexed LinkedIn posts. Do not invent posts or media. Verify each original post and its attached media before publishing.",
+  "original_categories": [
+    "تحولات منطقه",
+    "دیدارهای مقامات",
+    "مصاحبه‌های اختصاصی",
+    "برنامه هسته‌ای",
+    "تنگه هرمز",
+    "مذاکرات هسته‌ای",
+    "جنگ ایران",
+    "حمله آمریکا / اسرائیل",
+    "پاسخ‌ها و حملات ایران",
+    "تهدیدهای ترامپ / ایران",
+    "همسایگان",
+    "منع پروازی",
+    "تحریم‌های هوایی",
+    "تحریم‌های دریایی",
+    "تحریم‌های اقتصادی",
+    "تحریم‌های زمینی",
+    "پول‌های بلوکه‌شده",
+    "میانجی‌گری پاکستان / قطر",
+    "چین / روسیه",
+    "سازمان ملل",
+    "محسن رضایی",
+    "قالیباف، رئیس تیم مذاکره‌کننده",
+    "بقایی",
+    "عراقچی",
+    "مذاکرات ایران / آمریکا",
+    "مقالات و ترجمه بیانیه‌ها",
+    "بیانیه‌های سپاه",
+    "خسارات جنگ",
+    "انتخابات آمریکا / اسرائیل",
+    "نتانیاهو",
+    "تغییر مواضع آمریکا",
+    "تفاهم‌نامه اسلام‌آباد"
+  ],
+  "additional_categories_from_linkedin_posts": [
+    {
+      "id": "nuclear",
+      "title": "فناوری هسته‌ای و آژانس",
+      "evidence": [
+        "https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iran-showcases-indigenous-nuclear-progress-activity-7498640944334827520-xJwb",
+        "https://www.linkedin.com/posts/iman-keyhanfard-3b85439_ahmadi-all-cooperation-with-the-iaea-activity-7512085546488291329-v1UI"
+      ]
+    },
+    {
+      "id": "energy",
+      "title": "انرژی و بازار نفت",
+      "evidence": [
+        "https://www.linkedin.com/posts/iman-keyhanfard-3b85439_oil-prices-climbed-to-their-highest-levels-activity-7496226888600866818-YPpG",
+        "https://www.linkedin.com/posts/iman-keyhanfard-3b85439_bullish-oil-rally-begins-brent-crude-activity-7495740713641414657-Kjm_"
+      ]
+    },
+    {
+      "id": "usPolitics",
+      "title": "سیاست آمریکا و انتخابات میان‌دوره‌ای",
+      "evidence": [
+        "https://www.linkedin.com/posts/iman-keyhanfard-3b85439_can-republicans-hold-control-of-house-if-activity-7497537097600266240-9f48"
+      ]
+    },
+    {
+      "id": "jordan",
+      "title": "اردن و حضور نظامی آمریکا",
+      "evidence": [
+        "https://www.linkedin.com/posts/iman-keyhanfard-3b85439_jordanians-rare-challenge-to-their-leaders-activity-7488842913385263104--9jA"
+      ]
+    },
+    {
+      "id": "media",
+      "title": "روایت رسانه‌ای، راستی‌آزمایی و پاسخ‌گویی",
+      "evidence": [
+        "https://www.linkedin.com/posts/iman-keyhanfard-3b85439_after-16-years-author-of-anti-iranian-activity-7497926139726798848-aDIc",
+        "https://www.linkedin.com/posts/iman-keyhanfard-3b85439_urgent-iribs-controversial-video-assassination-activity-7497245731460845568-lQTY"
+      ]
+    },
+    {
+      "id": "president",
+      "title": "رئیس‌جمهور و سخنرانی‌های ملی",
+      "evidence": [
+        "https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iran-president-delivers-speech-at-40th-activity-7498634246014615552-Paj9"
+      ]
+    }
+  ],
+  "media_rule": "For each category, prioritize a genuine video with its headline and a short news context. If no suitable video exists, use the original post photo/image with its headline and news context. Keep the media preview visible on the card; clicking opens details and the original LinkedIn post.",
+  "status": "Category inventory preserved; six additional categories added to the active portfolio data. The original 32-topic archive still needs post-by-post media verification and population."
+}
