@@ -59,7 +59,7 @@
   const currentGroup=()=>groups[groupIndex],currentPost=()=>currentGroup().items[itemIndex];
   function renderTabs(){
     tabs.innerHTML=groups.map((g,i)=>'<button class="topic-tab '+(i===groupIndex?'active':'')+'" type="button" role="tab" aria-selected="'+(i===groupIndex)+'" data-group="'+i+'"><span>'+safe(g[lang()])+'</span><span class="tab-count">'+String(g.items.length).padStart(2,"0")+'</span></button>').join("");
-    tabs.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{groupIndex=Number(b.dataset.group);itemIndex=0;expanded=false;progressValue=0;render();}));
+    tabs.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{groupIndex=Number(b.dataset.group);itemIndex=0;expanded=false;progressValue=0;lastTick=Date.now();render();}));
   }
   function render(){
     const g=currentGroup(),p=currentPost(),isFa=lang()==="fa",title=isFa?p[2]:p[1],tags=p[4];
@@ -72,7 +72,7 @@
     deck.classList.toggle("expanded",expanded);
     deck.innerHTML='<article class="topic-card" tabindex="0" role="button" aria-expanded="'+expanded+'" aria-label="'+safe(isFa?"باز کردن جزئیات نمونه‌کار":"Open story details")+'"><div class="story-number">'+(isFa?"نمونه‌کار ":"SELECTED STORY / ")+String(itemIndex+1).padStart(2,"0")+'</div><h3>'+safe(title)+'</h3><div class="story-tags">'+tags.map(t=>'<span>'+safe(t)+'</span>').join("")+'</div><div class="story-open-hint">'+(isFa?(expanded?"برای بستن جزئیات کلیک کنید":"برای مشاهده جزئیات کلیک کنید"):(expanded?"CLICK TO COLLAPSE":"CLICK TO EXPLORE"))+' <b>'+(expanded?"−":"↗")+'</b></div></article><aside class="topic-detail"><div class="micro-label">'+(isFa?"زمینه و منبع اصلی":"STORY CONTEXT & ORIGINAL SOURCE")+'</div><h4>'+safe(title)+'</h4><p>'+safe(description)+'</p><div class="detail-tags">'+tags.map(safe).join(" · ")+'</div><iframe loading="lazy" title="'+safe(title)+'" src="https://www.linkedin.com/embed/feed/update/urn:li:activity:'+p[0]+'?compact=1" allowfullscreen></iframe><a class="original-post" href="'+safe(p[3])+'" target="_blank" rel="noopener noreferrer">'+(isFa?"مشاهده پست اصلی در لینکدین":"OPEN ORIGINAL LINKEDIN POST")+' <b>↗</b></a></aside>';
     const card=deck.querySelector(".topic-card");
-    card.addEventListener("click",()=>{expanded=!expanded;render();});
+    card.addEventListener("click",()=>{if(ignoreClick){ignoreClick=false;return;}expanded=!expanded;render();});
     card.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();expanded=!expanded;render();}});
     progress.style.width=progressValue+"%";
   }
@@ -80,11 +80,11 @@
     const n=currentGroup().items.length;itemIndex=(itemIndex+delta+n)%n;expanded=false;progressValue=0;lastTick=Date.now();render();
   }
   prev.addEventListener("click",()=>step(-1));next.addEventListener("click",()=>step(1));
-  let pointerStart=null,pointerStartY=null;
+  let pointerStart=null,pointerStartY=null,ignoreClick=false;
   deck.addEventListener("pointerdown",e=>{pointerStart=e.clientX;pointerStartY=e.clientY;});
   deck.addEventListener("pointerup",e=>{
     if(pointerStart===null)return;const dx=e.clientX-pointerStart,dy=e.clientY-pointerStartY;
-    if(Math.abs(dx)>55&&Math.abs(dx)>Math.abs(dy)*1.25)step(dx<0?1:-1);
+    if(Math.abs(dx)>55&&Math.abs(dx)>Math.abs(dy)*1.25){ignoreClick=true;step(dx<0?1:-1);setTimeout(()=>{ignoreClick=false;},140);}
     pointerStart=null;pointerStartY=null;
   });
   deck.addEventListener("pointercancel",()=>{pointerStart=null;});
