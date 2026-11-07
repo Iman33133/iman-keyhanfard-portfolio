@@ -26,3 +26,19 @@ body{background-color:var(--paper);background-image:radial-gradient(ellipse at 1
 .button-dark{transition:background .2s ease,transform .2s ease}
 .button-dark:hover{background:var(--rust);transform:translateY(-2px)}
 @media(max-width:800px){.additional-experience{grid-template-columns:1fr;padding:18px}.additional-experience .additional-label{grid-column:auto}}
+
+/* Portfolio completion: editorial artwork, capabilities and contact */
+.editorial-art{background:linear-gradient(135deg,#d9d4c9 0%,#c9c4b8 100%);box-shadow:18px 18px 0 rgba(169,79,57,.10)}
+.editorial-art:after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 42%,rgba(255,255,255,.22) 42.2%,transparent 42.8%);pointer-events:none}
+.art-circle{width:min(280px,70%);height:auto;aspect-ratio:1}
+.education-line{margin-top:24px;padding:17px 22px;background:rgba(255,255,255,.28);border-left:2px solid var(--rust);display:flex;flex-direction:column;gap:7px}
+.education-line strong{font-family:"Playfair Display",serif;font-size:18px;font-weight:500;color:#303832}
+.capability-strip{margin-top:42px;padding:24px 0;border-top:1px solid #cbc7bd;border-bottom:1px solid #cbc7bd}
+.capability-strip>span{font-size:9px;letter-spacing:1.7px;color:#a04c37;font-weight:700}
+.capability-strip>div{display:flex;flex-wrap:wrap;gap:10px;margin-top:15px}
+.capability-strip b{font-size:10px;font-weight:500;color:#4f574f;border:1px solid #c9c4b9;padding:9px 12px}
+.contact-details>a[href^="mailto"],.contact-details>a[href^="tel"]{color:#f4eee4}
+@media(max-width:800px){.art-circle{left:13%;top:12%}.capability-strip>div{gap:8px}}
+html[dir="rtl"] .education-line{border-left:0;border-right:2px solid var(--rust)}
+html[dir="rtl"] .additional-experience{border-left:0;border-right:2px solid var(--rust)}
+html[dir="rtl"] .capability-strip>span{letter-spacing:0}
