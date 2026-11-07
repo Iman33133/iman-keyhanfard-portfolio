@@ -74,6 +74,9 @@
     ],
     yemen: [
       ["7502592026543120384","Yemen's Houthis release footage of a precision missile strike","حوثی‌های یمن ویدئوی حمله موشکی دقیق را منتشر کردند","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_yemens-houthis-release-footage-of-precision-activity-7502592026543120384-h7jw",["Yemen","Houthis","Regional conflict"],{en:"The post reports the release of footage by Yemen’s Houthis showing what the group describes as a precision missile strike against a gathering of Saudi mobilization leaders.",fa:"این پست از انتشار ویدئویی توسط حوثی‌های یمن خبر می‌دهد که به ادعای این گروه، حمله‌ای موشکی دقیق به محل تجمع شماری از رهبران بسیج سعودی را نشان می‌دهد."}]
+    ],
+    detainedPilots: [
+      ["7496847902292594689","Iranian commander urges Red Cross air ambulance for detained pilots in Qatar","فرمانده ایرانی خواستار اعزام آمبولانس هوایی صلیب سرخ برای خلبانان بازداشت‌شده در قطر شد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iranian-commander-reports-poor-health-of-activity-7496847902292594689-dUYE",["Qatar","Detained personnel","Red Cross"],{en:"The post reports Commander Seyyed Mohammad Baqerzadeh’s appeal to the ICRC to arrange medical evacuation for Iranian pilots held in Qatar, and his call for humane detention conditions and access to medical care.",fa:"این پست درخواست فرمانده سیدمحمد باقرزاده از کمیته بین‌المللی صلیب سرخ برای انتقال پزشکی خلبانان ایرانی بازداشت‌شده در قطر و تأمین شرایط انسانی و دسترسی درمانی آنان را بازتاب می‌دهد."}]
     ]
   };
 
@@ -92,6 +95,9 @@
     ,{id:"judiciaryIndia",en:"Judiciary, India & Interfaith Outreach",fa:"قوه قضائیه، هند و تعاملات بین‌مذهبی",color:"#8ca9dc",items:posts.judiciaryIndia}
     ,{id:"drones",en:"Drones, Missiles & Military Footage",fa:"پهپادها، موشک‌ها و تصاویر نظامی",color:"#d47c72",items:posts.drones}
     ,{id:"yemen",en:"Yemen & Regional Armed Groups",fa:"یمن و گروه‌های مسلح منطقه‌ای",color:"#c79b64",items:posts.yemen}
+    ,{id:"sanctionsEconomy",en:"Sanctions & Economic Pressure",fa:"تحریم‌ها و فشار اقتصادی",color:"#c3a56b",items:[...posts.hormuz,...posts.diplomacy].filter((p,i,a)=>(p[4].some(t=>/frozen assets|economic pressure/i.test(t))||/UAE moves to cut off Iran/i.test(p[1]))&&a.findIndex(x=>x[0]===p[0])===i)}
+    ,{id:"unDiplomacy",en:"United Nations & International Diplomacy",fa:"سازمان ملل و دیپلماسی بین‌المللی",color:"#78a9c7",items:posts.conflict.filter(p=>p[4].some(t=>/United Nations/i.test(t)))}
+    ,{id:"detainedPilots",en:"Detained Personnel & Humanitarian Law",fa:"بازداشت‌شدگان و حقوق بشردوستانه",color:"#b88f9b",items:posts.detainedPilots}
   ];
   const root=document.getElementById("view-work");if(!root)return;
   const tabs=document.getElementById("topicTabs"),deck=document.getElementById("topicDeck"),counter=document.getElementById("topicCount");
