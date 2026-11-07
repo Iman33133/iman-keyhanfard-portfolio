@@ -4,3 +4,25 @@ html[dir="rtl"] body{font-family:"Vazirmatn",Tahoma,sans-serif}html[dir="rtl"] .
 @media(max-width:430px){.main-nav{gap:9px}.main-nav a{font-size:7px}.brand{font-size:25px}.hero h1{font-size:46px}.timeline-item{grid-template-columns:1fr;gap:4px}.timeline-date{padding:0}.timeline-main h3{font-size:21px}.section h2,.contact-section h2{font-size:40px}}
 
 .hero-photo{margin:22px 0 0;position:relative;background:#d9d4c9;overflow:hidden;height:390px}.hero-photo img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.72)}.hero-photo figcaption{position:absolute;bottom:0;left:0;right:0;padding:12px 15px;background:linear-gradient(transparent,rgba(15,20,18,.72));color:#fff;font-size:9px;letter-spacing:1.6px;font-weight:700;display:flex;justify-content:space-between}.photo-credit{font-size:8px;color:#898b82;margin:5px 0 0;text-align:right}.photo-credit a{text-decoration:underline}.work-section{background:#f3f0e9}.work-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:12px}.work-card{display:block;border-top:1px solid #cbc7bd;padding-top:14px}.work-image{height:190px;position:relative;overflow:hidden;padding:16px;display:flex;flex-direction:column;justify-content:space-between;color:#f5f0e7}.work-image:before,.work-image:after{content:"";position:absolute;border:1px solid rgba(255,255,255,.4);border-radius:50%;width:220px;height:220px;right:-55px;top:15px}.work-image:after{width:145px;height:145px;right:-18px;top:52px}.work-image span,.work-image b,.work-image i{position:relative;z-index:1}.work-image span{font-size:8px;letter-spacing:1.7px}.work-image b{font-family:"Playfair Display",serif;font-size:32px;line-height:.95;font-weight:500;letter-spacing:-1px}.work-image i{font-style:normal;position:absolute;right:15px;bottom:13px;font-size:9px;letter-spacing:2px}.work-image-brief{background:#34443f}.work-image-region{background:#a94f39}.work-image-economy{background:#515b63}.work-meta{display:flex;justify-content:space-between;margin:15px 0 8px;color:#a04c37;font-size:8px;letter-spacing:1.3px;font-weight:700}.work-card h3{font-family:"Playfair Display",serif;font-size:21px;line-height:1.2;font-weight:500;margin:0 0 9px}.work-card p{font-size:11px;color:#696e66;line-height:1.8;margin:0}.work-card:hover h3{color:#a94f39}@media(max-width:800px){.work-grid{grid-template-columns:1fr;gap:30px}.work-image{height:210px}.hero-photo{height:300px}.main-nav a{font-size:7px;letter-spacing:.4px}}
+
+
+/* Editorial refinement — warm, textured visual identity */
+:root{--paper:#eee9df;--paper-deep:#e4ded2;--ink:#202722;--rust:#a94f39;--muted:#687068}
+body{background-color:var(--paper);background-image:radial-gradient(ellipse at 12% 8%,rgba(255,255,255,.52),transparent 38%),radial-gradient(ellipse at 88% 34%,rgba(169,79,57,.055),transparent 34%),linear-gradient(115deg,rgba(255,255,255,.13),transparent 48%);background-attachment:fixed}
+.topbar{background:rgba(238,233,223,.94);backdrop-filter:blur(12px);border-bottom-color:rgba(105,108,99,.22)}
+.hero{background:linear-gradient(115deg,rgba(255,255,255,.18),transparent 54%),radial-gradient(ellipse at 82% 38%,rgba(169,79,57,.075),transparent 38%)}
+.hero-photo{box-shadow:18px 18px 0 rgba(169,79,57,.10)}
+.about-section{background:linear-gradient(120deg,rgba(255,255,255,.18),transparent 55%)}
+.experience-section{background:linear-gradient(130deg,#e5e0d6,#eae6dd 55%,#ddd8cd)}
+.work-section{background:linear-gradient(145deg,#eee9df,#e8e2d7)}
+.coverage-section{background:radial-gradient(ellipse at 90% 10%,rgba(169,79,57,.18),transparent 38%),#222b26}
+.contact-section{background:radial-gradient(ellipse at 8% 85%,rgba(169,79,57,.18),transparent 40%),#202824}
+.additional-experience{margin-top:28px;padding:22px 25px;border-left:2px solid var(--rust);background:rgba(255,255,255,.26);display:grid;grid-template-columns:1fr 1fr;gap:8px 28px}
+.additional-experience .additional-label{grid-column:1/-1;color:#a04c37;font-size:9px;font-weight:700;letter-spacing:1.5px}
+.additional-experience p{margin:0;color:#62685f;font-size:11px;line-height:1.85}
+.additional-experience strong{color:#303832;font-size:12px}
+.work-card{transition:transform .25s ease,border-color .25s ease}
+.work-card:hover{transform:translateY(-4px);border-color:var(--rust)}
+.button-dark{transition:background .2s ease,transform .2s ease}
+.button-dark:hover{background:var(--rust);transform:translateY(-2px)}
+@media(max-width:800px){.additional-experience{grid-template-columns:1fr;padding:18px}.additional-experience .additional-label{grid-column:auto}}
