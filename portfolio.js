@@ -41,13 +41,63 @@
       ["7496232427560882176","UAE moves to cut off Iran’s financial lifeline — regional implications","امارات در مسیر قطع شریان مالی ایران؛ پیامدهای منطقه‌ای","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_uae-moves-to-cut-off-irans-financial-lifeline-activity-7496232427560882176-jOoi",["UAE","Economic pressure"]],
       ["7495469746591539200","Tanker tracking data challenges Trump’s claims on Hormuz","داده‌های ردیابی نفتکش‌ها ادعاهای ترامپ درباره هرمز را زیر سؤال می‌برد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_politico-trumps-strait-of-hormuz-claims-activity-7495469746591539200-zFCM",["Trump","Maritime diplomacy"]],
       ["7498627489217310720","Iran and Oman discuss a joint maritime framework","ایران و عمان درباره چارچوب مشترک دریایی گفت‌وگو می‌کنند","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iran-and-oman-have-agreed-to-share-shipping-activity-7498627489217310720-n9wp",["Oman","Mediation","Hormuz"]]
+    ],
+
+    nuclear: [
+      ["7498640944334827520","Iran showcases nuclear progress and fusion research","ایران دستاوردهای هسته‌ای و پژوهش‌های همجوشی را معرفی می‌کند","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iran-showcases-indigenous-nuclear-progress-activity-7498640944334827520-xJwb",["Nuclear technology","Fusion","Moeen Amini report"]],
+      ["7512085546488291329","Iranian MP: IAEA cooperation suspended pending nuclear-site security","نماینده مجلس: همکاری با آژانس تا تأمین امنیت تأسیسات هسته‌ای متوقف است","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_ahmadi-all-cooperation-with-the-iaea-activity-7512085546488291329-v1UI",["IAEA","Nuclear security","Parliament"]]
+    ],
+    energy: [
+      ["7496226888600866818","Oil prices climb amid fears of prolonged Hormuz disruption","افزایش قیمت نفت در پی نگرانی از اختلال طولانی در هرمز","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_oil-prices-climbed-to-their-highest-levels-activity-7496226888600866818-YPpG",["Oil markets","Energy security","Press TV"]],
+      ["7495740713641414657","Oil rally gathers pace amid regional shipping uncertainty","شتاب‌گرفتن رشد قیمت نفت در پی نااطمینانی کشتیرانی منطقه","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_bullish-oil-rally-begins-brent-crude-activity-7495740713641414657-Kjm_",["Brent crude","Oil markets","Hormuz"]]
+    ],
+    usPolitics: [
+      ["7497537097600266240","US House Speaker Mike Johnson discusses the Iran war and midterm elections","مایک جانسون درباره جنگ ایران و انتخابات میان‌دوره‌ای آمریکا سخن می‌گوید","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_can-republicans-hold-control-of-house-if-activity-7497537097600266240-9f48",["US politics","Mike Johnson","Midterm elections"]]
+    ],
+    jordan: [
+      ["7488842913385263104","Jordanian public figures urge leaders to tell US forces to leave","چهره‌های عمومی اردن خواستار خروج نیروهای آمریکایی شدند","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_jordanians-rare-challenge-to-their-leaders-activity-7488842913385263104--9jA",["Jordan","US military presence","Regional security"]]
+    ],
+    media: [
+      ["7497926139726798848","Guardian article author admits a controversial report on Iran was fabricated","نویسنده مقاله جنجالی گاردین درباره ایران به ساختگی‌بودن آن اذعان کرد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_after-16-years-author-of-anti-iranian-activity-7497926139726798848-aDIc",["Media accountability","Iran coverage","Verification"]],
+      ["7497245731460845568","IRIB releases controversial video alleging a plot involving Barron Trump","ویدئوی جنجالی صداوسیما درباره ادعای طرحی مرتبط با بارون ترامپ","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_urgent-iribs-controversial-video-assassination-activity-7497245731460845568-lQTY",["IRIB","Media narratives","US"]]
+    ],
+    president: [
+      ["7498634246014615552","Pezeshkian addresses the International Islamic Unity Conference","پزشکیان در کنفرانس بین‌المللی وحدت اسلامی سخنرانی کرد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iran-president-delivers-speech-at-40th-activity-7498634246014615552-Paj9",["Pezeshkian","Islamic Unity Conference","Regional relations"]]
+    ]
+    ,judiciaryIndia: [
+      ["7501912083043741696","Video: Iran's Judiciary Chief attends Friday prayers at Delhi's Jama Masjid","ویدئو: حضور رئیس قوه قضائیه ایران در نماز جمعه مسجد جامع دهلی","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_video-of-the-martyred-leader-of-the-activity-7501912083043741696-zhtO",["India","Judiciary","Interfaith relations"],{en:"The post pairs footage of the judiciary chief attending Friday prayers at Delhi’s Jama Masjid with a message about Shia–Sunni unity, a symbolic moment that drew attention from Indian audiences.",fa:"این پست تصاویری از حضور رئیس قوه قضائیه در نماز جمعه مسجد جامع دهلی را با موضوع وحدت شیعه و سنی پیوند می‌دهد؛ رویدادی نمادین که مورد توجه مخاطبان هندی قرار گرفت."}],
+      ["7501993813209415681","Iran's Judiciary Chief welcomed by members of India's Sunni Muslim community","استقبال اعضای جامعه اهل سنت هند از رئیس قوه قضائیه ایران","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_irans-judiciary-chief-received-a-warm-activity-7501993813209415681--sgb",["India","Judiciary","Shia–Sunni relations"],{en:"The post reports a warm reception for Iran’s judiciary chief by members of India’s Sunni community during his visit, highlighting the interfaith and diplomatic dimension of the trip.",fa:"این پست از استقبال اعضای جامعه اهل سنت هند از رئیس قوه قضائیه ایران در جریان سفر او می‌گوید و بر جنبه‌های بین‌مذهبی و دیپلماتیک این دیدار تمرکز دارد."}]
+    ],
+    drones: [
+      ["7502951669668810752","IRGC footage claims Iranian kamikaze drones struck US bases","ویدئوی سپاه از حمله پهپادهای انتحاری ایران به پایگاه‌های آمریکا","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_irgc-kamikaze-drone-rains-down-on-us-bases-activity-7502951669668810752-pc0b",["IRGC","Drones","Military footage"],{en:"The post shares footage attributed to the IRGC and presents its claim that Iranian one-way attack drones struck US bases. The claim should be read as the source’s assertion, not independently verified fact.",fa:"این پست تصاویری منتسب به سپاه را منتشر می‌کند و ادعای حمله پهپادهای انتحاری ایران به پایگاه‌های آمریکا را بازتاب می‌دهد؛ این موضوع به‌عنوان ادعای منبع معرفی می‌شود، نه واقعیتی که مستقلاً راستی‌آزمایی شده باشد."}],
+      ["7502593643388706816","Mohsen Rezaei discusses a new Iranian missile test","محسن رضایی درباره آزمایش موشکی جدید ایران صحبت می‌کند","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_new-iranian-missile-tested-on-us-warship-activity-7502593643388706816-9vGj",["Mohsen Rezaei","Missiles","Deterrence"],{en:"The post carries remarks attributed to Mohsen Rezaei about a reported new missile test and its deterrent message toward US naval forces.",fa:"این پست اظهارات منتسب به محسن رضایی درباره آزمایش موشکی جدید و پیام بازدارنده آن خطاب به نیروهای دریایی آمریکا را بازتاب می‌دهد."}]
+    ],
+    yemen: [
+      ["7502592026543120384","Yemen's Houthis release footage of a precision missile strike","حوثی‌های یمن ویدئوی حمله موشکی دقیق را منتشر کردند","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_yemens-houthis-release-footage-of-precision-activity-7502592026543120384-h7jw",["Yemen","Houthis","Regional conflict"],{en:"The post reports the release of footage by Yemen’s Houthis showing what the group describes as a precision missile strike against a gathering of Saudi mobilization leaders.",fa:"این پست از انتشار ویدئویی توسط حوثی‌های یمن خبر می‌دهد که به ادعای این گروه، حمله‌ای موشکی دقیق به محل تجمع شماری از رهبران بسیج سعودی را نشان می‌دهد."}]
+    ],
+    detainedPilots: [
+      ["7496847902292594689","Iranian commander urges Red Cross air ambulance for detained pilots in Qatar","فرمانده ایرانی خواستار اعزام آمبولانس هوایی صلیب سرخ برای خلبانان بازداشت‌شده در قطر شد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iranian-commander-reports-poor-health-of-activity-7496847902292594689-dUYE",["Qatar","Detained personnel","Red Cross"],{en:"The post reports Commander Seyyed Mohammad Baqerzadeh’s appeal to the ICRC to arrange medical evacuation for Iranian pilots held in Qatar, and his call for humane detention conditions and access to medical care.",fa:"این پست درخواست فرمانده سیدمحمد باقرزاده از کمیته بین‌المللی صلیب سرخ برای انتقال پزشکی خلبانان ایرانی بازداشت‌شده در قطر و تأمین شرایط انسانی و دسترسی درمانی آنان را بازتاب می‌دهد."}]
     ]
   };
 
   const groups=[
     {id:"hormuz",en:"Hormuz & Maritime Security",fa:"تنگه هرمز و امنیت دریایی",color:"#6daeff",items:posts.hormuz},
     {id:"conflict",en:"War & Regional Security",fa:"جنگ و امنیت منطقه‌ای",color:"#ff4056",items:posts.conflict},
-    {id:"diplomacy",en:"Diplomacy & Officials",fa:"دیپلماسی و مواضع مقامات",color:"#b18aff",items:posts.diplomacy}
+    {id:"diplomacy",en:"Diplomacy & Officials",fa:"دیپلماسی و مواضع مقامات",color:"#b18aff",items:posts.diplomacy},
+    {id:"rezaei",en:"Mohsen Rezaei",fa:"محسن رضایی",color:"#e2a45b",items:[...posts.hormuz,...posts.conflict].filter((p,i,a)=>p[4].some(t=>/Mohsen Rezaei/i.test(t))&&a.findIndex(x=>x[0]===p[0])===i)},
+    {id:"ghalibaf",en:"Mohammad Bagher Ghalibaf",fa:"محمدباقر قالیباف",color:"#71c7a5",items:[...posts.conflict,...posts.diplomacy].filter((p,i,a)=>(p[4].some(t=>/Ghalibaf/i.test(t))||/Ghalibaf/i.test(p[1]))&&a.findIndex(x=>x[0]===p[0])===i)}
+    ,{id:"nuclear",en:"Nuclear Technology & IAEA",fa:"فناوری هسته‌ای و آژانس",color:"#73c9d6",items:posts.nuclear}
+    ,{id:"energy",en:"Energy & Oil Markets",fa:"انرژی و بازار نفت",color:"#d8b45b",items:posts.energy}
+    ,{id:"usPolitics",en:"US Politics & Midterm Debate",fa:"سیاست آمریکا و انتخابات میان‌دوره‌ای",color:"#8fa5ff",items:posts.usPolitics}
+    ,{id:"jordan",en:"Jordan & US Military Presence",fa:"اردن و حضور نظامی آمریکا",color:"#c18d72",items:posts.jordan}
+    ,{id:"media",en:"Media Narratives & Accountability",fa:"روایت رسانه‌ای و پاسخ‌گویی",color:"#d58bb8",items:posts.media}
+    ,{id:"president",en:"President & National Speeches",fa:"رئیس‌جمهور و سخنرانی‌های ملی",color:"#8ac58a",items:posts.president}
+    ,{id:"judiciaryIndia",en:"Judiciary, India & Interfaith Outreach",fa:"قوه قضائیه، هند و تعاملات بین‌مذهبی",color:"#8ca9dc",items:posts.judiciaryIndia}
+    ,{id:"drones",en:"Drones, Missiles & Military Footage",fa:"پهپادها، موشک‌ها و تصاویر نظامی",color:"#d47c72",items:posts.drones}
+    ,{id:"yemen",en:"Yemen & Regional Armed Groups",fa:"یمن و گروه‌های مسلح منطقه‌ای",color:"#c79b64",items:posts.yemen}
+    ,{id:"sanctionsEconomy",en:"Sanctions & Economic Pressure",fa:"تحریم‌ها و فشار اقتصادی",color:"#c3a56b",items:[...posts.hormuz,...posts.diplomacy].filter((p,i,a)=>(p[4].some(t=>/frozen assets|economic pressure/i.test(t))||/UAE moves to cut off Iran/i.test(p[1]))&&a.findIndex(x=>x[0]===p[0])===i)}
+    ,{id:"unDiplomacy",en:"United Nations & International Diplomacy",fa:"سازمان ملل و دیپلماسی بین‌المللی",color:"#78a9c7",items:posts.conflict.filter(p=>p[4].some(t=>/United Nations/i.test(t)))}
+    ,{id:"detainedPilots",en:"Detained Personnel & Humanitarian Law",fa:"بازداشت‌شدگان و حقوق بشردوستانه",color:"#b88f9b",items:posts.detainedPilots}
   ];
   const root=document.getElementById("view-work");if(!root)return;
   const tabs=document.getElementById("topicTabs"),deck=document.getElementById("topicDeck"),counter=document.getElementById("topicCount");
@@ -67,10 +117,10 @@
     eyebrow.textContent=isFa?g.fa.toLocaleUpperCase("fa"):g.en.toUpperCase();
     counter.textContent=String(itemIndex+1).padStart(2,"0")+" / "+String(g.items.length).padStart(2,"0");
     const description=isFa
-      ?"این نمونه در چارچوب پوشش موضوعی «"+tags.join("، ")+"» منتشر شده است. برای بررسی متن کامل، جزئیات انتشار و رسانه اصلی، پست لینکدین را در پنل بازشده مشاهده کنید."
-      :"This post sits within the coverage thread on "+tags.join(", ")+". Open the original LinkedIn item to review its full wording, publication context and attached media.";
+      ?(p[5]?.fa || ("این نمونه در چارچوب پوشش موضوعی «"+tags.join("، ")+"» منتشر شده است. برای بررسی متن کامل، جزئیات انتشار و رسانه اصلی، پست لینکدین را در پنل بازشده مشاهده کنید."))
+      :(p[5]?.en || ("This post sits within the coverage thread on "+tags.join(", ")+". Open the original LinkedIn item to review its full wording, publication context and attached media."));
     deck.classList.toggle("expanded",expanded);
-    deck.innerHTML='<article class="topic-card" tabindex="0" role="button" aria-expanded="'+expanded+'" aria-label="'+safe(isFa?"باز کردن جزئیات نمونه‌کار":"Open story details")+'"><div class="story-number">'+(isFa?"نمونه‌کار ":"SELECTED STORY / ")+String(itemIndex+1).padStart(2,"0")+'</div><h3>'+safe(title)+'</h3><div class="story-tags">'+tags.map(t=>'<span>'+safe(t)+'</span>').join("")+'</div><div class="story-open-hint">'+(isFa?(expanded?"برای بستن جزئیات کلیک کنید":"برای مشاهده جزئیات کلیک کنید"):(expanded?"CLICK TO COLLAPSE":"CLICK TO EXPLORE"))+' <b>'+(expanded?"−":"↗")+'</b></div></article><aside class="topic-detail"><div class="micro-label">'+(isFa?"زمینه و منبع اصلی":"STORY CONTEXT & ORIGINAL SOURCE")+'</div><h4>'+safe(title)+'</h4><p>'+safe(description)+'</p><div class="detail-tags">'+tags.map(safe).join(" · ")+'</div><iframe loading="lazy" title="'+safe(title)+'" src="https://www.linkedin.com/embed/feed/update/urn:li:activity:'+p[0]+'?compact=1" allowfullscreen></iframe><a class="original-post" href="'+safe(p[3])+'" target="_blank" rel="noopener noreferrer">'+(isFa?"مشاهده پست اصلی در لینکدین":"OPEN ORIGINAL LINKEDIN POST")+' <b>↗</b></a></aside>';
+    deck.innerHTML='<article class="topic-card" tabindex="0" role="button" aria-expanded="'+expanded+'" aria-label="'+safe(isFa?"باز کردن جزئیات نمونه‌کار":"Open story details")+'"><div class="story-number">'+(isFa?"نمونه‌کار ":"SELECTED STORY / ")+String(itemIndex+1).padStart(2,"0")+'</div><div class="story-media-preview"><iframe loading="lazy" tabindex="-1" aria-hidden="true" title="'+safe(title)+'" src="https://www.linkedin.com/embed/feed/update/urn:li:activity:'+p[0]+'?compact=1"></iframe></div><h3>'+safe(title)+'</h3><div class="story-tags">'+tags.map(t=>'<span>'+safe(t)+'</span>').join("")+'</div><div class="story-open-hint">'+(isFa?(expanded?"برای بستن جزئیات کلیک کنید":"برای مشاهده جزئیات کلیک کنید"):(expanded?"CLICK TO COLLAPSE":"CLICK TO EXPLORE"))+' <b>'+(expanded?"−":"↗")+'</b></div></article><aside class="topic-detail"><div class="micro-label">'+(isFa?"زمینه و منبع اصلی":"STORY CONTEXT & ORIGINAL SOURCE")+'</div><h4>'+safe(title)+'</h4><p>'+safe(description)+'</p><div class="detail-tags">'+tags.map(safe).join(" · ")+'</div><iframe loading="lazy" title="'+safe(title)+'" src="https://www.linkedin.com/embed/feed/update/urn:li:activity:'+p[0]+'?compact=1" allowfullscreen></iframe><a class="original-post" href="'+safe(p[3])+'" target="_blank" rel="noopener noreferrer">'+(isFa?"مشاهده پست اصلی در لینکدین":"OPEN ORIGINAL LINKEDIN POST")+' <b>↗</b></a></aside>';
     const card=deck.querySelector(".topic-card");
     card.addEventListener("click",()=>{if(ignoreClick){ignoreClick=false;return;}expanded=!expanded;render();});
     card.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();expanded=!expanded;render();}});
