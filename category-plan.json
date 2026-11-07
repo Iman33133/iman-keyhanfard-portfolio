@@ -103,8 +103,30 @@
       "evidence": [
         "https://www.linkedin.com/posts/iman-keyhanfard-3b85439_yemens-houthis-release-footage-of-precision-activity-7502592026543120384-h7jw"
       ]
+    },
+    {
+      "id": "sanctionsEconomy",
+      "title": "تحریم‌ها و فشار اقتصادی",
+      "evidence": [
+        "https://www.linkedin.com/posts/iman-keyhanfard-3b85439_new-iran-warns-that-any-country-or-company-activity-7487859320446160896-Z367",
+        "https://www.linkedin.com/posts/iman-keyhanfard-3b85439_uae-moves-to-cut-off-irans-financial-lifeline-activity-7496232427560882176-jOoi"
+      ]
+    },
+    {
+      "id": "unDiplomacy",
+      "title": "سازمان ملل و دیپلماسی بین‌المللی",
+      "evidence": [
+        "https://www.linkedin.com/posts/iman-keyhanfard-3b85439_un-chief-guterres-iran-war-exposes-limits-activity-7497891686371549184-ooXZ"
+      ]
+    },
+    {
+      "id": "detainedPilots",
+      "title": "بازداشت‌شدگان و حقوق بشردوستانه",
+      "evidence": [
+        "https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iranian-commander-reports-poor-health-of-activity-7496847902292594689-dUYE"
+      ]
     }
   ],
   "media_rule": "For each category, prioritize a genuine video with its headline and a short news context. If no suitable video exists, use the original post photo/image with its headline and news context. Keep the media preview visible on the card; clicking opens details and the original LinkedIn post.",
-  "status": "The original 32 categories are preserved. Nine additional subject areas have been identified from public LinkedIn posts. The portfolio data currently contains 14 groups; further post-by-post media verification and population is still required."
+  "status": "The original 32 categories are preserved. Twelve additional subject areas have been identified from public LinkedIn posts. The interactive portfolio currently contains 17 groups; the 32-topic archive still requires full media population and verification."
 }
