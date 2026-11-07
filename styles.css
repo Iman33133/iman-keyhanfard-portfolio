@@ -42,3 +42,28 @@ body{background-color:var(--paper);background-image:radial-gradient(ellipse at 1
 html[dir="rtl"] .education-line{border-left:0;border-right:2px solid var(--rust)}
 html[dir="rtl"] .additional-experience{border-left:0;border-right:2px solid var(--rust)}
 html[dir="rtl"] .capability-strip>span{letter-spacing:0}
+
+/* Interactive LinkedIn portfolio archive */
+.portfolio-intro{max-width:760px;color:#5c625b;margin:-8px 0 28px;font-size:14px;line-height:1.9}
+.topic-portfolio{border-top:1px solid #c9c4b9;padding-top:24px}
+.topic-tabs{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:24px}
+.topic-tab{border:1px solid #c8c2b6;background:transparent;color:#535b53;padding:10px 14px;font:600 10px "DM Sans",sans-serif;letter-spacing:.6px;cursor:pointer;transition:.2s}
+.topic-tab:hover,.topic-tab[aria-selected="true"]{background:#222b26;color:#f3eee5;border-color:#222b26}
+.topic-deck{display:grid;grid-template-columns:minmax(0,1fr) minmax(250px,.72fr);gap:28px;align-items:stretch;min-height:520px;background:#e4ded2;padding:22px}
+.topic-embed{background:#fff;min-height:500px;overflow:hidden;box-shadow:0 12px 30px rgba(31,39,34,.08)}
+.topic-embed iframe{width:100%;height:500px;border:0;background:#fff}
+.topic-copy{display:flex;flex-direction:column;justify-content:center;padding:18px 12px}
+.topic-index{font-size:9px;letter-spacing:1.7px;color:#a04c37;font-weight:700}
+.topic-copy h3{font:500 clamp(24px,3vw,36px)/1.2 "Playfair Display",Georgia,serif;color:#222b26;margin:18px 0}
+.topic-copy p{font-size:13px;line-height:1.9;color:#61675f}
+.topic-tags{display:flex;flex-wrap:wrap;gap:7px;margin:18px 0}
+.topic-tags span{border:1px solid #c9c3b7;padding:6px 9px;font-size:9px;color:#5c625b}
+.topic-original{display:inline-flex;align-self:flex-start;margin-top:12px;border-bottom:1px solid #a94f39;padding-bottom:5px;color:#a04f3b;font-size:11px;font-weight:700}
+.topic-controls{display:flex;align-items:center;justify-content:center;gap:22px;margin:18px 0 0}
+.topic-controls button{width:42px;height:42px;border:1px solid #bdb8ad;background:transparent;font-size:20px;cursor:pointer}
+.topic-controls button:hover{background:#222b26;color:#fff}
+#topicCounter{font-size:10px;letter-spacing:1.5px;color:#666b63;font-weight:700}
+.portfolio-note{font-size:10px;color:#77796f;margin-top:16px;line-height:1.8}
+html[dir="rtl"] .topic-copy{text-align:right}
+html[dir="rtl"] .topic-controls{direction:ltr}
+@media(max-width:800px){.topic-deck{grid-template-columns:1fr;padding:12px;gap:12px}.topic-embed,.topic-embed iframe{min-height:450px;height:450px}.topic-copy{padding:14px 8px}.topic-copy h3{font-size:28px}.topic-tabs{gap:6px}.topic-tab{padding:9px 10px;font-size:9px}}
