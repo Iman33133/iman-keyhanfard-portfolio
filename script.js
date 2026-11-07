@@ -2,7 +2,7 @@ const translations = {
   en: {
     nav_about:"Profile",nav_experience:"Experience",nav_work:"Selected Work",nav_coverage:"Coverage",nav_contact:"Contact",
     additional_label:"ADDITIONAL EDITORIAL & MEDIA EXPERIENCE",additional_desc1:"News production, editorial research, reporting and institutional media work.",additional_desc2:"Editorial work, documentary coordination, research and program production.",
-    additional_desc3:"Program production and editorial work on international and regional affairs.",additional_desc4:"Long-term English teaching experience, including part-time university teaching.",
+    additional_desc3:"Editorial work covering international and regional affairs.",additional_desc5:"Editorial and program coordination on Palestinian affairs and current events.",additional_desc4:"Long-term English teaching experience, including part-time university teaching.",
     education_label:"EDUCATION",education_text:"Islamic Azad University, Roudehen Branch",
     capabilities_label:"PRODUCTION & EDITORIAL SERVICES",cap1:"News and video packages",cap2:"Field reporting and interviews",cap3:"Photo and video coordination",cap4:"Persian–English translation",cap5:"Background research and briefs",
     contact_phone_label:"PHONE / WHATSAPP",contact_message_label:"LINKEDIN MESSAGE",
@@ -41,7 +41,7 @@ const translations = {
   fa: {
     nav_about:"معرفی",nav_experience:"سوابق",nav_work:"نمونه‌کارها",nav_coverage:"حوزه‌های کاری",nav_contact:"تماس",
     additional_label:"سوابق تکمیلی رسانه‌ای و تحریریه",additional_desc1:"تولید خبر، پژوهش تحریریه‌ای، گزارشگری و فعالیت رسانه‌ای در نهادهای رسمی.",additional_desc2:"فعالیت تحریریه‌ای، هماهنگی مستند، پژوهش و تولید برنامه.",
-    additional_desc3:"تولید برنامه و فعالیت تحریریه‌ای در حوزه مسائل بین‌المللی و منطقه‌ای.",additional_desc4:"سابقه طولانی تدریس زبان انگلیسی، از جمله تدریس پاره‌وقت دانشگاهی.",
+    additional_desc3:"فعالیت تحریریه‌ای در حوزه مسائل بین‌المللی و منطقه‌ای.",additional_desc5:"فعالیت تحریریه‌ای و هماهنگی برنامه در حوزه مسائل فلسطین و رویدادهای روز.",additional_desc4:"سابقه طولانی تدریس زبان انگلیسی، از جمله تدریس پاره‌وقت دانشگاهی.",
     education_label:"تحصیلات",education_text:"دانشگاه آزاد اسلامی، واحد رودهن",
     capabilities_label:"خدمات تولید و تحریریه",cap1:"تولید خبر و بسته‌های ویدئویی",cap2:"گزارشگری میدانی و مصاحبه",cap3:"هماهنگی عکس و ویدئو",cap4:"ترجمه فارسی و انگلیسی",cap5:"پژوهش پیش‌زمینه و گزارش‌های تحلیلی",
     contact_phone_label:"تلفن / واتساپ",contact_message_label:"پیام در لینکدین",
