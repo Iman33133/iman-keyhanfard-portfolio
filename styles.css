@@ -32,3 +32,6 @@ html[dir=rtl] .welcome-drop{animation-name:welcomeCompact;direction:ltr}
  .footer-brand,.footer-contact,.footer-end{align-items:center;text-align:center}
  body:before{font-size:70px;inset:24% auto auto -20%;transform:rotate(-90deg)}
 }
+
+/* Remove the decorative star from the hero; keep the media texture understated. */
+.hero-cross{display:none!important}
