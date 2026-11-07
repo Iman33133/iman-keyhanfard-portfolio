@@ -64,6 +64,17 @@
     president: [
       ["7498634246014615552","Pezeshkian addresses the International Islamic Unity Conference","پزشکیان در کنفرانس بین‌المللی وحدت اسلامی سخنرانی کرد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iran-president-delivers-speech-at-40th-activity-7498634246014615552-Paj9",["Pezeshkian","Islamic Unity Conference","Regional relations"]]
     ]
+    ,judiciaryIndia: [
+      ["7501912083043741696","Video: Iran's Judiciary Chief attends Friday prayers at Delhi's Jama Masjid","ویدئو: حضور رئیس قوه قضائیه ایران در نماز جمعه مسجد جامع دهلی","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_video-of-the-martyred-leader-of-the-activity-7501912083043741696-zhtO",["India","Judiciary","Interfaith relations"]],
+      ["7501993813209415681","Iran's Judiciary Chief welcomed by members of India's Sunni Muslim community","استقبال اعضای جامعه اهل سنت هند از رئیس قوه قضائیه ایران","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_irans-judiciary-chief-received-a-warm-activity-7501993813209415681--sgb",["India","Judiciary","Shia–Sunni relations"]]
+    ],
+    drones: [
+      ["7502951669668810752","IRGC footage claims Iranian kamikaze drones struck US bases","ویدئوی سپاه از حمله پهپادهای انتحاری ایران به پایگاه‌های آمریکا","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_irgc-kamikaze-drone-rains-down-on-us-bases-activity-7502951669668810752-pc0b",["IRGC","Drones","Military footage"]],
+      ["7502593643388706816","Mohsen Rezaei discusses a new Iranian missile test","محسن رضایی درباره آزمایش موشکی جدید ایران صحبت می‌کند","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_new-iranian-missile-tested-on-us-warship-activity-7502593643388706816-9vGj",["Mohsen Rezaei","Missiles","Deterrence"]]
+    ],
+    yemen: [
+      ["7502592026543120384","Yemen's Houthis release footage of a precision missile strike","حوثی‌های یمن ویدئوی حمله موشکی دقیق را منتشر کردند","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_yemens-houthis-release-footage-of-precision-activity-7502592026543120384-h7jw",["Yemen","Houthis","Regional conflict"]]
+    ]
   };
 
   const groups=[
@@ -78,6 +89,9 @@
     ,{id:"jordan",en:"Jordan & US Military Presence",fa:"اردن و حضور نظامی آمریکا",color:"#c18d72",items:posts.jordan}
     ,{id:"media",en:"Media Narratives & Accountability",fa:"روایت رسانه‌ای و پاسخ‌گویی",color:"#d58bb8",items:posts.media}
     ,{id:"president",en:"President & National Speeches",fa:"رئیس‌جمهور و سخنرانی‌های ملی",color:"#8ac58a",items:posts.president}
+    ,{id:"judiciaryIndia",en:"Judiciary, India & Interfaith Outreach",fa:"قوه قضائیه، هند و تعاملات بین‌مذهبی",color:"#8ca9dc",items:posts.judiciaryIndia}
+    ,{id:"drones",en:"Drones, Missiles & Military Footage",fa:"پهپادها، موشک‌ها و تصاویر نظامی",color:"#d47c72",items:posts.drones}
+    ,{id:"yemen",en:"Yemen & Regional Armed Groups",fa:"یمن و گروه‌های مسلح منطقه‌ای",color:"#c79b64",items:posts.yemen}
   ];
   const root=document.getElementById("view-work");if(!root)return;
   const tabs=document.getElementById("topicTabs"),deck=document.getElementById("topicDeck"),counter=document.getElementById("topicCount");
