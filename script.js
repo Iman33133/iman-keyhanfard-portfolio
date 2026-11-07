@@ -1,97 +1,62 @@
-const translations = {
-  en: {
-    nav_about:"Profile",nav_experience:"Experience",nav_work:"Selected Work",nav_coverage:"Coverage",nav_contact:"Contact",
-    additional_label:"ADDITIONAL EDITORIAL & MEDIA EXPERIENCE",additional_desc1:"News production, editorial research, reporting and institutional media work.",additional_desc2:"Editorial work, documentary coordination, research and program production.",
-    additional_desc3:"Editorial work covering international and regional affairs.",additional_desc5:"Editorial and program coordination on Palestinian affairs and current events.",additional_desc4:"Long-term English teaching experience, including part-time university teaching.",
-    education_label:"EDUCATION",education_text:"Islamic Azad University, Roudehen Branch",
-    capabilities_label:"PRODUCTION & EDITORIAL SERVICES",cap1:"News and video packages",cap2:"Field reporting and interviews",cap3:"Photo and video coordination",cap4:"Persian–English translation",cap5:"Background research and briefs",
-    contact_phone_label:"PHONE / WHATSAPP",contact_message_label:"LINKEDIN MESSAGE",
-    portfolio_archive_intro:"Explore verified public LinkedIn posts grouped by editorial subject. Use the topic tabs and slide controls to browse original posts, including their published media.",portfolio_note:"LinkedIn embeds display the original post and its media where LinkedIn permits public embedding. Some posts may require opening LinkedIn directly.",
-    eyebrow:"TEHRAN, IRAN · AVAILABLE FOR PROJECTS",hero_title:"Reporting the region.<br><em>Connecting the context.</em>",
-    hero_intro:"Senior news producer, field journalist and political researcher with nearly two decades of experience in English-language media, specializing in Iran and the wider Middle East.",
-    hero_button:"Explore my experience",hero_contact:"Get in touch ↗",folio:"INDEPENDENT PROFESSIONAL PORTFOLIO",
-    aside_note:"On-the-ground production, editorial coordination and research across a complex region.",
-    hero_bottom_left:"JOURNALISM · PRODUCTION · RESEARCH",ticker:"FIELD REPORTING",ticker3:"POLITICAL RESEARCH",
-    work_kicker:"SELECTED PUBLIC WORK",work_title:"Selected stories<br><em>from my public feed.</em>",work_deck:"A small selection of public posts from my professional LinkedIn profile. Each card opens the original post; this is not a complete client portfolio.",
-    work1_title:"Iran’s position on cooperation with the IAEA",work1_desc:"A public post summarizing remarks by a member of Iran’s parliamentary National Security and Foreign Policy Committee.",
-    work2_title:"Iran’s regional deterrence messaging",work2_desc:"A selected public post featuring remarks attributed to Iran’s parliamentary speaker on the regional security environment.",
-    work3_title:"Oil markets and shipping through the Strait of Hormuz",work3_desc:"A public post on oil-price movements and the risk of disruption to shipping through a strategic maritime corridor.",
-    about_kicker:"PROFILE",about_title:"A newsroom perspective,<br><em>grounded in the field.</em>",
-    about_p1:"I am a Tehran-based journalist and senior news producer with close to 20 years of experience in English-language broadcasting and international media production.",
-    about_p2:"My work spans field reporting, editorial coordination, political and geopolitical research, interview production, video coordination, and Persian–English translation. I bring practical knowledge of Iran’s media and political landscape, alongside experience working with international news organizations and production teams.",
-    about_p3:"I am available for freelance assignments, remote research, editorial support and field-production projects.",
-    skill1:"Field production & reporting",skill2:"Newsroom coordination",skill3:"Political research",skill4:"Interview production",skill5:"Persian–English translation",skill6:"Video & editorial coordination",
-    experience_kicker:"SELECTED EXPERIENCE",experience_title:"Work across the<br><em>news cycle.</em>",experience_deck:"A career built around fast-moving news, careful editorial judgment and the practical demands of reporting from the region.",
-    role_current:"Senior News Producer · Field Production & Editorial Coordination",current_desc:"Production and coordination of news coverage and video packages from Tehran, including field assignments, reporting support, interviews, translation, shot lists and editorial background for international media clients.",
-    role_press:"Newsroom & Production Roles",press_desc:"News assistance, newsroom coordination, crawl editing, narration and voice-over, guest research and news production within an English-language international news environment.",
-    role_tourism:"Media & Communications",tourism_desc:"Professional experience in the tourism sector, supporting communication and content-related work.",
-    role_borna:"International Desk & Sports",borna_desc:"Editorial work supporting international news and sports coverage.",
-    type_current:"CURRENT",type_past:"PREVIOUS",experience_note:"Selected roles shown. Additional documentary coordination and project-based work available on request.",
-    coverage_kicker:"COVERAGE & CAPABILITIES",coverage_title:"Context matters.<br><em>So does access.</em>",
-    coverage_intro:"Combining local knowledge, field coordination and editorial research to help international audiences understand developments in Iran and the Middle East.",
-    coverage1_title:"Iranian politics & institutions",coverage1_desc:"Political developments, public institutions, official statements and policy debates.",
-    coverage2_title:"Regional affairs & geopolitics",coverage2_desc:"Iran’s regional relationships, security issues and wider Middle East developments.",
-    coverage3_title:"Field reporting & interviews",coverage3_desc:"On-location production, interview coordination, vox pops and event coverage.",
-    coverage4_title:"Research, translation & packages",coverage4_desc:"Background research, source-based briefs, Persian–English translation and video package support.",
-    approach_kicker:"WORKING APPROACH",approach_title:"From the first lead<br><em>to the final frame.</em>",
-    approach1:"Verify the context and establish a clear editorial angle.",approach2:"Coordinate access, interviews, field teams and production details.",approach3:"Deliver accurate translations, concise background and usable footage notes.",
-    contact_kicker:"CONTACT",contact_title:"Have a story<br><em>to work on?</em>",contact_intro:"For editorial assignments, field production, research and translation projects, get in touch.",
-    contact_email_label:"DIRECT MESSAGE",contact_message_link:"Send a message on LinkedIn ↗",contact_location_label:"LOCATION",contact_location:"Tehran, Iran · Available for remote and project-based work",
-    footer:"JOURNALIST · PRODUCER · RESEARCHER"
-  },
-  fa: {
-    nav_about:"معرفی",nav_experience:"سوابق",nav_work:"نمونه‌کارها",nav_coverage:"حوزه‌های کاری",nav_contact:"تماس",
-    additional_label:"سوابق تکمیلی رسانه‌ای و تحریریه",additional_desc1:"تولید خبر، پژوهش تحریریه‌ای، گزارشگری و فعالیت رسانه‌ای در نهادهای رسمی.",additional_desc2:"فعالیت تحریریه‌ای، هماهنگی مستند، پژوهش و تولید برنامه.",
-    additional_desc3:"فعالیت تحریریه‌ای در حوزه مسائل بین‌المللی و منطقه‌ای.",additional_desc5:"فعالیت تحریریه‌ای و هماهنگی برنامه در حوزه مسائل فلسطین و رویدادهای روز.",additional_desc4:"سابقه طولانی تدریس زبان انگلیسی، از جمله تدریس پاره‌وقت دانشگاهی.",
-    education_label:"تحصیلات",education_text:"دانشگاه آزاد اسلامی، واحد رودهن",
-    capabilities_label:"خدمات تولید و تحریریه",cap1:"تولید خبر و بسته‌های ویدئویی",cap2:"گزارشگری میدانی و مصاحبه",cap3:"هماهنگی عکس و ویدئو",cap4:"ترجمه فارسی و انگلیسی",cap5:"پژوهش پیش‌زمینه و گزارش‌های تحلیلی",
-    contact_phone_label:"تلفن / واتساپ",contact_message_label:"پیام در لینکدین",
-    portfolio_archive_intro:"مطالب عمومی و قابل‌تأیید لینکدین بر اساس موضوع تحریریه‌ای دسته‌بندی شده‌اند. با انتخاب موضوع و ورق‌زدن اسلایدها، پست اصلی و رسانه‌های منتشرشده را ببینید.",portfolio_note:"پست اصلی و رسانه‌های آن در صورت اجازه لینکدین در همین بخش نمایش داده می‌شود؛ در برخی موارد باید پست را مستقیماً در لینکدین باز کنید.",
-    eyebrow:"تهران، ایران · آماده همکاری پروژه‌ای",hero_title:"روایت از منطقه؛<br><em>با درک زمینه و جزئیات.</em>",
-    hero_intro:"تهیه‌کننده ارشد خبر، خبرنگار میدانی و پژوهشگر سیاسی با نزدیک به دو دهه تجربه در رسانه‌های انگلیسی‌زبان و تمرکز بر ایران و خاورمیانه.",
-    hero_button:"مشاهده سوابق",hero_contact:"ارتباط با من ↗",folio:"پورتفولیوی حرفه‌ای مستقل",
-    aside_note:"تولید میدانی، هماهنگی تحریریه و پژوهش خبری در منطقه‌ای پیچیده و پرتحول.",
-    hero_bottom_left:"خبرنگاری · تولید · پژوهش",ticker:"گزارشگری میدانی",ticker3:"پژوهش سیاسی",
-    work_kicker:"مطالب منتخب منتشرشده",work_title:"چند سوژه<br><em>از مطالب عمومی من.</em>",work_deck:"چند نمونه از مطالب عمومی منتشرشده در صفحه حرفه‌ای لینکدین من. هر کارت به مطلب اصلی پیوند دارد و این بخش، آرشیو کامل نمونه‌کارها نیست.",
-    work1_title:"موضع ایران درباره همکاری با آژانس بین‌المللی انرژی اتمی",work1_desc:"مطلبی عمومی با محور اظهارات یکی از اعضای کمیسیون امنیت ملی و سیاست خارجی مجلس.",
-    work2_title:"پیام بازدارندگی منطقه‌ای ایران",work2_desc:"نمونه‌ای از مطلب عمومی درباره اظهارات رئیس مجلس ایران در زمینه امنیت منطقه‌ای.",
-    work3_title:"بازار نفت و کشتیرانی در تنگه هرمز",work3_desc:"مطلبی درباره تغییرات قیمت نفت و خطر اختلال در تردد دریایی از یک گذرگاه راهبردی.",
-    about_kicker:"معرفی",about_title:"نگاه تحریریه؛<br><em>با تجربه حضور در میدان.</em>",
-    about_p1:"من خبرنگار و تهیه‌کننده ارشد خبر مستقر در تهران هستم و نزدیک به ۲۰ سال در حوزه پخش انگلیسی‌زبان و تولید رسانه‌ای بین‌المللی تجربه دارم.",
-    about_p2:"حوزه فعالیت من شامل گزارشگری میدانی، هماهنگی تحریریه، پژوهش سیاسی و ژئوپلیتیک، تولید مصاحبه، هماهنگی ویدئویی و ترجمه فارسی به انگلیسی است. شناخت عملی از فضای رسانه‌ای و سیاسی ایران را با تجربه همکاری با رسانه‌ها و گروه‌های تولید بین‌المللی ترکیب می‌کنم.",
-    about_p3:"برای همکاری آزاد، پژوهش دورکاری، پشتیبانی تحریریه و پروژه‌های تولید میدانی آماده همکاری هستم.",
-    skill1:"تولید و گزارشگری میدانی",skill2:"هماهنگی تحریریه",skill3:"پژوهش سیاسی",skill4:"تولید مصاحبه",skill5:"ترجمه فارسی و انگلیسی",skill6:"هماهنگی ویدئویی و تحریریه",
-    experience_kicker:"سوابق منتخب",experience_title:"تجربه در چرخه<br><em>پرتحرک خبر.</em>",experience_deck:"مسیر حرفه‌ای مبتنی بر پوشش خبرهای سریع، قضاوت تحریریه‌ای دقیق و شناخت الزامات گزارشگری از داخل منطقه.",
-    role_current:"تهیه‌کننده ارشد خبر · تولید میدانی و هماهنگی تحریریه",current_desc:"تولید و هماهنگی پوشش خبری و بسته‌های ویدئویی از تهران؛ شامل مأموریت‌های میدانی، پشتیبانی گزارشگری، مصاحبه، ترجمه، تنظیم فهرست نماها و تهیه پیش‌زمینه تحریریه برای مشتریان رسانه‌ای بین‌المللی.",
-    role_press:"فعالیت‌های تحریریه و تولید خبر",press_desc:"دستیاری خبر، هماهنگی اتاق خبر، ویرایش زیرنویس‌های خبری، نریشن و گویندگی، جست‌وجوی مهمان و تولید خبر در محیط یک شبکه خبری بین‌المللی انگلیسی‌زبان.",
-    role_tourism:"رسانه و ارتباطات",tourism_desc:"تجربه حرفه‌ای در حوزه گردشگری و همکاری در امور ارتباطات و محتوایی.",
-    role_borna:"دبیرخانه بین‌الملل و ورزش",borna_desc:"فعالیت تحریریه‌ای در پشتیبانی از پوشش اخبار بین‌الملل و ورزش.",
-    type_current:"فعلی",type_past:"پیشین",experience_note:"بخشی از سوابق حرفه‌ای. جزئیات پروژه‌های مستند و همکاری‌های پروژه‌ای بنا به درخواست ارائه می‌شود.",
-    coverage_kicker:"حوزه‌های پوشش و توانمندی‌ها",coverage_title:"زمینه اهمیت دارد؛<br><em>دسترسی هم همین‌طور.</em>",
-    coverage_intro:"ترکیب شناخت محلی، هماهنگی میدانی و پژوهش تحریریه‌ای برای کمک به مخاطبان بین‌المللی در درک تحولات ایران و خاورمیانه.",
-    coverage1_title:"سیاست و نهادهای ایران",coverage1_desc:"تحولات سیاسی، نهادهای عمومی، مواضع رسمی و مباحث سیاست‌گذاری.",
-    coverage2_title:"امور منطقه‌ای و ژئوپلیتیک",coverage2_desc:"روابط منطقه‌ای ایران، مسائل امنیتی و تحولات گسترده‌تر خاورمیانه.",
-    coverage3_title:"گزارشگری میدانی و مصاحبه",coverage3_desc:"تولید در محل، هماهنگی مصاحبه، نظرسنجی خیابانی و پوشش رویدادها.",
-    coverage4_title:"پژوهش، ترجمه و بسته‌های خبری",coverage4_desc:"پژوهش پیش‌زمینه، خلاصه‌های مستند، ترجمه فارسی و انگلیسی و پشتیبانی تولید بسته‌های ویدئویی.",
-    approach_kicker:"روش همکاری",approach_title:"از نخستین سرنخ<br><em>تا فریم نهایی.</em>",
-    approach1:"راستی‌آزمایی زمینه خبر و تعیین زاویه روشن تحریریه‌ای.",approach2:"هماهنگی دسترسی، مصاحبه‌ها، گروه میدانی و جزئیات تولید.",approach3:"ارائه ترجمه دقیق، پیش‌زمینه موجز و توضیحات کاربردی درباره تصاویر.",
-    contact_kicker:"ارتباط",contact_title:"برای همکاری روی<br><em>یک سوژه آماده‌اید؟</em>",contact_intro:"برای مأموریت‌های تحریریه‌ای، تولید میدانی، پژوهش و پروژه‌های ترجمه با من در ارتباط باشید.",
-    contact_email_label:"پیام مستقیم",contact_message_link:"ارسال پیام در لینکدین ↗",contact_location_label:"محل استقرار",contact_location:"تهران، ایران · آماده همکاری دورکاری و پروژه‌ای",
-    footer:"خبرنگار · تهیه‌کننده · پژوهشگر"
+(() => {
+  const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+  const langButton=$("#langSwitch");
+  function setLanguage(lang){
+    document.documentElement.lang=lang;document.documentElement.dir=lang==="fa"?"rtl":"ltr";
+    $$("[data-en][data-fa]").forEach(el=>{el.innerHTML=el.dataset[lang];});
+    if(langButton){langButton.textContent=lang==="en"?"فارسی":"English";langButton.setAttribute("aria-label",lang==="en"?"Switch to Persian":"تغییر زبان به انگلیسی");}
+    const title=lang==="en"?"Iman Keyhanfard — Journalist & Senior News Producer":"ایمان کیهان‌فرد — روزنامه‌نگار و تهیه‌کننده ارشد خبر";
+    document.title=title;
+    document.dispatchEvent(new CustomEvent("portfolio-language-change",{detail:{lang}}));
+    renderExperience(activeExperience);renderService(activeService);
   }
-};
-let currentLang = "en";
-const switcher = document.getElementById("langSwitch");
-function setLanguage(lang) {
-  currentLang = lang;
-  document.documentElement.lang = lang;
-  document.documentElement.dir = lang === "fa" ? "rtl" : "ltr";
-  document.querySelectorAll("[data-i18n]").forEach(el => {
-    const key = el.dataset.i18n;
-    if (translations[lang][key] !== undefined) el.innerHTML = translations[lang][key];
-  });
-  switcher.textContent = lang === "en" ? "فارسی" : "English";
-  switcher.setAttribute("aria-label", lang === "en" ? "Switch to Persian" : "Switch to English");
-  document.title = lang === "en" ? "Iman Keyhanfard | Journalist & News Producer" : "ایمان کیهان‌فرد | خبرنگار و تهیه‌کننده خبر";
-}
-switcher.addEventListener("click", () => setLanguage(currentLang === "en" ? "fa" : "en"));
+  langButton?.addEventListener("click",()=>setLanguage(document.documentElement.lang==="en"?"fa":"en"));
+  const views=["home","work","experience","services","contact"];
+  function showView(name){
+    if(!views.includes(name))return;
+    $$("[data-view-panel]").forEach(v=>v.classList.toggle("active",v.dataset.viewPanel===name));
+    $$(".nav-tab").forEach(b=>{const on=b.dataset.view===name;b.classList.toggle("active",on);b.setAttribute("aria-selected",String(on));});
+    if(name==="work")document.dispatchEvent(new CustomEvent("portfolio-view-open"));
+    window.scrollTo({top:0,behavior:"smooth"});
+  }
+  $$(".nav-tab").forEach(b=>b.addEventListener("click",()=>showView(b.dataset.view)));
+  $$("[data-go]").forEach(b=>b.addEventListener("click",()=>showView(b.dataset.go)));
+  const labels={
+    current:{en:{period:"JAN 2025 — PRESENT",title:"H2 Media / RT · Ruptly · Viory",role:"Senior News Producer · Field Production & Editorial Coordination",desc:"In his current role with H2 Media’s Tehran operation, Iman supports international news coverage and video production for RT, Ruptly and Viory. His work connects editorial requirements with practical field execution: developing story angles, coordinating crews and access, arranging interviews, preparing translations, shot lists and background notes, and supporting the delivery of news and feature packages.",skills:["Field assignment planning and coordination","Interview research, booking and on-location production","Persian–English translation and editorial adaptation","Shot lists, background briefs and production notes","Coordination between newsroom, field crew and editors","Political, social, cultural and regional story development"],idea:"A newsroom or production company can commission a complete Tehran-based reporting assignment: story research, local coordination, interview arrangements, field filming support, translation, shot list and a concise editorial handover — or request ongoing local production support for a wider regional project."}},
+    press:{en:{period:"2007 — 2016",title:"Press TV — English News Network",role:"Newsroom Coordination · News Editing Support · Narration & Voice-over",desc:"At Press TV, Iman built a foundation in the daily operation of an English-language international newsroom. His responsibilities included news assistance, coordination across newsroom workflows, crawl editing, guest research and booking support, narration and voice-over, and the preparation and handling of news content under broadcast deadlines.",skills:["Newsroom workflow and rundown support","Guest research and interview preparation","Crawl and on-screen text editing","Narration and English voice-over","News monitoring and editorial coordination","Deadline-driven broadcast support"],idea:"Broadcasters and digital news teams can use this experience for newsroom overflow, guest and expert research, script preparation, English narration, editorial coordination and support during fast-moving news cycles."}},
+    other:{en:{period:"2014 — 2023 · SELECTED PROJECTS",title:"Borna · Green Giant Tourism · Documentary & Institutional Projects",role:"International Desk · Sports · Communications · Documentary Coordination",desc:"Additional experience includes international desk and sports coverage at Borna, communications-related work in the tourism sector with Green Giant Tourism, coordination connected with documentary and television projects, and inventory and procurement work at Laban Dairy using an ERP system. Project-based work has also included conference and institutional media coordination.",skills:["International news and sports desk support","Tourism communications and content coordination","Documentary research and production coordination","Conference and institutional event support","Cross-department coordination and ERP-based inventory work","English-language teaching and communication"],idea:"Organizations can draw on this cross-sector experience for event coverage packages, documentary research and coordination, communications content, international-facing materials, conference interviews and structured project support."}},
+    education:{en:{period:"ACADEMIC BACKGROUND",title:"Islamic Azad University — Roudehen Branch",role:"University education · English-language communication",desc:"Iman studied at Islamic Azad University, Roudehen Branch. His professional background is complemented by long-term English-language teaching experience, including part-time university-level teaching.",skills:["Islamic Azad University, Roudehen Branch","Long-term English teaching experience since approximately 2006","Fluent Persian and English","Professional translation and bilingual editorial work"],idea:"The combination of formal study, long-term English teaching and hands-on international newsroom work supports clear bilingual communication, editorial adaptation and audience-aware content development."}}
+  };
+  let activeExperience="current";
+  function renderExperience(key){
+    activeExperience=key;const d=labels[key];if(!d)return;const x=d.en;const fa=document.documentElement.lang==="fa";
+    const translations={
+      current:{period:"ژانویه ۲۰۲۵ تاکنون",title:"H2 Media / RT · Ruptly · Viory",role:"تهیه‌کننده ارشد خبر · تولید میدانی و هماهنگی تحریریه",desc:"ایمان در جایگاه فعلی خود در دفتر تهران H2 Media از پوشش خبری و تولید ویدئو برای RT، Ruptly و Viory پشتیبانی می‌کند. این نقش، نیازهای تحریریه را به اجرای عملی در میدان پیوند می‌دهد: توسعه سوژه، هماهنگی گروه و دسترسی، برنامه‌ریزی مصاحبه، آماده‌سازی ترجمه، فهرست نماها و اطلاعات پیش‌زمینه و همراهی در تحویل بسته‌های خبری و گزارشی.",skills:["برنامه‌ریزی و هماهنگی مأموریت‌های میدانی","پژوهش، هماهنگی و تولید مصاحبه در محل","ترجمه فارسی به انگلیسی و انطباق تحریریه‌ای","تهیه فهرست نماها، پیش‌زمینه و یادداشت تولید","هماهنگی میان تحریریه، گروه میدانی و تدوینگر","توسعه سوژه‌های سیاسی، اجتماعی، فرهنگی و منطقه‌ای"],idea:"شبکه خبری یا شرکت تولید می‌تواند اجرای یک مأموریت کامل در تهران را سفارش دهد: پژوهش سوژه، هماهنگی محلی، تنظیم مصاحبه، پشتیبانی تصویربرداری، ترجمه، فهرست نماها و تحویل منظم اطلاعات به تحریریه؛ یا برای یک پروژه منطقه‌ای از پشتیبانی مستمر تولید استفاده کند."},
+      press:{period:"۲۰۰۷ تا ۲۰۱۶",title:"شبکه خبری انگلیسی‌زبان پرس‌تی‌وی",role:"هماهنگی تحریریه · پشتیبانی سردبیری خبر · نریشن و ویس‌اور",desc:"ایمان در پرس‌تی‌وی پایه حرفه‌ای خود را در عملیات روزانه یک تحریریه بین‌المللی انگلیسی‌زبان شکل داد. مسئولیت‌های او شامل دستیاری خبر، هماهنگی جریان کار تحریریه، ویرایش زیرنویس‌های خبری، پژوهش و پشتیبانی دعوت از مهمانان، نریشن و ویس‌اور و آماده‌سازی و پیگیری محتوای خبری در ضرب‌الاجل‌های پخش بود.",skills:["پشتیبانی روند کار تحریریه و ترتیب خبرها","پژوهش مهمان و آماده‌سازی مصاحبه","ویرایش زیرنویس و متن‌های روی تصویر","نریشن و ویس‌اور انگلیسی","رصد خبر و هماهنگی تحریریه‌ای","پشتیبانی پخش در شرایط ضرب‌الاجل"],idea:"شبکه‌های تلویزیونی و تیم‌های خبری دیجیتال می‌توانند برای پشتیبانی از حجم کار تحریریه، پژوهش مهمان و کارشناس، آماده‌سازی متن، نریشن انگلیسی، هماهنگی سردبیری و پوشش چرخه‌های خبری سریع از این تجربه استفاده کنند."},
+      other:{period:"۲۰۱۴ تا ۲۰۲۳ · پروژه‌های منتخب",title:"برنا · گرین جاینت توریسم · پروژه‌های مستند و نهادی",role:"دبیرخانه بین‌الملل · ورزش · ارتباطات · هماهنگی مستند",desc:"تجربه‌های تکمیلی شامل فعالیت در گروه بین‌الملل و ورزش خبرگزاری برنا، کارهای مرتبط با ارتباطات در حوزه گردشگری در گرین جاینت توریسم، هماهنگی پروژه‌های مستند و تلویزیونی و نیز تجربه کنترل موجودی و تدارکات در شرکت لبنیات لبن با استفاده از سامانه ERP است. همکاری در رویدادها و پروژه‌های رسانه‌ای نهادی نیز در این سوابق قرار دارد.",skills:["پشتیبانی گروه بین‌الملل و خبر ورزشی","ارتباطات و هماهنگی محتوایی در گردشگری","پژوهش و هماهنگی تولید مستند","پشتیبانی رسانه‌ای همایش‌ها و رویدادهای نهادی","هماهنگی بین‌بخشی و کار با سامانه ERP","تدریس زبان انگلیسی و ارتباطات"],idea:"سازمان‌ها می‌توانند از این تجربه ترکیبی برای پکیج خبری رویدادها، پژوهش و هماهنگی مستند، محتوای ارتباطی، مطالب بین‌المللی، مصاحبه‌های همایشی و پشتیبانی ساختارمند پروژه استفاده کنند."},
+      education:{period:"پیشینه تحصیلی",title:"دانشگاه آزاد اسلامی — واحد رودهن",role:"تحصیلات دانشگاهی · ارتباطات انگلیسی‌زبان",desc:"ایمان در دانشگاه آزاد اسلامی واحد رودهن تحصیل کرده است. این پیشینه با تجربه طولانی تدریس زبان انگلیسی، از جمله تدریس پاره‌وقت در سطح دانشگاهی، تکمیل می‌شود.",skills:["دانشگاه آزاد اسلامی، واحد رودهن","تجربه تدریس زبان انگلیسی از حدود سال ۲۰۰۶","تسلط به فارسی و انگلیسی","ترجمه حرفه‌ای و کار تحریریه‌ای دوزبانه"],idea:"ترکیب تحصیلات دانشگاهی، سابقه طولانی تدریس انگلیسی و تجربه عملی در تحریریه بین‌المللی، پشتوانه‌ای برای ارتباط دوزبانه روشن، انطباق تحریریه‌ای و تولید محتوا متناسب با مخاطب فراهم می‌کند."}
+    };
+    const v=fa?translations[key]:x;const root=$("#experienceContent");
+    root.innerHTML='<div class="period">'+v.period+'</div><h3>'+v.title+'</h3><div class="role">'+v.role+'</div><p>'+v.desc+'</p><h4>'+(fa?"توانمندی‌های مرتبط":"RELEVANT CAPABILITIES")+'</h4><ul class="capability-list">'+v.skills.map(s=>'<li>'+s+'</li>').join("")+'</ul><div class="client-ideas"><strong>'+(fa?"این تجربه چه کمکی به پروژه شما می‌کند؟":"HOW THIS EXPERIENCE CAN SUPPORT YOUR PROJECT")+'</strong><p>'+v.idea+'</p></div>';
+    $$(".exp-tab").forEach(b=>b.classList.toggle("active",b.dataset.exp===key));
+  }
+  $$(".exp-tab").forEach(b=>b.addEventListener("click",()=>renderExperience(b.dataset.exp)));
+  const serviceData={
+    field:{color:"var(--red)",en:{title:"Field production & video packages",intro:"A coordinated path from story idea to usable footage and a finished news or feature package.",a:"ON-LOCATION PRODUCTION",al:["Field producer and local fixer coordination","Camera crew and equipment coordination","In-person interviews with officials, experts and members of the public","Vox pops, event coverage and press conference support","Location planning, access and production schedules"],b:"POST-PRODUCTION & DELIVERY",bl:["Video editing and story assembly","Footage logging, selects and shot lists","Subtitles, captions and on-screen text","News packages, explainers and social cut-downs","Review rounds and delivery in agreed formats"]},fa:{title:"تولید میدانی و پکیج‌های ویدئویی",intro:"مسیر هماهنگ از ایده سوژه تا تصویربرداری قابل استفاده و تحویل بسته خبری یا گزارشی.",a:"تولید در محل",al:["تهیه‌کنندگی میدانی و هماهنگی عوامل محلی","هماهنگی گروه تصویربرداری و تجهیزات","مصاحبه حضوری با مقامات، کارشناسان و مردم","مصاحبه‌های مردمی، پوشش رویداد و نشست خبری","برنامه‌ریزی لوکیشن، دسترسی و زمان‌بندی تولید"],b:"پس‌تولید و تحویل",bl:["تدوین و ساختاردهی روایت تصویری","بازبینی و دسته‌بندی تصاویر و تهیه فهرست نماها","زیرنویس، کپشن و نوشته‌های روی تصویر","پکیج خبری، ویدئوی توضیحی و نسخه‌های شبکه اجتماعی","بازبینی نهایی و تحویل در قالب توافق‌شده"]}},
+    editorial:{color:"var(--green)",en:{title:"Editorial research & newsroom support",intro:"Context-rich research and clear editorial materials that help a team move quickly without losing accuracy.",a:"RESEARCH & VERIFICATION",al:["Political and geopolitical background research","Timeline building and context notes","Source mapping and cross-checking of claims","Official statements, documents and interview research","Expert and guest identification"],b:"EDITORIAL MATERIALS",bl:["Story pitches, briefs and backgrounders","Interview questions and presenter scripts","News rundowns, headlines and copy editing","Explainers and structured issue summaries","Editorial coordination across time zones and teams"]},fa:{title:"پژوهش تحریریه‌ای و پشتیبانی اتاق خبر",intro:"پژوهش زمینه‌مند و محتوای تحریریه‌ای روشن که به تیم کمک می‌کند بدون قربانی‌کردن دقت، سریع‌تر پیش برود.",a:"پژوهش و راستی‌آزمایی",al:["پژوهش سیاسی و ژئوپلیتیک","تنظیم خط زمانی و یادداشت‌های زمینه‌ای","شناسایی منابع و تطبیق متقابل ادعاها","بررسی مواضع رسمی، اسناد و سوابق مصاحبه","شناسایی کارشناس و مهمان"],b:"خروجی‌های تحریریه‌ای",bl:["پیشنهاد سوژه، خلاصه و گزارش پیش‌زمینه","تنظیم پرسش مصاحبه و متن مجری","تنظیم راندون خبر، تیتر و ویرایش متن","تولید محتوای توضیحی و جمع‌بندی ساختارمند","هماهنگی تحریریه میان تیم‌ها و مناطق زمانی"]}},
+    audio:{color:"var(--purple)",en:{title:"Audio, narration & dubbing",intro:"Voice and sound services coordinated as part of a complete production or delivered as a standalone assignment.",a:"VOICE SERVICES",al:["English and Persian narration / voice-over","Script adaptation for spoken delivery","Voice casting and recording coordination","Dubbing and dialogue replacement coordination","Remote or studio recording arrangements"],b:"SOUND & FINISHING",bl:["Audio cleanup and sound balancing","Sound design and basic mix coordination","Syncing voice tracks with picture","Subtitle and transcript alignment","Quality checks before delivery"]},fa:{title:"صدا، نریشن و دوبله",intro:"خدمات صدا و گویندگی در قالب یک پروژه کامل تولید یا به‌صورت سفارش مستقل هماهنگ و اجرا می‌شود.",a:"خدمات گویندگی",al:["نریشن و ویس‌اور فارسی و انگلیسی","بازنویسی متن برای اجرای گفتاری","انتخاب صدا و هماهنگی ضبط","هماهنگی دوبله و جایگزینی دیالوگ","هماهنگی ضبط از راه دور یا در استودیو"],b:"صدا و پرداخت نهایی",bl:["پاک‌سازی صدا و متعادل‌سازی سطح صوت","طراحی صدا و هماهنگی میکس پایه","هماهنگ‌سازی صدای گوینده با تصویر","تطبیق زیرنویس و متن پیاده‌شده","کنترل کیفیت پیش از تحویل"]}},
+    language:{color:"var(--blue)",en:{title:"Translation, transcription & localization",intro:"Bilingual editorial work that preserves meaning, tone and context — not just the words.",a:"LANGUAGE SERVICES",al:["Persian ↔ English translation","News, interview and documentary transcription","Subtitling and caption translation","Proofreading and editorial polishing","Localization of scripts and media copy"],b:"EDITORIAL QUALITY",bl:["Terminology consistency and name checks","Speaker identification and timestamping","Readable, publication-ready formatting","Context notes for culturally specific references","Confidential handling of client materials"]},fa:{title:"ترجمه، پیاده‌سازی و بومی‌سازی",intro:"کار تحریریه‌ای دوزبانه با حفظ معنا، لحن و زمینه؛ نه صرفاً جابه‌جایی واژه‌ها.",a:"خدمات زبانی",al:["ترجمه فارسی به انگلیسی و انگلیسی به فارسی","پیاده‌سازی فایل صوتی خبر، مصاحبه و مستند","ترجمه زیرنویس و کپشن","بازخوانی، ویرایش و پرداخت تحریریه‌ای","بومی‌سازی متن مجری و محتوای رسانه‌ای"],b:"کیفیت تحریریه‌ای",bl:["یکدستی اصطلاحات و بررسی اسامی","تفکیک گویندگان و درج تایم‌کد","قالب‌بندی خوانا و آماده انتشار","یادداشت زمینه‌ای برای ارجاعات فرهنگی و تخصصی","حفظ محرمانگی فایل‌ها و محتوای مشتری"]}},
+    studio:{color:"var(--gold)",en:{title:"Studio, locations & promotional content",intro:"Production planning for modern promotional videos, interviews and event content, with access to suitable crews and recording spaces arranged to fit the brief.",a:"PRODUCTION OPTIONS",al:["Studio and location sourcing / booking","Modern promo, teaser and advertising videos","Corporate, institutional and event films","Presenter-led explainers and interview formats","Crew, lighting, camera and sound coordination"],b:"PROJECT PACKAGES",bl:["Pre-production concept and treatment","Shooting plan, schedule and call sheets","On-camera interviews and testimonials","Editing, voice-over, sound and subtitles","Final versions for web, broadcast and social platforms"]},fa:{title:"استودیو، لوکیشن و محتوای تبلیغاتی",intro:"برنامه‌ریزی تولید تیزرهای مدرن، مصاحبه و محتوای رویدادی با امکان هماهنگی گروه تخصصی و فضای ضبط متناسب با سفارش.",a:"گزینه‌های تولید",al:["شناسایی و هماهنگی استودیو و لوکیشن ضبط","ساخت تیزر و آگهی تبلیغاتی مدرن","فیلم سازمانی، نهادی و رویدادی","ویدئوی توضیحی با مجری و قالب‌های مصاحبه","هماهنگی عوامل، نور، دوربین و صدا"],b:"پکیج‌های پروژه",bl:["ایده‌پردازی و طراحی پیش‌تولید","برنامه تصویربرداری، زمان‌بندی و برگه فراخوان","مصاحبه جلوی دوربین و ثبت تجربه مشتریان","تدوین، نریشن، صداگذاری و زیرنویس","نسخه نهایی برای وب، پخش تلویزیونی و شبکه‌های اجتماعی"]}}
+  };
+  let activeService="field";
+  function renderService(key){
+    activeService=key;const d=serviceData[key];if(!d)return;const fa=document.documentElement.lang==="fa",v=fa?d.fa:d.en,root=$("#serviceContent");
+    root.style.setProperty("--accent",d.color);
+    root.innerHTML='<div class="service-content-head"><div><h3>'+v.title+'</h3><p class="service-intro">'+v.intro+'</p></div><div class="service-number">'+String(Object.keys(serviceData).indexOf(key)+1).padStart(2,"0")+'</div></div><div class="service-columns"><div class="service-column"><h4>'+v.a+'</h4><ul>'+v.al.map(s=>'<li>'+s+'</li>').join("")+'</ul></div><div class="service-column"><h4>'+v.b+'</h4><ul>'+v.bl.map(s=>'<li>'+s+'</li>').join("")+'</ul></div></div>';
+    $$(".service-tab").forEach(b=>b.classList.toggle("active",b.dataset.service===key));
+  }
+  $$(".service-tab").forEach(b=>b.addEventListener("click",()=>renderService(b.dataset.service)));
+  renderExperience("current");renderService("field");
+  const glow=$(".cursor-glow");if(glow&&matchMedia("(pointer:fine)").matches){window.addEventListener("pointermove",e=>{glow.style.left=e.clientX+"px";glow.style.top=e.clientY+"px";},{passive:true});}
+  setLanguage("en");
+})();
