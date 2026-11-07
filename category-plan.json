@@ -80,8 +80,31 @@
       "evidence": [
         "https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iran-president-delivers-speech-at-40th-activity-7498634246014615552-Paj9"
       ]
+    },
+    {
+      "id": "judiciaryIndia",
+      "title": "قوه قضائیه، هند و تعاملات بین‌مذهبی",
+      "evidence": [
+        "https://www.linkedin.com/posts/iman-keyhanfard-3b85439_video-of-the-martyred-leader-of-the-activity-7501912083043741696-zhtO",
+        "https://www.linkedin.com/posts/iman-keyhanfard-3b85439_irans-judiciary-chief-received-a-warm-activity-7501993813209415681--sgb"
+      ]
+    },
+    {
+      "id": "drones",
+      "title": "پهپادها، موشک‌ها و تصاویر نظامی",
+      "evidence": [
+        "https://www.linkedin.com/posts/iman-keyhanfard-3b85439_irgc-kamikaze-drone-rains-down-on-us-bases-activity-7502951669668810752-pc0b",
+        "https://www.linkedin.com/posts/iman-keyhanfard-3b85439_new-iranian-missile-tested-on-us-warship-activity-7502593643388706816-9vGj"
+      ]
+    },
+    {
+      "id": "yemen",
+      "title": "یمن و گروه‌های مسلح منطقه‌ای",
+      "evidence": [
+        "https://www.linkedin.com/posts/iman-keyhanfard-3b85439_yemens-houthis-release-footage-of-precision-activity-7502592026543120384-h7jw"
+      ]
     }
   ],
   "media_rule": "For each category, prioritize a genuine video with its headline and a short news context. If no suitable video exists, use the original post photo/image with its headline and news context. Keep the media preview visible on the card; clicking opens details and the original LinkedIn post.",
-  "status": "Category inventory preserved; six additional categories added to the active portfolio data. The original 32-topic archive still needs post-by-post media verification and population."
+  "status": "The original 32 categories are preserved. Nine additional subject areas have been identified from public LinkedIn posts. The portfolio data currently contains 14 groups; further post-by-post media verification and population is still required."
 }
