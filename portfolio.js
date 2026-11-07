@@ -41,7 +41,7 @@
       ["7496232427560882176","UAE moves to cut off Iran’s financial lifeline — regional implications","امارات در مسیر قطع شریان مالی ایران؛ پیامدهای منطقه‌ای","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_uae-moves-to-cut-off-irans-financial-lifeline-activity-7496232427560882176-jOoi",["UAE","Economic pressure"]],
       ["7495469746591539200","Tanker tracking data challenges Trump’s claims on Hormuz","داده‌های ردیابی نفتکش‌ها ادعاهای ترامپ درباره هرمز را زیر سؤال می‌برد","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_politico-trumps-strait-of-hormuz-claims-activity-7495469746591539200-zFCM",["Trump","Maritime diplomacy"]],
       ["7498627489217310720","Iran and Oman discuss a joint maritime framework","ایران و عمان درباره چارچوب مشترک دریایی گفت‌وگو می‌کنند","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iran-and-oman-have-agreed-to-share-shipping-activity-7498627489217310720-n9wp",["Oman","Mediation","Hormuz"]]
-    ]
+    ],
 
     nuclear: [
       ["7498640944334827520","Iran showcases nuclear progress and fusion research","ایران دستاوردهای هسته‌ای و پژوهش‌های همجوشی را معرفی می‌کند","https://www.linkedin.com/posts/iman-keyhanfard-3b85439_iran-showcases-indigenous-nuclear-progress-activity-7498640944334827520-xJwb",["Nuclear technology","Fusion","Moeen Amini report"]],
