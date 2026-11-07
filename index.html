@@ -1,177 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" dir="ltr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Iman Keyhanfard — Tehran-based senior news producer, field journalist and political researcher covering Iran and the wider Middle East.">
-  <meta name="theme-color" content="#e9e3d7">
-  <meta property="og:title" content="Iman Keyhanfard | Journalist & News Producer">
-  <meta property="og:description" content="Senior news producer, field journalist and political researcher covering Iran and the wider Middle East.">
-  <meta property="og:type" content="website">
-  <title>Iman Keyhanfard | Journalist & News Producer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#08090d">
+<meta name="description" content="Iman Keyhanfard — Senior News Producer, Field Producer, Journalist and Media Project Coordinator.">
+<meta property="og:title" content="Iman Keyhanfard | Journalism · Production · Research">
+<meta property="og:description" content="From editorial research to the final frame — field production, interviews, video and audio, translation and media packages.">
+<title>Iman Keyhanfard — Journalist & Senior News Producer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Estedad:wght@400;500;600;700;800;900&family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="topbar">
-    <a class="brand" href="#top" aria-label="Iman Keyhanfard home">IK<span>.</span></a>
-    <nav class="main-nav" aria-label="Main navigation">
-      <a href="#about" data-i18n="nav_about">Profile</a>
-      <a href="#experience" data-i18n="nav_experience">Experience</a>
-      <a href="#selected-work" data-i18n="nav_work">Selected Work</a>
-      <a href="#coverage" data-i18n="nav_coverage">Coverage</a>
-      <a href="#contact" data-i18n="nav_contact">Contact</a>
-    </nav>
-    <div class="top-actions">
-      <button class="lang-switch" id="langSwitch" type="button" aria-label="Switch language">فارسی</button>
-      <a class="linkedin-link" href="https://www.linkedin.com/in/iman-keyhanfard-3b85439/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+<div class="ambient-grid" aria-hidden="true"></div><div class="cursor-glow" aria-hidden="true"></div>
+<header class="site-header">
+  <a class="wordmark" href="#home" aria-label="Iman Keyhanfard home"><span class="wordmark-mark">IK<span>•</span></span><span class="wordmark-name">IMAN KEYHANFARD</span></a>
+  <nav class="main-tabs" aria-label="Main navigation" role="tablist">
+    <button class="nav-tab active" data-view="home" role="tab" aria-selected="true">Home</button>
+    <button class="nav-tab" data-view="work" role="tab" aria-selected="false">Selected work</button>
+    <button class="nav-tab" data-view="experience" role="tab" aria-selected="false">Experience</button>
+    <button class="nav-tab" data-view="services" role="tab" aria-selected="false">Services</button>
+    <button class="nav-tab" data-view="contact" role="tab" aria-selected="false">Contact</button>
+  </nav>
+  <div class="header-tools"><button id="langSwitch" class="language-toggle" type="button" aria-label="Switch language">فارسی</button><a class="header-link" href="https://www.linkedin.com/in/iman-keyhanfard-3b85439/" target="_blank" rel="noopener">LinkedIn <span>↗</span></a></div>
+</header>
+<div class="welcome-drop" id="welcomeDrop">
+  <div class="welcome-kicker">INDEPENDENT JOURNALISM · FIELD PRODUCTION · MEDIA</div>
+  <div class="welcome-name">IMAN KEYHANFARD</div>
+  <div class="welcome-role">Senior News Producer <i>·</i> Field Producer <i>·</i> Journalist</div>
+  <p>From the first idea to the final frame — reliable editorial and production support for stories that matter.</p>
+</div>
+<main id="app">
+<section class="view active" id="view-home" data-view-panel="home">
+  <div class="hero-shell">
+    <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div><div class="hero-cross">✳</div>
+    <div class="hero-content">
+      <div class="availability"><span class="pulse-dot"></span><span data-en="AVAILABLE FOR EDITORIAL & MEDIA PROJECTS" data-fa="آماده همکاری در پروژه‌های رسانه‌ای و تحریریه‌ای">AVAILABLE FOR EDITORIAL & MEDIA PROJECTS</span></div>
+      <p class="hero-overline">JOURNALISM <b>×</b> PRODUCTION <b>×</b> RESEARCH</p>
+      <h1><span class="hero-first">IMAN</span><span class="hero-last">KEYHANFARD<span class="red-dot">.</span></span></h1>
+      <div class="hero-title" data-en="Senior News Producer · Field Producer · Journalist" data-fa="تهیه‌کننده ارشد خبر · تهیه‌کننده میدانی · روزنامه‌نگار">Senior News Producer · Field Producer · Journalist</div>
+      <p class="hero-lead" data-en="Turning complex stories into clear, compelling media — with regional insight, editorial precision and end-to-end production coordination." data-fa="تبدیل سوژه‌های پیچیده به محتوای رسانه‌ای روشن و اثرگذار؛ با شناخت منطقه، دقت تحریریه‌ای و هماهنگی تولید از ابتدا تا انتها.">Turning complex stories into clear, compelling media — with regional insight, editorial precision and end-to-end production coordination.</p>
+      <div class="hero-actions"><button class="primary-action" data-go="services"><span data-en="Explore services" data-fa="مشاهده خدمات">Explore services</span><b>↗</b></button><button class="text-action" data-go="work"><span data-en="View selected work" data-fa="دیدن نمونه‌کارها">View selected work</span><span>↓</span></button></div>
     </div>
-  </header>
-
-  <main id="top">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="live-dot"></span><span data-i18n="eyebrow">TEHRAN, IRAN · AVAILABLE FOR PROJECTS</span></p>
-        <h1 data-i18n="hero_title">Reporting the region.<br><em>Connecting the context.</em></h1>
-        <p class="hero-intro" data-i18n="hero_intro">Senior news producer, field journalist and political researcher with nearly two decades of experience in English-language media, specializing in Iran and the wider Middle East.</p>
-        <div class="hero-actions">
-          <a class="button button-dark" href="#experience"><span data-i18n="hero_button">Explore my experience</span><b>↓</b></a>
-          <a class="underlined-link" href="#contact" data-i18n="hero_contact">Get in touch ↗</a>
-        </div>
-      </div>
-      <aside class="hero-aside">
-        <div class="folio-label"><span data-i18n="folio">INDEPENDENT PROFESSIONAL PORTFOLIO</span><span>2026 / TEHRAN</span></div>
-        <div class="editorial-art" role="img" aria-label="Editorial graphic representing reporting and the Middle East">
-          <div class="art-circle"></div><div class="art-line"></div><div class="art-cross">✳</div>
-          <div class="art-word">FIELD<br>NOTES</div><div class="art-index">IRAN / MIDDLE EAST · 01</div>
-        </div>
-        <p class="aside-note" data-i18n="aside_note">On-the-ground production, editorial coordination and research across a complex region.</p>
-      </aside>
-      <div class="hero-bottom"><span data-i18n="hero_bottom_left">JOURNALISM · PRODUCTION · RESEARCH</span><span>35°41′N 51°25′E</span></div>
-    </section>
-
-    <section class="ticker" aria-label="Areas of work">
-      <div><span data-i18n="ticker">FIELD REPORTING</span><i>✳</i><span>NEWS PRODUCTION</span><i>✳</i><span data-i18n="ticker3">POLITICAL RESEARCH</span><i>✳</i><span>FA–EN TRANSLATION</span><i>✳</i><span data-i18n="ticker">FIELD REPORTING</span></div>
-    </section>
-
-    <section class="section about-section" id="about">
-      <div class="section-kicker"><span>01 /</span><span data-i18n="about_kicker">PROFILE</span></div>
-      <div class="about-grid">
-        <h2 data-i18n="about_title">A newsroom perspective,<br><em>grounded in the field.</em></h2>
-        <div class="about-copy">
-          <p data-i18n="about_p1">I am a Tehran-based journalist and senior news producer with close to 20 years of experience in English-language broadcasting and international media production.</p>
-          <p data-i18n="about_p2">My work spans field reporting, editorial coordination, political and geopolitical research, interview production, video coordination, and Persian–English translation. I bring practical knowledge of Iran’s media and political landscape, alongside experience working with international news organizations and production teams.</p>
-          <p data-i18n="about_p3">I am available for freelance assignments, remote research, editorial support and field-production projects.</p>
-        </div>
-      </div>
-      <div class="expertise">
-        <span data-i18n="skill1">Field production & reporting</span><span data-i18n="skill2">Newsroom coordination</span><span data-i18n="skill3">Political research</span><span data-i18n="skill4">Interview production</span><span data-i18n="skill5">Persian–English translation</span><span data-i18n="skill6">Video & editorial coordination</span>
-      </div>
-    </section>
-
-    <section class="section experience-section" id="experience">
-      <div class="section-kicker"><span>02 /</span><span data-i18n="experience_kicker">SELECTED EXPERIENCE</span></div>
-      <div class="section-heading">
-        <h2 data-i18n="experience_title">Work across the<br><em>news cycle.</em></h2>
-        <p data-i18n="experience_deck">A career built around fast-moving news, careful editorial judgment and the practical demands of reporting from the region.</p>
-      </div>
-      <div class="timeline">
-        <article class="timeline-item">
-          <div class="timeline-date">JAN 2025 — PRESENT</div>
-          <div class="timeline-main"><h3>H2 Media / RT · Ruptly · Viory</h3><p class="role" data-i18n="role_current">Senior News Producer · Field Production & Editorial Coordination</p><p data-i18n="current_desc">Production and coordination of news coverage and video packages from Tehran, including field assignments, reporting support, interviews, translation, shot lists and editorial background for international media clients.</p></div>
-          <div class="timeline-type" data-i18n="type_current">CURRENT</div>
-        </article>
-        <article class="timeline-item">
-          <div class="timeline-date">2007 — 2016</div>
-          <div class="timeline-main"><h3>Press TV — English News Network</h3><p class="role" data-i18n="role_press">Newsroom & Production Roles</p><p data-i18n="press_desc">News assistance, newsroom coordination, crawl editing, narration and voice-over, guest research and news production within an English-language international news environment.</p></div>
-          <div class="timeline-type">BROADCAST</div>
-        </article>
-        <article class="timeline-item">
-          <div class="timeline-date">2016 — 2017</div>
-          <div class="timeline-main"><h3>Green Giant Tourism</h3><p class="role" data-i18n="role_tourism">Media & Communications</p><p data-i18n="tourism_desc">Professional experience in the tourism sector, supporting communication and content-related work.</p></div>
-          <div class="timeline-type" data-i18n="type_past">PREVIOUS</div>
-        </article>
-        <article class="timeline-item">
-          <div class="timeline-date">2014 — 2015</div>
-          <div class="timeline-main"><h3>Borna</h3><p class="role" data-i18n="role_borna">International Desk & Sports</p><p data-i18n="borna_desc">Editorial work supporting international news and sports coverage.</p></div>
-          <div class="timeline-type" data-i18n="type_past">PREVIOUS</div>
-        </article>
-      </div>
-      <div class="additional-experience"><span class="additional-label" data-i18n="additional_label">ADDITIONAL EDITORIAL &amp; MEDIA EXPERIENCE</span>
-        <p><strong>Tasnim · LHV News · Vatan-e Emrooz · Iranian Parliament</strong><br><span data-i18n="additional_desc1">News production, editorial research, reporting and institutional media work.</span></p>
-        <p><strong>Islamic Awakening Magazine · Sahar TV · Ofogh TV · IRIB Channel 4</strong><br><span data-i18n="additional_desc2">Editorial work, documentary coordination, research and program production.</span></p>
-        <p><strong>Islamic Awakening Magazine · Europe &amp; America section</strong><br><span data-i18n="additional_desc3">Editorial work covering international and regional affairs.</span></p>
-        <p><strong>Palestinian Intifada section · Raz</strong><br><span data-i18n="additional_desc5">Editorial and program coordination on Palestinian affairs and current events.</span></p>
-        <p><strong>English-language teaching</strong><br><span data-i18n="additional_desc4">Long-term English teaching experience, including part-time university teaching.</span></p>
-      </div>
-      <div class="education-line"><span class="additional-label" data-i18n="education_label">EDUCATION</span><strong data-i18n="education_text">Islamic Azad University, Roudehen Branch</strong></div>
-      <p class="small-note" data-i18n="experience_note">Selected roles shown. Additional documentary coordination and project-based work available on request.</p>
-    </section>
-
-
-    <section class="section work-section" id="selected-work">
-      <div class="section-kicker"><span>03 /</span><span data-i18n="work_kicker">SELECTED PUBLIC WORK</span></div>
-      <div class="section-heading">
-        <h2 data-i18n="work_title">Selected stories<br><em>from my public feed.</em></h2>
-        <p data-i18n="work_deck">A small selection of public posts from my professional LinkedIn profile. Each card opens the original post; this is not a complete client portfolio.</p>
-      </div>
-      <div class="portfolio-intro"><p data-i18n="portfolio_archive_intro">Explore verified public LinkedIn posts grouped by editorial subject. Use the topic tabs and slide controls to browse original posts, including their published media.</p></div>
-      <div id="topicPortfolio" class="topic-portfolio" aria-live="polite"><div class="topic-tabs" id="topicTabs"></div><div class="topic-deck" id="topicDeck"></div><div class="topic-controls"><button type="button" id="topicPrev" aria-label="Previous sample">←</button><span id="topicCounter">01 / 10</span><button type="button" id="topicNext" aria-label="Next sample">→</button></div></div>
-      <p class="portfolio-note" data-i18n="portfolio_note">LinkedIn embeds display the original post and its media where LinkedIn permits public embedding. Some posts may require opening LinkedIn directly.</p>
-      <div class="capability-strip">
-        <span data-i18n="capabilities_label">PRODUCTION &amp; EDITORIAL SERVICES</span>
-        <div><b data-i18n="cap1">News and video packages</b><b data-i18n="cap2">Field reporting and interviews</b><b data-i18n="cap3">Photo and video coordination</b><b data-i18n="cap4">Persian–English translation</b><b data-i18n="cap5">Background research and briefs</b></div>
-      </div>
-    </section>
-
-    <section class="coverage-section" id="coverage">
-      <div class="section coverage-inner">
-        <div class="section-kicker light"><span>04 /</span><span data-i18n="coverage_kicker">COVERAGE & CAPABILITIES</span></div>
-        <div class="coverage-head">
-          <h2 data-i18n="coverage_title">Context matters.<br><em>So does access.</em></h2>
-          <p data-i18n="coverage_intro">Combining local knowledge, field coordination and editorial research to help international audiences understand developments in Iran and the Middle East.</p>
-        </div>
-        <div class="coverage-list">
-          <div><span>01</span><h3 data-i18n="coverage1_title">Iranian politics & institutions</h3><p data-i18n="coverage1_desc">Political developments, public institutions, official statements and policy debates.</p></div>
-          <div><span>02</span><h3 data-i18n="coverage2_title">Regional affairs & geopolitics</h3><p data-i18n="coverage2_desc">Iran’s regional relationships, security issues and wider Middle East developments.</p></div>
-          <div><span>03</span><h3 data-i18n="coverage3_title">Field reporting & interviews</h3><p data-i18n="coverage3_desc">On-location production, interview coordination, vox pops and event coverage.</p></div>
-          <div><span>04</span><h3 data-i18n="coverage4_title">Research, translation & packages</h3><p data-i18n="coverage4_desc">Background research, source-based briefs, Persian–English translation and video package support.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section approach-section">
-      <div class="section-kicker"><span>05 /</span><span data-i18n="approach_kicker">WORKING APPROACH</span></div>
-      <div class="approach-grid">
-        <h2 data-i18n="approach_title">From the first lead<br><em>to the final frame.</em></h2>
-        <div class="approach-steps">
-          <p><b>01</b><span data-i18n="approach1">Verify the context and establish a clear editorial angle.</span></p>
-          <p><b>02</b><span data-i18n="approach2">Coordinate access, interviews, field teams and production details.</span></p>
-          <p><b>03</b><span data-i18n="approach3">Deliver accurate translations, concise background and usable footage notes.</span></p>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact-section" id="contact">
-      <div class="section contact-inner">
-        <div class="section-kicker light"><span>06 /</span><span data-i18n="contact_kicker">CONTACT</span></div>
-        <div class="contact-grid">
-          <div><h2 data-i18n="contact_title">Have a story<br><em>to work on?</em></h2><p data-i18n="contact_intro">For editorial assignments, field production, research and translation projects, get in touch.</p></div>
-          <div class="contact-details">
-            <span data-i18n="contact_email_label">EMAIL</span><a href="mailto:e.kihanfard@gmail.com">e.kihanfard@gmail.com ↗</a>
-            <span data-i18n="contact_phone_label">PHONE / WHATSAPP</span><a href="tel:+989125958820">+98 912 595 8820 ↗</a>
-            <span data-i18n="contact_message_label">LINKEDIN MESSAGE</span><a href="https://www.linkedin.com/in/iman-keyhanfard-3b85439/" target="_blank" rel="noopener noreferrer" data-i18n="contact_message_link">Send a message on LinkedIn ↗</a>
-            <span>LINKEDIN</span><a href="https://www.linkedin.com/in/iman-keyhanfard-3b85439/" target="_blank" rel="noopener noreferrer">linkedin.com/in/iman-keyhanfard-3b85439 ↗</a>
-            <span data-i18n="contact_location_label">LOCATION</span><p data-i18n="contact_location">Tehran, Iran · Available for remote and project-based work</p>
-          </div>
-        </div>
-        <div class="contact-footer"><span>IMAN KEYHANFARD</span><span data-i18n="footer">JOURNALIST · PRODUCER · RESEARCHER</span><span>© 2026</span></div>
-      </div>
-    </section>
-  </main>
-  <script src="script.js"></script>
-  <script src="portfolio.js"></script>
-</body>
-</html>
+    <div class="hero-visual">
+      <div class="visual-frame"><div class="visual-top"><span>TEHRAN / MIDDLE EAST</span><span>35°41′N · 51°25′E</span></div><div class="visual-monogram">IK</div><div class="visual-signal signal-red"></div><div class="visual-signal signal-blue"></div><div class="visual-signal signal-green"></div><div class="visual-caption"><span>FIELD NOTES / 01</span><span>INDEPENDENT PORTFOLIO</span></div></div>
+      <div class="visual-side-label">STORIES · PEOPLE · CONTEXT</div>
+    </div>
+    <div class="hero-bottomline"><span>01 — 05 / PERSONAL PORTFOLIO</span><span>IRAN & THE WIDER MIDDLE EAST</span><span>SCROLL LESS. DISCOVER MORE. ↘</span></div>
+  </div>
+  <div class="ticker"><div class="ticker-track"><span>FIELD REPORTING</span><i>✳</i><span>NEWS PRODUCTION</span><i>✳</i><span>POLITICAL RESEARCH</span><i>✳</i><span>VIDEO & AUDIO</span><i>✳</i><span>FA — EN</span><i>✳</i><span>FIELD REPORTING</span><i>✳</i><span>NEWS PRODUCTION</span><i>✳</i><span>POLITICAL RESEARCH</span><i>✳</i><span>VIDEO & AUDIO</span><i>✳</i><span>FA — EN</span><i>✳</i></div></div>
+  <div class="home-bottom-grid">
+    <article class="home-note"><span class="micro-label">PROFILE / 01</span><h2 data-en="A newsroom perspective.<br><em>Grounded in the field.</em>" data-fa="نگاه تحریریه‌ای؛<br><em>متکی بر تجربه میدانی.</em>">A newsroom perspective.<br><em>Grounded in the field.</em></h2><p data-en="Nearly two decades across English-language journalism, international news production, field assignments, interviews and editorial research — with a working knowledge of Iran and the wider Middle East." data-fa="نزدیک به دو دهه تجربه در روزنامه‌نگاری انگلیسی‌زبان، تولید اخبار بین‌المللی، مأموریت‌های میدانی، مصاحبه و پژوهش تحریریه‌ای؛ همراه با شناخت عملی از ایران و خاورمیانه.">Nearly two decades across English-language journalism, international news production, field assignments, interviews and editorial research — with a working knowledge of Iran and the wider Middle East.</p><button class="inline-link" data-go="experience">Explore professional experience <b>↗</b></button></article>
+    <article class="home-stat-card"><div class="stat-huge">19<span>+</span></div><div class="stat-label" data-en="YEARS IN ENGLISH-LANGUAGE MEDIA" data-fa="سال تجربه در رسانه انگلیسی‌زبان">YEARS IN ENGLISH-LANGUAGE MEDIA</div><div class="stat-rule"></div><div class="stat-list"><span>01 / FIELD & STUDIO PRODUCTION</span><span>02 / EDITORIAL RESEARCH</span><span>03 / INTERVIEWS & MEDIA PACKAGES</span><span>04 / PERSIAN ↔ ENGLISH</span></div></article>
+  </div>
+</section>
+<section class="view" id="view-work" data-view-panel="work">
+  <div class="view-heading"><div><span class="micro-label">02 / SELECTED WORK</span><h2 data-en="Stories in focus<span class='red-dot'>.</span>" data-fa="روایت‌هایی در کانون توجه<span class='red-dot'>.</span>">Stories in focus<span class="red-dot">.</span></h2></div><p data-en="A curated selection of public LinkedIn posts, organized by subject. Move through the stories or open one to explore its original post and media." data-fa="گزیده‌ای از مطالب منتشرشده در لینکدین، دسته‌بندی‌شده بر اساس موضوع. بین سوژه‌ها حرکت کنید یا هر مورد را باز کنید تا مطلب اصلی و رسانه‌های آن را ببینید.">A curated selection of public LinkedIn posts, organized by subject. Move through the stories or open one to explore its original post and media.</p></div>
+  <div class="work-layout"><aside class="work-aside"><span class="micro-label">BROWSE BY SUBJECT</span><div id="topicTabs" class="topic-tabs"></div><div class="work-aside-foot">PUBLIC LINKEDIN POSTS<br>ORIGINAL SOURCES · SELECTED STORIES</div></aside><div class="work-stage"><div class="work-stage-top"><span id="topicEyebrow">HORMUZ & MARITIME SECURITY</span><span id="topicCount">01 / 13</span></div><div id="topicDeck" class="topic-deck"></div><div class="work-stage-controls"><button id="topicPrev" aria-label="Previous story" type="button">←</button><div class="progress-track"><span id="storyProgress"></span></div><button id="topicNext" aria-label="Next story" type="button">→</button><span class="drag-hint" data-en="DRAG / SWIPE" data-fa="کشیدن / لمس">DRAG / SWIPE</span></div><div class="work-footnote" data-en="Original LinkedIn posts open in a new tab. Embedded media appears when LinkedIn permits public viewing." data-fa="مطالب اصلی لینکدین در زبانه جدید باز می‌شوند. نمایش رسانه‌های تعبیه‌شده به سطح دسترسی عمومی لینکدین بستگی دارد.">Original LinkedIn posts open in a new tab. Embedded media appears when LinkedIn permits public viewing.</div></div></div>
+</section>
+<section class="view" id="view-experience" data-view-panel="experience">
+  <div class="view-heading"><div><span class="micro-label">03 / PROFESSIONAL EXPERIENCE</span><h2 data-en="Experience that<br>moves work forward<span class='red-dot'>.</span>" data-fa="تجربه‌ای برای<br>پیشبرد پروژه‌ها<span class='red-dot'>.</span>">Experience that<br>moves work forward<span class="red-dot">.</span></h2></div><p data-en="A practical combination of newsroom discipline, field coordination and editorial judgment — presented as capabilities clients can put to work." data-fa="ترکیبی کاربردی از نظم تحریریه، هماهنگی میدانی و قضاوت حرفه‌ای؛ تجربه‌هایی که می‌توانند مستقیماً در خدمت پروژه قرار بگیرند.">A practical combination of newsroom discipline, field coordination and editorial judgment — presented as capabilities clients can put to work.</p></div>
+  <div class="experience-shell"><div class="experience-tabs" id="experienceTabs"><button class="exp-tab active" data-exp="current">01 / H2 MEDIA · RT · RUPTLY · VIORY</button><button class="exp-tab" data-exp="press">02 / PRESS TV</button><button class="exp-tab" data-exp="other">03 / OTHER EXPERIENCE</button><button class="exp-tab" data-exp="education">04 / EDUCATION</button></div><div id="experienceContent" class="experience-content"></div></div>
+</section>
+<section class="view" id="view-services" data-view-panel="services">
+  <div class="view-heading"><div><span class="micro-label">04 / SERVICES & DELIVERY</span><h2 data-en="One brief.<br>End-to-end delivery<span class='red-dot'>.</span>" data-fa="یک سفارش؛<br>از ابتدا تا تحویل نهایی<span class='red-dot'>.</span>">One brief.<br>End-to-end delivery<span class="red-dot">.</span></h2></div><p data-en="Flexible project support for broadcasters, newsrooms, production companies, agencies and organizations — delivered independently or with a specialist crew." data-fa="پشتیبانی منعطف پروژه برای شبکه‌های خبری، تحریریه‌ها، شرکت‌های تولید، آژانس‌ها و سازمان‌ها؛ به‌صورت مستقل یا با گروه تخصصی تولید.">Flexible project support for broadcasters, newsrooms, production companies, agencies and organizations — delivered independently or with a specialist crew.</p></div>
+  <div class="service-tabs" id="serviceTabs"><button class="service-tab active" data-service="field">01 / FIELD & VIDEO</button><button class="service-tab" data-service="editorial">02 / EDITORIAL & RESEARCH</button><button class="service-tab" data-service="audio">03 / AUDIO & VOICE</button><button class="service-tab" data-service="language">04 / LANGUAGE</button><button class="service-tab" data-service="studio">05 / STUDIO & CAMPAIGNS</button></div><div id="serviceContent" class="service-content"></div>
+  <div class="delivery-flow"><span class="micro-label">PROJECT WORKFLOW</span><div class="flow-steps"><span>01 <b>BRIEF</b></span><i>→</i><span>02 <b>RESEARCH</b></span><i>→</i><span>03 <b>PLAN</b></span><i>→</i><span>04 <b>PRODUCE</b></span><i>→</i><span>05 <b>EDIT & REVIEW</b></span><i>→</i><span>06 <b>DELIVER</b></span></div><p data-en="Clear scope, agreed milestones, source-aware editorial work and a coordinated delivery process — with updates at each key stage." data-fa="شرح روشن محدوده کار، زمان‌بندی توافق‌شده، کار تحریریه‌ای مبتنی بر منبع و روند تحویل هماهنگ؛ همراه با اطلاع‌رسانی در مراحل اصلی.">Clear scope, agreed milestones, source-aware editorial work and a coordinated delivery process — with updates at each key stage.</p></div>
+</section>
+<section class="view" id="view-contact" data-view-panel="contact">
+  <div class="contact-hero"><span class="micro-label">05 / START A PROJECT</span><h2 data-en="Let's make<br>the story work<span class='red-dot'>.</span>" data-fa="بیایید روایت را<br>به نتیجه برسانیم<span class='red-dot'>.</span>">Let's make<br>the story work<span class="red-dot">.</span></h2><p data-en="For editorial assignments, field production, interviews, media packages, research, translation or a complete production brief — share what you have in mind." data-fa="برای مأموریت تحریریه‌ای، تولید میدانی، مصاحبه، پکیج رسانه‌ای، پژوهش، ترجمه یا اجرای کامل یک پروژه؛ درباره ایده و نیازتان پیام بدهید.">For editorial assignments, field production, interviews, media packages, research, translation or a complete production brief — share what you have in mind.</p><a class="contact-cta" href="mailto:e.kihanfard@gmail.com?subject=Project%20enquiry%20%E2%80%94%20Iman%20Keyhanfard">Discuss a project <span>↗</span></a></div>
+  <div class="contact-grid"><a class="contact-card" href="mailto:e.kihanfard@gmail.com"><span class="micro-label">EMAIL / DIRECT ENQUIRIES</span><strong>e.kihanfard@gmail.com</strong><span class="contact-arrow">↗</span></a><a class="contact-card" href="https://www.linkedin.com/in/iman-keyhanfard-3b85439/" target="_blank" rel="noopener"><span class="micro-label">PROFESSIONAL NETWORK</span><strong>LinkedIn profile</strong><span class="contact-arrow">↗</span></a><a class="contact-card" href="https://wa.me/989125958820" target="_blank" rel="noopener"><span class="micro-label">PHONE / WHATSAPP</span><strong>+98 912 595 8820</strong><span class="contact-arrow">↗</span></a></div><footer class="site-footer"><span>IMAN KEYHANFARD © 2026</span><span>JOURNALISM · PRODUCTION · RESEARCH</span><span>TEHRAN / AVAILABLE WORLDWIDE FOR PROJECTS</span></footer>
+</section>
+</main>
+<script src="script.js"></script><script src="portfolio.js"></script>
+</body></html>
