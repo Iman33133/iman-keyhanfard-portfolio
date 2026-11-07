@@ -1,6 +1,7 @@
 const translations = {
   en: {
     nav_about:"Profile",nav_experience:"Experience",nav_work:"Selected Work",nav_coverage:"Coverage",nav_contact:"Contact",
+    additional_label:"ADDITIONAL EDITORIAL & MEDIA EXPERIENCE",additional_desc1:"News production, editorial research, reporting and institutional media work.",additional_desc2:"Editorial work, documentary coordination, research and program production.",
     eyebrow:"TEHRAN, IRAN · AVAILABLE FOR PROJECTS",hero_title:"Reporting the region.<br><em>Connecting the context.</em>",
     hero_intro:"Senior news producer, field journalist and political researcher with nearly two decades of experience in English-language media, specializing in Iran and the wider Middle East.",
     hero_button:"Explore my experience",hero_contact:"Get in touch ↗",folio:"INDEPENDENT PROFESSIONAL PORTFOLIO",
@@ -35,6 +36,7 @@ const translations = {
   },
   fa: {
     nav_about:"معرفی",nav_experience:"سوابق",nav_work:"نمونه‌کارها",nav_coverage:"حوزه‌های کاری",nav_contact:"تماس",
+    additional_label:"سوابق تکمیلی رسانه‌ای و تحریریه",additional_desc1:"تولید خبر، پژوهش تحریریه‌ای، گزارشگری و فعالیت رسانه‌ای در نهادهای رسمی.",additional_desc2:"فعالیت تحریریه‌ای، هماهنگی مستند، پژوهش و تولید برنامه.",
     eyebrow:"تهران، ایران · آماده همکاری پروژه‌ای",hero_title:"روایت از منطقه؛<br><em>با درک زمینه و جزئیات.</em>",
     hero_intro:"تهیه‌کننده ارشد خبر، خبرنگار میدانی و پژوهشگر سیاسی با نزدیک به دو دهه تجربه در رسانه‌های انگلیسی‌زبان و تمرکز بر ایران و خاورمیانه.",
     hero_button:"مشاهده سوابق",hero_contact:"ارتباط با من ↗",folio:"پورتفولیوی حرفه‌ای مستقل",
