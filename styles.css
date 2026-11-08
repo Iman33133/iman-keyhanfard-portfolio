@@ -389,6 +389,37 @@ body {
   .topic-detail .slider-hint {
     font-size: 13px !important;
   }
+}/* Make all work-section helper text clearly readable */
+@media (min-width: 681px) {
+
+  .work-footnote {
+    font-size: 17px !important;
+    line-height: 1.9 !important;
+    color: #c5cad5 !important;
+    letter-spacing: 0.2px !important;
+  }
+
+  .drag-hint {
+    font-size: 14px !important;
+    line-height: 1.8 !important;
+    color: #c5cad5 !important;
+  }
+
+  .story-open-hint {
+    font-size: 14px !important;
+  }
+
+  .topic-card .story-number {
+    font-size: 13px !important;
+  }
+
+  .work-stage-top {
+    font-size: 14px !important;
+  }
+
+  .original-post {
+    font-size: 15px !important;
+  }
 }
 
 
