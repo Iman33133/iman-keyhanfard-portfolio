@@ -349,6 +349,46 @@ body {
     padding: 6px 10px;
   }
 
+}/* Full readability fix for media story details */
+@media (min-width: 681px) {
+
+  .topic-detail {
+    font-size: 15px !important;
+    line-height: 1.8 !important;
+  }
+
+  .topic-detail p,
+  .topic-detail a,
+  .topic-detail span,
+  .topic-detail li,
+  .topic-detail small,
+  .topic-detail strong,
+  .topic-detail em {
+    font-size: 14px !important;
+    line-height: 1.8 !important;
+  }
+
+  .topic-detail h1,
+  .topic-detail h2,
+  .topic-detail h3,
+  .topic-detail h4,
+  .topic-detail .micro-label {
+    font-size: 15px !important;
+    line-height: 1.7 !important;
+  }
+
+  .topic-detail .detail-tags,
+  .topic-detail .story-tags span {
+    font-size: 13px !important;
+    padding: 6px 10px !important;
+  }
+
+  .topic-detail button,
+  .topic-detail .collapse,
+  .topic-detail .navigation,
+  .topic-detail .slider-hint {
+    font-size: 13px !important;
+  }
 }
 
 
