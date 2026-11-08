@@ -42,3 +42,20 @@ html[dir=rtl] .welcome-drop{animation-name:welcomeCompact;direction:ltr}
 .topic-card h3{margin-top:14px}
 .topic-deck.expanded .story-media-preview{height:clamp(130px,18vw,210px)}
 @media(max-width:680px){.story-media-preview{height:190px;width:100%;margin-top:14px}.topic-card{min-height:0;padding-top:24px;padding-bottom:22px}.topic-card h3{font-size:25px}}
+
+
+/* Accessibility and small-screen interaction polish */
+:where(a,button,[role="button"],[tabindex="0"]):focus-visible{
+  outline:2px solid var(--blue);
+  outline-offset:4px;
+}
+.nav-tab,.topic-tab,.exp-tab,.service-tab,.primary-action,.text-action,.inline-link,.contact-cta,.contact-card{
+  transition:color .2s ease,background-color .2s ease,border-color .2s ease,transform .2s ease,box-shadow .2s ease;
+}
+@media(max-width:680px){
+  .main-tabs{scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.22) transparent}
+  .main-tabs::-webkit-scrollbar,.topic-tabs::-webkit-scrollbar,.service-tabs::-webkit-scrollbar{height:3px}
+  .main-tabs::-webkit-scrollbar-thumb,.topic-tabs::-webkit-scrollbar-thumb,.service-tabs::-webkit-scrollbar-thumb{background:rgba(255,255,255,.2);border-radius:8px}
+  .nav-tab{flex:0 0 auto}
+  .topic-tab:focus-visible,.exp-tab:focus-visible,.service-tab:focus-visible{outline-offset:-2px}
+}
