@@ -183,3 +183,123 @@ body {
     font-size: 11px;
   }
 }
+/* Desktop typography — second readability adjustment */
+@media (min-width: 681px) {
+
+  .nav-tab {
+    font-size: 15px;
+  }
+
+  .ticker-track span {
+    font-size: 14px;
+    letter-spacing: 1.6px;
+  }
+
+  .hero-overline {
+    font-size: 13px;
+  }
+
+  .hero-title {
+    font-size: 17px;
+  }
+
+  .hero-lead {
+    font-size: 17px;
+  }
+
+  .home-note p,
+  .view-heading > p {
+    font-size: 16px;
+  }
+
+  .experience-content p {
+    font-size: 15px;
+  }
+
+  .capability-list li {
+    font-size: 14px;
+  }
+
+  .service-tab {
+    font-size: 13px;
+  }
+
+  .service-content .service-intro {
+    font-size: 15px;
+  }
+
+  .service-column li {
+    font-size: 14px;
+  }
+
+  .service-column h4 {
+    font-size: 13px;
+  }
+
+  .flow-steps span {
+    font-size: 13px;
+  }
+
+  .delivery-flow p {
+    font-size: 14px;
+  }
+
+  .client-ideas strong {
+    font-size: 13px;
+  }
+
+  .client-ideas p {
+    font-size: 15px;
+  }
+
+  .exp-tab {
+    font-size: 11px;
+  }
+
+  .topic-tab {
+    font-size: 13px;
+  }
+
+  .topic-detail p {
+    font-size: 12px;
+  }
+}
+
+/* Small additional increase on mobile */
+@media (max-width: 680px) {
+
+  .nav-tab {
+    font-size: 12px;
+  }
+
+  .hero-title {
+    font-size: 15px;
+  }
+
+  .hero-lead {
+    font-size: 15px;
+  }
+
+  .ticker-track span {
+    font-size: 12px;
+  }
+
+  .capability-list li,
+  .service-column li {
+    font-size: 14px;
+  }
+
+  .service-content .service-intro {
+    font-size: 14px;
+  }
+
+  .flow-steps span {
+    font-size: 12px;
+  }
+
+  .delivery-flow p,
+  .client-ideas p {
+    font-size: 13px;
+  }
+}
+
