@@ -69,3 +69,10 @@ html[dir=rtl] .welcome-drop{animation-name:welcomeCompact;direction:ltr}
 .visual-frame .visual-caption{bottom:0;background:linear-gradient(transparent,#08090de8);padding-top:28px;padding-bottom:14px}
 .contact-profile-photo{display:block;width:min(100%,420px);height:260px;object-fit:cover;object-position:center 35%;margin:0 0 28px;border:1px solid var(--line);border-radius:3px;filter:saturate(.9)}
 @media(max-width:680px){.hero-profile-photo{min-height:0;height:260px;object-position:center 34%}.contact-profile-photo{width:100%;height:230px;margin-bottom:22px}}
+
+
+/* Desktop photo framing: show the complete original photographs without cropping. */
+@media(min-width:681px){
+ .hero-profile-photo{width:100%;height:100%;min-height:0;object-fit:contain;object-position:center;background:#08090d}
+ .contact-profile-photo{width:min(100%,520px);height:auto;max-height:520px;object-fit:contain;object-position:center;background:#08090d}
+}
