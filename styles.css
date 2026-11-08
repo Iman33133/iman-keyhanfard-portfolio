@@ -302,4 +302,41 @@ body {
     font-size: 13px;
   }
 }
+/* Browse by Subject — desktop readability fix */
+@media (min-width: 681px) {
+
+  /* BROWSE BY SUBJECT */
+  .work-aside .micro-label {
+    font-size: 15px !important;
+    letter-spacing: 1.8px;
+  }
+
+  /* Subject names */
+  .topic-tab {
+    font-size: 15px !important;
+    line-height: 1.6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  /* Numbers beside subject names */
+  .topic-tab .tab-count {
+    font-size: 14px !important;
+    font-weight: 700;
+  }
+
+  /* PUBLIC LINKEDIN POSTS / ORIGINAL SOURCES */
+  .work-stage-top {
+    font-size: 13px !important;
+    letter-spacing: 1.5px;
+    line-height: 1.8;
+  }
+
+  .work-aside-foot {
+    font-size: 11px !important;
+    line-height: 2.2;
+    letter-spacing: 1.5px;
+  }
+}
+
 
