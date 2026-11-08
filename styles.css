@@ -338,5 +338,18 @@ body {
     letter-spacing: 1.5px;
   }
 }
+/* Media topic tags — desktop readability */
+@media (min-width: 681px) {
+
+  .story-tags span,
+  .topic-detail .detail-tags {
+    font-size: 12px !important;
+    line-height: 1.7;
+    letter-spacing: 0.6px;
+    padding: 6px 10px;
+  }
+
+}
+
 
 
