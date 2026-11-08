@@ -99,7 +99,10 @@
     ,{id:"unDiplomacy",en:"United Nations & International Diplomacy",fa:"سازمان ملل و دیپلماسی بین‌المللی",color:"#78a9c7",items:posts.conflict.filter(p=>p[4].some(t=>/United Nations/i.test(t)))}
     ,{id:"detainedPilots",en:"Detained Personnel & Humanitarian Law",fa:"بازداشت‌شدگان و حقوق بشردوستانه",color:"#b88f9b",items:posts.detainedPilots}
   ];
-  const root=document.getElementById("view-work");if(!root)return;
+  // Exclude empty filters so every visible category has at least one story.
+  const usableGroups=groups.filter(g=>Array.isArray(g.items)&&g.items.length>0);
+  groups.splice(0,groups.length,...usableGroups);
+  const root=document.getElementById("view-work");if(!root||!groups.length)return;
   const tabs=document.getElementById("topicTabs"),deck=document.getElementById("topicDeck"),counter=document.getElementById("topicCount");
   const eyebrow=document.getElementById("topicEyebrow"),prev=document.getElementById("topicPrev"),next=document.getElementById("topicNext"),progress=document.getElementById("storyProgress");
   let groupIndex=0,itemIndex=0,expanded=false,progressValue=0,lastTick=Date.now();
@@ -127,7 +130,8 @@
     progress.style.width=progressValue+"%";
   }
   function step(delta){
-    const n=currentGroup().items.length;itemIndex=(itemIndex+delta+n)%n;expanded=false;progressValue=0;lastTick=Date.now();render();
+    const n=currentGroup()?.items?.length||0;if(!n)return;
+    itemIndex=(itemIndex+delta+n)%n;expanded=false;progressValue=0;lastTick=Date.now();render();
   }
   prev.addEventListener("click",()=>step(-1));next.addEventListener("click",()=>step(1));
   let pointerStart=null,pointerStartY=null,ignoreClick=false;
@@ -139,11 +143,14 @@
   });
   deck.addEventListener("pointercancel",()=>{pointerStart=null;});
   function tick(){
+    // Do not advance a hidden carousel or interrupt a story while its details are open.
+    if(!root.classList.contains("active")||expanded||document.hidden){lastTick=Date.now();return;}
     const now=Date.now(),elapsed=now-lastTick;progressValue=Math.min(100,(elapsed/duration)*100);progress.style.width=progressValue+"%";
     if(elapsed>=duration)step(1);
   }
-  function start(){if(timer)clearInterval(timer);lastTick=Date.now();timer=setInterval(tick,60);}
-  document.addEventListener("portfolio-language-change",()=>{render();});
-  document.addEventListener("portfolio-view-open",()=>{render();});
+  function start(){if(timer)clearInterval(timer);lastTick=Date.now();timer=setInterval(tick,120);}
+  document.addEventListener("visibilitychange",()=>{lastTick=Date.now();});
+  document.addEventListener("portfolio-language-change",()=>{render();lastTick=Date.now();});
+  document.addEventListener("portfolio-view-open",()=>{render();lastTick=Date.now();});
   render();start();
 })();
