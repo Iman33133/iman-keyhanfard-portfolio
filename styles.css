@@ -59,3 +59,13 @@ html[dir=rtl] .welcome-drop{animation-name:welcomeCompact;direction:ltr}
   .nav-tab{flex:0 0 auto}
   .topic-tab:focus-visible,.exp-tab:focus-visible,.service-tab:focus-visible{outline-offset:-2px}
 }
+
+
+/* Profile photography */
+.hero-profile-photo{display:block;width:100%;height:100%;min-height:340px;object-fit:cover;object-position:center 38%;filter:saturate(.88);border:1px solid rgba(255,255,255,.12)}
+.visual-frame{overflow:hidden}
+.visual-frame .visual-top,.visual-frame .visual-caption{position:absolute;left:0;right:0;z-index:2;padding-left:18px;padding-right:18px;text-shadow:0 1px 8px #000}
+.visual-frame .visual-top{top:0;background:linear-gradient(#08090dcc,transparent);padding-top:14px;padding-bottom:28px}
+.visual-frame .visual-caption{bottom:0;background:linear-gradient(transparent,#08090de8);padding-top:28px;padding-bottom:14px}
+.contact-profile-photo{display:block;width:min(100%,420px);height:260px;object-fit:cover;object-position:center 35%;margin:0 0 28px;border:1px solid var(--line);border-radius:3px;filter:saturate(.9)}
+@media(max-width:680px){.hero-profile-photo{min-height:0;height:260px;object-position:center 34%}.contact-profile-photo{width:100%;height:230px;margin-bottom:22px}}
