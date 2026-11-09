@@ -1,0 +1,19 @@
+{
+  "title_en": "Audio & voice",
+  "title_fa": "صدا و گویندگی",
+  "slug": "audio",
+  "intro_en": "English narration and voice-over support for news, documentary and digital media.",
+  "intro_fa": "خدمات نریشن و ویس‌اور انگلیسی برای خبر، مستند و رسانه‌های دیجیتال.",
+  "details_en": [
+    "English narration and voice-over",
+    "Script preparation and adaptation for spoken delivery",
+    "Audio coordination for media packages"
+  ],
+  "details_fa": [
+    "نریشن و ویس‌اور انگلیسی",
+    "آماده‌سازی و انطباق متن برای اجرا",
+    "هماهنگی صوت برای بسته‌های رسانه‌ای"
+  ],
+  "order": 3,
+  "visible": true
+}
