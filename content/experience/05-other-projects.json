@@ -1,0 +1,23 @@
+{
+  "organization_en": "Documentary, Television & Institutional Projects",
+  "organization_fa": "پروژه‌های مستند، تلویزیونی و نهادی",
+  "role_en": "Research · Production Coordination · Operations",
+  "role_fa": "پژوهش · هماهنگی تولید · عملیات",
+  "period": "Selected additional experience",
+  "description_en": "Additional project work includes documentary and television coordination, institutional and conference media support, and inventory and procurement coordination at Laban Dairy using an ERP system.",
+  "description_fa": "سوابق تکمیلی شامل هماهنگی پروژه‌های مستند و تلویزیونی، پشتیبانی رسانه‌ای رویدادها و همایش‌ها و هماهنگی موجودی و تدارکات در شرکت لبنیات لبن با استفاده از سامانه ERP است.",
+  "capabilities_en": [
+    "Documentary research and production coordination",
+    "Television project coordination",
+    "Conference and institutional event support",
+    "Inventory and procurement coordination using ERP"
+  ],
+  "capabilities_fa": [
+    "پژوهش و هماهنگی تولید مستند",
+    "هماهنگی پروژه‌های تلویزیونی",
+    "پشتیبانی رسانه‌ای همایش‌ها و رویدادهای نهادی",
+    "هماهنگی موجودی و تدارکات با ERP"
+  ],
+  "order": 5,
+  "visible": true
+}
