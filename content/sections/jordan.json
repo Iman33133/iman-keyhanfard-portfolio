@@ -1,0 +1,11 @@
+{
+  "name": "jordan",
+  "slug": "jordan",
+  "label_en": "Jordan & US Military Presence",
+  "label_fa": "اردن و حضور نظامی آمریکا",
+  "description_en": "",
+  "description_fa": "",
+  "order": 14,
+  "visible": true,
+  "layout": "portfolio-grid"
+}

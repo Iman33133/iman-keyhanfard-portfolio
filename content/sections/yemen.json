@@ -1,0 +1,11 @@
+{
+  "name": "yemen",
+  "slug": "yemen",
+  "label_en": "Yemen & Regional Armed Groups",
+  "label_fa": "یمن و گروه‌های مسلح منطقه‌ای",
+  "description_en": "",
+  "description_fa": "",
+  "order": 19,
+  "visible": true,
+  "layout": "portfolio-grid"
+}

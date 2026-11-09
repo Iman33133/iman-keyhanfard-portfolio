@@ -1,0 +1,34 @@
+{
+  "title_en": "Field production & video packages",
+  "title_fa": "تولید میدانی و پکیج‌های ویدئویی",
+  "slug": "field",
+  "intro_en": "A coordinated path from story idea to usable footage and a finished news or feature package.",
+  "intro_fa": "مسیر هماهنگ از ایده سوژه تا تصویربرداری قابل استفاده و تحویل بسته خبری یا گزارشی.",
+  "details_en": [
+    "ON-LOCATION PRODUCTION: Field producer and local fixer coordination",
+    "ON-LOCATION PRODUCTION: Camera crew and equipment coordination",
+    "ON-LOCATION PRODUCTION: In-person interviews with officials, experts and members of the public",
+    "ON-LOCATION PRODUCTION: Vox pops, event coverage and press conference support",
+    "ON-LOCATION PRODUCTION: Location planning, access and production schedules",
+    "POST-PRODUCTION & DELIVERY: Video editing and story assembly",
+    "POST-PRODUCTION & DELIVERY: Footage logging, selects and shot lists",
+    "POST-PRODUCTION & DELIVERY: Subtitles, captions and on-screen text",
+    "POST-PRODUCTION & DELIVERY: News packages, explainers and social cut-downs",
+    "POST-PRODUCTION & DELIVERY: Review rounds and delivery in agreed formats"
+  ],
+  "details_fa": [
+    "تولید در محل: تهیه‌کنندگی میدانی و هماهنگی عوامل محلی",
+    "تولید در محل: هماهنگی گروه تصویربرداری و تجهیزات",
+    "تولید در محل: مصاحبه حضوری با مقامات، کارشناسان و مردم",
+    "تولید در محل: مصاحبه‌های مردمی، پوشش رویداد و نشست خبری",
+    "تولید در محل: برنامه‌ریزی لوکیشن، دسترسی و زمان‌بندی تولید",
+    "پس‌تولید و تحویل: تدوین و ساختاردهی روایت تصویری",
+    "پس‌تولید و تحویل: بازبینی و دسته‌بندی تصاویر و تهیه فهرست نماها",
+    "پس‌تولید و تحویل: زیرنویس، کپشن و نوشته‌های روی تصویر",
+    "پس‌تولید و تحویل: پکیج خبری، ویدئوی توضیحی و نسخه‌های شبکه اجتماعی",
+    "پس‌تولید و تحویل: بازبینی نهایی و تحویل در قالب توافق‌شده"
+  ],
+  "icon": "field",
+  "order": 1,
+  "visible": true
+}

@@ -1,0 +1,11 @@
+{
+  "name": "usPolitics",
+  "slug": "usPolitics",
+  "label_en": "US Politics & Midterm Debate",
+  "label_fa": "سیاست آمریکا و انتخابات میان‌دوره‌ای",
+  "description_en": "",
+  "description_fa": "",
+  "order": 13,
+  "visible": true,
+  "layout": "portfolio-grid"
+}

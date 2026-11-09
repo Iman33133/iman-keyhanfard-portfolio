@@ -1,0 +1,11 @@
+{
+  "name": "home",
+  "slug": "home",
+  "label_en": "Home",
+  "label_fa": "خانه",
+  "description_en": "",
+  "description_fa": "",
+  "order": 1,
+  "visible": true,
+  "layout": "mixed"
+}

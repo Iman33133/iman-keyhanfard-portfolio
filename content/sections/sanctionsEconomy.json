@@ -1,0 +1,11 @@
+{
+  "name": "sanctionsEconomy",
+  "slug": "sanctionsEconomy",
+  "label_en": "Sanctions & Economic Pressure",
+  "label_fa": "تحریم‌ها و فشار اقتصادی",
+  "description_en": "",
+  "description_fa": "",
+  "order": 20,
+  "visible": true,
+  "layout": "portfolio-grid"
+}

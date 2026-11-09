@@ -1,0 +1,11 @@
+{
+  "name": "conflict",
+  "slug": "conflict",
+  "label_en": "War & Regional Security",
+  "label_fa": "جنگ و امنیت منطقه‌ای",
+  "description_en": "",
+  "description_fa": "",
+  "order": 7,
+  "visible": true,
+  "layout": "portfolio-grid"
+}

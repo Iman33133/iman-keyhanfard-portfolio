@@ -1,0 +1,34 @@
+{
+  "title_en": "Editorial research & newsroom support",
+  "title_fa": "پژوهش تحریریه‌ای و پشتیبانی اتاق خبر",
+  "slug": "editorial",
+  "intro_en": "Context-rich research and clear editorial materials that help a team move quickly without losing accuracy.",
+  "intro_fa": "پژوهش زمینه‌مند و محتوای تحریریه‌ای روشن که به تیم کمک می‌کند بدون قربانی‌کردن دقت، سریع‌تر پیش برود.",
+  "details_en": [
+    "RESEARCH & VERIFICATION: Political and geopolitical background research",
+    "RESEARCH & VERIFICATION: Timeline building and context notes",
+    "RESEARCH & VERIFICATION: Source mapping and cross-checking of claims",
+    "RESEARCH & VERIFICATION: Official statements, documents and interview research",
+    "RESEARCH & VERIFICATION: Expert and guest identification",
+    "EDITORIAL MATERIALS: Story pitches, briefs and backgrounders",
+    "EDITORIAL MATERIALS: Interview questions and presenter scripts",
+    "EDITORIAL MATERIALS: News rundowns, headlines and copy editing",
+    "EDITORIAL MATERIALS: Explainers and structured issue summaries",
+    "EDITORIAL MATERIALS: Editorial coordination across time zones and teams"
+  ],
+  "details_fa": [
+    "پژوهش و راستی‌آزمایی: پژوهش سیاسی و ژئوپلیتیک",
+    "پژوهش و راستی‌آزمایی: تنظیم خط زمانی و یادداشت‌های زمینه‌ای",
+    "پژوهش و راستی‌آزمایی: شناسایی منابع و تطبیق متقابل ادعاها",
+    "پژوهش و راستی‌آزمایی: بررسی مواضع رسمی، اسناد و سوابق مصاحبه",
+    "پژوهش و راستی‌آزمایی: شناسایی کارشناس و مهمان",
+    "خروجی‌های تحریریه‌ای: پیشنهاد سوژه، خلاصه و گزارش پیش‌زمینه",
+    "خروجی‌های تحریریه‌ای: تنظیم پرسش مصاحبه و متن مجری",
+    "خروجی‌های تحریریه‌ای: تنظیم راندون خبر، تیتر و ویرایش متن",
+    "خروجی‌های تحریریه‌ای: تولید محتوای توضیحی و جمع‌بندی ساختارمند",
+    "خروجی‌های تحریریه‌ای: هماهنگی تحریریه میان تیم‌ها و مناطق زمانی"
+  ],
+  "icon": "editorial",
+  "order": 2,
+  "visible": true
+}

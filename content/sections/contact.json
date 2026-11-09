@@ -1,0 +1,11 @@
+{
+  "name": "contact",
+  "slug": "contact",
+  "label_en": "Contact",
+  "label_fa": "تماس",
+  "description_en": "",
+  "description_fa": "",
+  "order": 5,
+  "visible": true,
+  "layout": "mixed"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "judiciaryIndia",
+  "slug": "judiciaryIndia",
+  "label_en": "Judiciary, India & Interfaith Outreach",
+  "label_fa": "قوه قضائیه، هند و گفت‌وگوی ادیان",
+  "description_en": "",
+  "description_fa": "",
+  "order": 17,
+  "visible": true,
+  "layout": "portfolio-grid"
+}

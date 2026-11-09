@@ -1,0 +1,34 @@
+{
+  "title_en": "Studio, locations & promotional content",
+  "title_fa": "استودیو، لوکیشن و محتوای تبلیغاتی",
+  "slug": "studio",
+  "intro_en": "Production planning for modern promotional videos, interviews and event content, with access to suitable crews and recording spaces arranged to fit the brief.",
+  "intro_fa": "برنامه‌ریزی تولید تیزرهای مدرن، مصاحبه و محتوای رویدادی با امکان هماهنگی گروه تخصصی و فضای ضبط متناسب با سفارش.",
+  "details_en": [
+    "PRODUCTION OPTIONS: Studio and location sourcing / booking",
+    "PRODUCTION OPTIONS: Modern promo, teaser and advertising videos",
+    "PRODUCTION OPTIONS: Corporate, institutional and event films",
+    "PRODUCTION OPTIONS: Presenter-led explainers and interview formats",
+    "PRODUCTION OPTIONS: Crew, lighting, camera and sound coordination",
+    "PROJECT PACKAGES: Pre-production concept and treatment",
+    "PROJECT PACKAGES: Shooting plan, schedule and call sheets",
+    "PROJECT PACKAGES: On-camera interviews and testimonials",
+    "PROJECT PACKAGES: Editing, voice-over, sound and subtitles",
+    "PROJECT PACKAGES: Final versions for web, broadcast and social platforms"
+  ],
+  "details_fa": [
+    "گزینه‌های تولید: شناسایی و هماهنگی استودیو و لوکیشن ضبط",
+    "گزینه‌های تولید: ساخت تیزر و آگهی تبلیغاتی مدرن",
+    "گزینه‌های تولید: فیلم سازمانی، نهادی و رویدادی",
+    "گزینه‌های تولید: ویدئوی توضیحی با مجری و قالب‌های مصاحبه",
+    "گزینه‌های تولید: هماهنگی عوامل، نور، دوربین و صدا",
+    "پکیج‌های پروژه: ایده‌پردازی و طراحی پیش‌تولید",
+    "پکیج‌های پروژه: برنامه تصویربرداری، زمان‌بندی و برگه فراخوان",
+    "پکیج‌های پروژه: مصاحبه جلوی دوربین و ثبت تجربه مشتریان",
+    "پکیج‌های پروژه: تدوین، نریشن، صداگذاری و زیرنویس",
+    "پکیج‌های پروژه: نسخه نهایی برای وب، پخش تلویزیونی و شبکه‌های اجتماعی"
+  ],
+  "icon": "studio",
+  "order": 5,
+  "visible": true
+}

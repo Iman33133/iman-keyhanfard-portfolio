@@ -1,0 +1,34 @@
+{
+  "title_en": "Translation, transcription & localization",
+  "title_fa": "ترجمه، پیاده‌سازی و بومی‌سازی",
+  "slug": "language",
+  "intro_en": "Bilingual editorial work that preserves meaning, tone and context — not just the words.",
+  "intro_fa": "کار تحریریه‌ای دوزبانه با حفظ معنا، لحن و زمینه؛ نه صرفاً جابه‌جایی واژه‌ها.",
+  "details_en": [
+    "LANGUAGE SERVICES: Persian ↔ English translation",
+    "LANGUAGE SERVICES: News, interview and documentary transcription",
+    "LANGUAGE SERVICES: Subtitling and caption translation",
+    "LANGUAGE SERVICES: Proofreading and editorial polishing",
+    "LANGUAGE SERVICES: Localization of scripts and media copy",
+    "EDITORIAL QUALITY: Terminology consistency and name checks",
+    "EDITORIAL QUALITY: Speaker identification and timestamping",
+    "EDITORIAL QUALITY: Readable, publication-ready formatting",
+    "EDITORIAL QUALITY: Context notes for culturally specific references",
+    "EDITORIAL QUALITY: Confidential handling of client materials"
+  ],
+  "details_fa": [
+    "خدمات زبانی: ترجمه فارسی به انگلیسی و انگلیسی به فارسی",
+    "خدمات زبانی: پیاده‌سازی فایل صوتی خبر، مصاحبه و مستند",
+    "خدمات زبانی: ترجمه زیرنویس و کپشن",
+    "خدمات زبانی: بازخوانی، ویرایش و پرداخت تحریریه‌ای",
+    "خدمات زبانی: بومی‌سازی متن مجری و محتوای رسانه‌ای",
+    "کیفیت تحریریه‌ای: یکدستی اصطلاحات و بررسی اسامی",
+    "کیفیت تحریریه‌ای: تفکیک گویندگان و درج تایم‌کد",
+    "کیفیت تحریریه‌ای: قالب‌بندی خوانا و آماده انتشار",
+    "کیفیت تحریریه‌ای: یادداشت زمینه‌ای برای ارجاعات فرهنگی و تخصصی",
+    "کیفیت تحریریه‌ای: حفظ محرمانگی فایل‌ها و محتوای مشتری"
+  ],
+  "icon": "language",
+  "order": 4,
+  "visible": true
+}

@@ -1,0 +1,11 @@
+{
+  "name": "detainedPilots",
+  "slug": "detainedPilots",
+  "label_en": "Detained Personnel & Humanitarian Law",
+  "label_fa": "پرسنل بازداشت‌شده و حقوق بشردوستانه",
+  "description_en": "",
+  "description_fa": "",
+  "order": 22,
+  "visible": true,
+  "layout": "portfolio-grid"
+}

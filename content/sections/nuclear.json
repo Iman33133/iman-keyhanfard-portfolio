@@ -1,0 +1,11 @@
+{
+  "name": "nuclear",
+  "slug": "nuclear",
+  "label_en": "Nuclear Technology & IAEA",
+  "label_fa": "فناوری هسته‌ای و آژانس",
+  "description_en": "",
+  "description_fa": "",
+  "order": 11,
+  "visible": true,
+  "layout": "portfolio-grid"
+}

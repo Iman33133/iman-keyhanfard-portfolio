@@ -1,0 +1,11 @@
+{
+  "name": "media",
+  "slug": "media",
+  "label_en": "Media Narratives & Accountability",
+  "label_fa": "روایت‌های رسانه‌ای و پاسخگویی",
+  "description_en": "",
+  "description_fa": "",
+  "order": 15,
+  "visible": true,
+  "layout": "portfolio-grid"
+}

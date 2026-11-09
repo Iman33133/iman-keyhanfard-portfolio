@@ -1,0 +1,11 @@
+{
+  "name": "drones",
+  "slug": "drones",
+  "label_en": "Drones, Missiles & Military Footage",
+  "label_fa": "پهپادها، موشک‌ها و تصاویر نظامی",
+  "description_en": "",
+  "description_fa": "",
+  "order": 18,
+  "visible": true,
+  "layout": "portfolio-grid"
+}

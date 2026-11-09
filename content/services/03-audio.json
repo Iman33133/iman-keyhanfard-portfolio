@@ -1,0 +1,34 @@
+{
+  "title_en": "Audio, narration & dubbing",
+  "title_fa": "صدا، نریشن و دوبله",
+  "slug": "audio",
+  "intro_en": "Voice and sound services coordinated as part of a complete production or delivered as a standalone assignment.",
+  "intro_fa": "خدمات صدا و گویندگی در قالب یک پروژه کامل تولید یا به‌صورت سفارش مستقل هماهنگ و اجرا می‌شود.",
+  "details_en": [
+    "VOICE SERVICES: English and Persian narration / voice-over",
+    "VOICE SERVICES: Script adaptation for spoken delivery",
+    "VOICE SERVICES: Voice casting and recording coordination",
+    "VOICE SERVICES: Dubbing and dialogue replacement coordination",
+    "VOICE SERVICES: Remote or studio recording arrangements",
+    "SOUND & FINISHING: Audio cleanup and sound balancing",
+    "SOUND & FINISHING: Sound design and basic mix coordination",
+    "SOUND & FINISHING: Syncing voice tracks with picture",
+    "SOUND & FINISHING: Subtitle and transcript alignment",
+    "SOUND & FINISHING: Quality checks before delivery"
+  ],
+  "details_fa": [
+    "خدمات گویندگی: نریشن و ویس‌اور فارسی و انگلیسی",
+    "خدمات گویندگی: بازنویسی متن برای اجرای گفتاری",
+    "خدمات گویندگی: انتخاب صدا و هماهنگی ضبط",
+    "خدمات گویندگی: هماهنگی دوبله و جایگزینی دیالوگ",
+    "خدمات گویندگی: هماهنگی ضبط از راه دور یا در استودیو",
+    "صدا و پرداخت نهایی: پاک‌سازی صدا و متعادل‌سازی سطح صوت",
+    "صدا و پرداخت نهایی: طراحی صدا و هماهنگی میکس پایه",
+    "صدا و پرداخت نهایی: هماهنگ‌سازی صدای گوینده با تصویر",
+    "صدا و پرداخت نهایی: تطبیق زیرنویس و متن پیاده‌شده",
+    "صدا و پرداخت نهایی: کنترل کیفیت پیش از تحویل"
+  ],
+  "icon": "audio",
+  "order": 3,
+  "visible": true
+}

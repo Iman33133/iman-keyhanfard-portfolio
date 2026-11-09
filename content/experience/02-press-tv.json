@@ -1,0 +1,27 @@
+{
+  "organization_en": "Press TV — English News Network",
+  "organization_fa": "شبکه خبری انگلیسی‌زبان پرس‌تی‌وی",
+  "role_en": "Newsroom Coordination · News Editing Support · Narration & Voice-over",
+  "role_fa": "هماهنگی تحریریه · پشتیبانی سردبیری خبر · نریشن و ویس‌اور",
+  "period": "2007 — 2016",
+  "description_en": "At Press TV, Iman built a foundation in the daily operation of an English-language international newsroom. Responsibilities included news assistance, coordination across newsroom workflows, crawl editing, guest research and booking support, narration and voice-over, and preparation and handling of news content under broadcast deadlines. This experience supports newsroom overflow, guest and expert research, script preparation, English narration and editorial coordination.",
+  "description_fa": "ایمان در پرس‌تی‌وی پایه حرفه‌ای خود را در عملیات روزانه یک تحریریه بین‌المللی انگلیسی‌زبان شکل داد. مسئولیت‌های او شامل دستیاری خبر، هماهنگی جریان کار تحریریه، ویرایش زیرنویس‌های خبری، پژوهش و پشتیبانی دعوت از مهمانان، نریشن و ویس‌اور و آماده‌سازی و پیگیری محتوای خبری در ضرب‌الاجل‌های پخش بود. این تجربه برای پشتیبانی تحریریه، پژوهش مهمان و کارشناس، آماده‌سازی متن، نریشن انگلیسی و هماهنگی سردبیری کاربرد دارد.",
+  "capabilities_en": [
+    "Newsroom workflow and rundown support",
+    "Guest research and interview preparation",
+    "Crawl and on-screen text editing",
+    "Narration and English voice-over",
+    "News monitoring and editorial coordination",
+    "Deadline-driven broadcast support"
+  ],
+  "capabilities_fa": [
+    "پشتیبانی روند کار تحریریه و ترتیب خبرها",
+    "پژوهش مهمان و آماده‌سازی مصاحبه",
+    "ویرایش زیرنویس و متن‌های روی تصویر",
+    "نریشن و ویس‌اور انگلیسی",
+    "رصد خبر و هماهنگی تحریریه‌ای",
+    "پشتیبانی پخش در شرایط ضرب‌الاجل"
+  ],
+  "order": 2,
+  "visible": true
+}

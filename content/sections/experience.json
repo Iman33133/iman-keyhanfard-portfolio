@@ -1,0 +1,11 @@
+{
+  "name": "experience",
+  "slug": "experience",
+  "label_en": "Experience",
+  "label_fa": "سوابق حرفه‌ای",
+  "description_en": "",
+  "description_fa": "",
+  "order": 3,
+  "visible": true,
+  "layout": "article-list"
+}

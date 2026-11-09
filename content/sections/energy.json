@@ -1,0 +1,11 @@
+{
+  "name": "energy",
+  "slug": "energy",
+  "label_en": "Energy & Oil Markets",
+  "label_fa": "انرژی و بازار نفت",
+  "description_en": "",
+  "description_fa": "",
+  "order": 12,
+  "visible": true,
+  "layout": "portfolio-grid"
+}

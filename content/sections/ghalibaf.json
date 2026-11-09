@@ -1,0 +1,11 @@
+{
+  "name": "ghalibaf",
+  "slug": "ghalibaf",
+  "label_en": "Mohammad Bagher Ghalibaf",
+  "label_fa": "محمدباقر قالیباف",
+  "description_en": "",
+  "description_fa": "",
+  "order": 10,
+  "visible": true,
+  "layout": "portfolio-grid"
+}

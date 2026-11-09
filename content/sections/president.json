@@ -1,0 +1,11 @@
+{
+  "name": "president",
+  "slug": "president",
+  "label_en": "President & National Speeches",
+  "label_fa": "رئیس‌جمهور و سخنرانی‌های ملی",
+  "description_en": "",
+  "description_fa": "",
+  "order": 16,
+  "visible": true,
+  "layout": "portfolio-grid"
+}

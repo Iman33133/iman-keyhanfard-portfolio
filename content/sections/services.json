@@ -1,0 +1,11 @@
+{
+  "name": "services",
+  "slug": "services",
+  "label_en": "Services",
+  "label_fa": "خدمات",
+  "description_en": "",
+  "description_fa": "",
+  "order": 4,
+  "visible": true,
+  "layout": "article-list"
+}

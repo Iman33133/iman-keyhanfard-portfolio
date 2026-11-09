@@ -1,0 +1,11 @@
+{
+  "name": "unDiplomacy",
+  "slug": "unDiplomacy",
+  "label_en": "United Nations & International Diplomacy",
+  "label_fa": "سازمان ملل و دیپلماسی بین‌المللی",
+  "description_en": "",
+  "description_fa": "",
+  "order": 21,
+  "visible": true,
+  "layout": "portfolio-grid"
+}

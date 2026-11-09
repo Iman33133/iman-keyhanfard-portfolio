@@ -1,0 +1,11 @@
+{
+  "name": "diplomacy",
+  "slug": "diplomacy",
+  "label_en": "Diplomacy & Officials",
+  "label_fa": "دیپلماسی و مقام‌ها",
+  "description_en": "",
+  "description_fa": "",
+  "order": 8,
+  "visible": true,
+  "layout": "portfolio-grid"
+}
