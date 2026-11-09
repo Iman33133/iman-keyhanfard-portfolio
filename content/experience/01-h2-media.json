@@ -1,0 +1,25 @@
+{
+  "organization_en": "H2 Media / RT · Ruptly · Viory",
+  "organization_fa": "H2 Media / RT · Ruptly · Viory",
+  "role_en": "Senior News Producer · Field Production & Editorial Coordination",
+  "role_fa": "تهیه‌کننده ارشد خبر · تولید میدانی و هماهنگی تحریریه",
+  "period": "Jan 2025 — Present",
+  "description_en": "Supports international news coverage and video production for RT, Ruptly and Viory from H2 Media’s Tehran operation. Work includes story development, crew and access coordination, interview planning, translation, shot lists, background notes and delivery of news and feature packages.",
+  "description_fa": "پشتیبانی از پوشش اخبار بین‌المللی و تولید ویدئو برای RT، Ruptly و Viory از دفتر تهران H2 Media؛ شامل توسعه سوژه، هماهنگی گروه و دسترسی، برنامه‌ریزی مصاحبه، ترجمه، فهرست نماها، یادداشت‌های پیش‌زمینه و تحویل بسته‌های خبری و گزارشی.",
+  "capabilities_en": [
+    "Field assignment planning and coordination",
+    "Interview research, booking and on-location production",
+    "Persian–English translation and editorial adaptation",
+    "Shot lists, background briefs and production notes",
+    "Coordination between newsroom, field crew and editors"
+  ],
+  "capabilities_fa": [
+    "برنامه‌ریزی و هماهنگی مأموریت‌های میدانی",
+    "پژوهش و هماهنگی مصاحبه و تولید در محل",
+    "ترجمه فارسی–انگلیسی و انطباق تحریریه‌ای",
+    "تهیه فهرست نماها و یادداشت‌های تولید",
+    "هماهنگی میان تحریریه، گروه میدانی و تدوینگر"
+  ],
+  "order": 1,
+  "visible": true
+}
