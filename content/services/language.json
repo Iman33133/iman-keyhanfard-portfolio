@@ -1,0 +1,21 @@
+{
+  "title_en": "Persian–English language services",
+  "title_fa": "خدمات زبانی فارسی–انگلیسی",
+  "slug": "language",
+  "intro_en": "Professional translation and editorial adaptation between Persian and English.",
+  "intro_fa": "ترجمه حرفه‌ای و انطباق تحریریه‌ای میان فارسی و انگلیسی.",
+  "details_en": [
+    "Persian-to-English and English-to-Persian translation",
+    "News and interview transcription",
+    "Subtitling and editorial adaptation",
+    "Terminology and background checks"
+  ],
+  "details_fa": [
+    "ترجمه فارسی به انگلیسی و انگلیسی به فارسی",
+    "پیاده‌سازی متن خبر و مصاحبه",
+    "زیرنویس و انطباق تحریریه‌ای",
+    "بررسی اصطلاحات و اطلاعات زمینه‌ای"
+  ],
+  "order": 4,
+  "visible": true
+}

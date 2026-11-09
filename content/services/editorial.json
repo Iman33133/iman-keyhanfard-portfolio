@@ -1,0 +1,21 @@
+{
+  "title_en": "Editorial & research",
+  "title_fa": "تحریریه و پژوهش",
+  "slug": "editorial",
+  "intro_en": "Research-led editorial support for international newsrooms and media projects.",
+  "intro_fa": "پشتیبانی تحریریه‌ای مبتنی بر پژوهش برای تحریریه‌های بین‌المللی و پروژه‌های رسانه‌ای.",
+  "details_en": [
+    "Political and regional background research",
+    "Fact-checking and source mapping",
+    "Story development and interview briefs",
+    "English-language scripts, summaries and explainers"
+  ],
+  "details_fa": [
+    "پژوهش سیاسی و منطقه‌ای",
+    "راستی‌آزمایی و شناسایی منابع",
+    "توسعه سوژه و آماده‌سازی محورهای مصاحبه",
+    "نگارش متن، خلاصه و توضیح‌نامه انگلیسی"
+  ],
+  "order": 2,
+  "visible": true
+}

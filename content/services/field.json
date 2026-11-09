@@ -1,0 +1,23 @@
+{
+  "title_en": "Field production & video packages",
+  "title_fa": "تولید میدانی و بسته‌های ویدئویی",
+  "slug": "field",
+  "intro_en": "Coordinated support from story idea to usable footage and a finished news or feature package.",
+  "intro_fa": "پشتیبانی هماهنگ از ایده سوژه تا تصویربرداری و تحویل بسته خبری یا گزارشی.",
+  "details_en": [
+    "Field producer and local crew coordination",
+    "Interview research, booking and on-location production",
+    "Vox pops, event coverage and press conference support",
+    "Location planning, access and production schedules",
+    "Shot lists, background notes and editorial handover"
+  ],
+  "details_fa": [
+    "هماهنگی تهیه‌کننده میدانی و گروه محلی",
+    "پژوهش و تنظیم مصاحبه و تولید در محل",
+    "گرفتن نظر مردم، پوشش رویداد و نشست خبری",
+    "برنامه‌ریزی لوکیشن، دسترسی و زمان‌بندی تولید",
+    "فهرست نماها، یادداشت پیش‌زمینه و تحویل تحریریه‌ای"
+  ],
+  "order": 1,
+  "visible": true
+}

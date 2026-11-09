@@ -1,0 +1,21 @@
+{
+  "organization_en": "Borna News Agency / Sports Ministry — International Desk",
+  "organization_fa": "خبرگزاری برنا / وزارت ورزش — گروه بین‌الملل",
+  "role_en": "International News · Sports Ministry International Desk",
+  "role_fa": "اخبار بین‌الملل · میز بین‌الملل وزارت ورزش",
+  "period": "2014 — 2015",
+  "description_en": "Worked on international-desk content and coverage connected with the sports beat.",
+  "description_fa": "فعالیت در محتوای گروه بین‌الملل و پوشش سوژه‌های مرتبط با حوزه ورزش.",
+  "capabilities_en": [
+    "International news desk support",
+    "International sports news and coverage",
+    "English-language research and editorial preparation"
+  ],
+  "capabilities_fa": [
+    "پشتیبانی تحریریه گروه بین‌الملل",
+    "پوشش اخبار و سوژه‌های بین‌المللی ورزش",
+    "پژوهش و آماده‌سازی محتوای انگلیسی"
+  ],
+  "order": 3,
+  "visible": true
+}

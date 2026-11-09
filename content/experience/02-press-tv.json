@@ -1,0 +1,25 @@
+{
+  "organization_en": "Press TV — English News Network",
+  "organization_fa": "شبکه خبری انگلیسی‌زبان پرس‌تی‌وی",
+  "role_en": "Newsroom Coordination · News Editing Support · Narration & Voice-over",
+  "role_fa": "هماهنگی تحریریه · پشتیبانی سردبیری خبر · نریشن و ویس‌اور",
+  "period": "2007 — 2016",
+  "description_en": "Worked across daily English-language international newsroom operations, including news assistance, newsroom coordination, crawl editing, guest research and booking support, narration and voice-over, and preparation of news content under broadcast deadlines.",
+  "description_fa": "فعالیت در عملیات روزانه تحریریه بین‌المللی انگلیسی‌زبان؛ شامل دستیاری خبر، هماهنگی تحریریه، ویرایش زیرنویس‌های خبری، پژوهش و پشتیبانی دعوت از مهمانان، نریشن و ویس‌اور و آماده‌سازی محتوای خبری در ضرب‌الاجل پخش.",
+  "capabilities_en": [
+    "Newsroom workflow and rundown support",
+    "Guest research and interview preparation",
+    "Crawl and on-screen text editing",
+    "Narration and English voice-over",
+    "News monitoring and editorial coordination"
+  ],
+  "capabilities_fa": [
+    "پشتیبانی روند کار تحریریه و ترتیب خبرها",
+    "پژوهش مهمان و آماده‌سازی مصاحبه",
+    "ویرایش زیرنویس و متن روی تصویر",
+    "نریشن و ویس‌اور انگلیسی",
+    "رصد خبر و هماهنگی تحریریه‌ای"
+  ],
+  "order": 2,
+  "visible": true
+}

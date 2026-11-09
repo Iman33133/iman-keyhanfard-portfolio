@@ -1,0 +1,21 @@
+{
+  "title_en": "Studio, campaigns & media coordination",
+  "title_fa": "استودیو، کمپین و هماهنگی رسانه‌ای",
+  "slug": "studio",
+  "intro_en": "Planning and coordination for studio productions, institutional media and communication projects.",
+  "intro_fa": "برنامه‌ریزی و هماهنگی تولیدات استودیویی، رسانه‌های نهادی و پروژه‌های ارتباطی.",
+  "details_en": [
+    "Studio and remote production coordination",
+    "Media project planning and delivery tracking",
+    "Institutional and event media support",
+    "Coordination across editorial, production and delivery teams"
+  ],
+  "details_fa": [
+    "هماهنگی تولید استودیویی و از راه دور",
+    "برنامه‌ریزی پروژه رسانه‌ای و پیگیری تحویل",
+    "پشتیبانی رسانه‌ای رویدادها و نهادها",
+    "هماهنگی میان تحریریه، تولید و تیم تحویل"
+  ],
+  "order": 5,
+  "visible": true
+}
