@@ -494,3 +494,6 @@ body {
   .contact-card .micro-label{font-size:10px}
   .contact-card strong{font-size:15px}
 }
+
+/* Keep a clear visual word gap between the two hero-name lines */
+.hero h1{row-gap:.18em}
