@@ -424,3 +424,73 @@ body {
 
 
 
+
+
+/* Readability and navigation refinements */
+.wordmark{gap:15px;min-width:255px}
+.wordmark-mark{font-size:35px;letter-spacing:-3px}
+.wordmark-name{font-size:12px;letter-spacing:1.8px}
+.main-tabs{gap:0}
+.nav-tab{font-size:13px;padding:0 14px;border-right:1px solid rgba(255,255,255,.2);white-space:nowrap}
+.nav-tab:last-child{border-right:0}
+.header-link{font-size:13px;letter-spacing:.8px}
+.language-toggle{font-size:12px}
+.hero-overline{font-size:clamp(14px,1.3vw,17px);letter-spacing:2px;line-height:1.6}
+.hero h1{row-gap:.08em;letter-spacing:-5px}
+.hero-title{font-size:17px}
+.hero-lead{font-size:18px;line-height:1.85;max-width:600px}
+.availability{font-size:13px;letter-spacing:1.6px}
+.hero-bottomline{font-size:11px;letter-spacing:1.3px}
+.visual-top,.visual-caption{font-size:11px;letter-spacing:1.3px}
+.visual-side-label{font-size:11px}
+.micro-label,.welcome-kicker{font-size:12px;letter-spacing:1.7px}
+.primary-action,.text-action,.inline-link{font-size:14px}
+.home-note p{font-size:16px}
+.stat-label{font-size:12px}
+.stat-list span{font-size:12px}
+.view-heading>p{font-size:15px}
+.work-aside-foot{font-size:10px}
+.work-stage-top{font-size:11px}
+.drag-hint{font-size:10px}
+.work-footnote{font-size:11px}
+.experience-content .period{font-size:13px;letter-spacing:1.5px}
+.experience-content .role{font-size:14px}
+.experience-content p{font-size:15px;line-height:1.9}
+.exp-tab{font-size:12px;line-height:1.55}
+.capability-list li{font-size:13px}
+.experience-content h4{font-size:13px}
+.contact-card .micro-label{font-size:11px}
+.contact-card strong{font-size:17px}
+.service-tab{font-size:12px}
+.service-content .service-intro{font-size:14px}
+.service-column li{font-size:12px}
+.delivery-flow p{font-size:12px}
+.flow-steps span{font-size:11px}
+@media(max-width:1100px){
+  .wordmark{min-width:auto}
+  .wordmark-name{display:none}
+  .nav-tab{font-size:12px;padding:0 10px}
+}
+@media(max-width:680px){
+  .wordmark-mark{font-size:32px}
+  .nav-tab{font-size:12px;padding:0 11px;border-right:1px solid rgba(255,255,255,.24)}
+  .header-link{font-size:12px}
+  .availability{font-size:11px;letter-spacing:1px}
+  .hero-overline{font-size:12px;letter-spacing:1.2px}
+  .hero-title{font-size:15px;line-height:1.6}
+  .hero-lead{font-size:16px;line-height:1.8}
+  .hero-bottomline{font-size:9px;letter-spacing:.7px;flex-wrap:wrap}
+  .visual-top,.visual-caption{font-size:9px;letter-spacing:.8px}
+  .micro-label,.welcome-kicker{font-size:11px}
+  .primary-action,.text-action,.inline-link{font-size:13px}
+  .home-note p{font-size:15px}
+  .stat-label,.stat-list span{font-size:11px}
+  .view-heading>p{font-size:14px}
+  .experience-content .period{font-size:12px}
+  .experience-content .role{font-size:13px}
+  .experience-content p{font-size:14px}
+  .exp-tab{font-size:11px}
+  .capability-list li{font-size:12px}
+  .contact-card .micro-label{font-size:10px}
+  .contact-card strong{font-size:15px}
+}
