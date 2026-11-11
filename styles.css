@@ -586,3 +586,75 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .welcome-drop { transition: none; }
 }
+/* Navigation tabs: individual animated boxes */
+.main-tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.main-tabs .nav-tab,
+.main-tabs > a.nav-tab,
+.main-tabs > button.nav-tab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-height: 44px;
+  padding: 11px 18px;
+  margin: 0;
+  border: 1px solid rgba(255,255,255,.22);
+  border-radius: 8px;
+  line-height: 1.2;
+  vertical-align: middle;
+  text-decoration: none;
+  position: relative;
+  transition: transform .25s ease,
+              background-color .25s ease,
+              border-color .25s ease,
+              box-shadow .25s ease;
+}
+
+.main-tabs > button.nav-tab {
+  font: inherit;
+  cursor: pointer;
+}
+
+.main-tabs .nav-tab:hover,
+.main-tabs .nav-tab:focus-visible {
+  transform: translateY(-3px);
+  border-color: #d94b45;
+  background: rgba(217,75,69,.12);
+  box-shadow: 0 5px 16px rgba(0,0,0,.14);
+}
+
+.main-tabs .nav-tab.active {
+  border-color: #d94b45;
+  background: rgba(217,75,69,.13);
+}
+
+@media (max-width: 680px) {
+  .main-tabs {
+    gap: 7px;
+  }
+
+  .main-tabs .nav-tab,
+  .main-tabs > a.nav-tab,
+  .main-tabs > button.nav-tab {
+    min-height: 40px;
+    padding: 9px 12px;
+    font-size: 13px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .main-tabs .nav-tab {
+    transition: none;
+  }
+
+  .main-tabs .nav-tab:hover {
+    transform: none;
+  }
+}
