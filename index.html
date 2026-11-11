@@ -44,7 +44,16 @@
       <div class="hero-actions"><button class="primary-action" data-go="services"><span data-en="Explore services" data-fa="مشاهده خدمات">Explore services</span><b>↗</b></button><button class="text-action" data-go="work"><span data-en="View selected work" data-fa="دیدن نمونه‌کارها">View selected work</span><span>↓</span></button></div>
     </div>
     <div class="hero-visual">
-      <div class="visual-frame"><div class="visual-top"><span>TEHRAN / MIDDLE EAST</span><span>35°41′N · 51°25′E</span></div><img class="hero-profile-photo" src="iman-field.jpg" alt="Iman Keyhanfard at work"><div class="visual-signal signal-red"></div><div class="visual-signal signal-blue"></div><div class="visual-signal signal-green"></div><div class="visual-caption"><span>FIELD NOTES / 01</span><span>INDEPENDENT PORTFOLIO</span></div></div>
+      <div class="visual-frame">
+        <div class="visual-orbit-system" aria-hidden="true">
+          <span class="visual-signal signal-red"></span>
+          <span class="visual-signal signal-blue"></span>
+          <span class="visual-signal signal-green"></span>
+        </div>
+        <div class="visual-top"><span>TEHRAN / MIDDLE EAST</span><span>35°41′N · 51°25′E</span></div>
+        <img class="hero-profile-photo" src="iman-field.jpg" alt="Iman Keyhanfard at work">
+        <div class="visual-caption"><span>FIELD NOTES / 01</span><span>INDEPENDENT PORTFOLIO</span></div>
+      </div>
       <div class="visual-side-label">STORIES · PEOPLE · CONTEXT</div>
     </div>
     <div class="hero-bottomline"><span>01 — 05 / PERSONAL PORTFOLIO</span><span>IRAN & THE WIDER MIDDLE EAST</span><span>SCROLL LESS. DISCOVER MORE. ↘</span></div>
@@ -86,4 +95,62 @@
   <div class="footer-end"><span>Independent media professional</span><span>© 2026</span></div>
 </footer>
 <script src="script.js?v=20261108b"></script><script src="portfolio.js?v=20261108b"></script><script src="cms.js?v=20261109a"></script>
+<script>
+(() => {
+  const frame = document.querySelector('.visual-frame');
+  const orbit = document.querySelector('.visual-orbit-system');
+  if (!frame || !orbit) return;
+
+  const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)');
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let rotationAnimation = null;
+  let currentAngle = 0;
+
+  function getCurrentAngle() {
+    const transform = getComputedStyle(orbit).transform;
+    if (!transform || transform === 'none') return currentAngle;
+    try {
+      const matrix = new DOMMatrixReadOnly(transform);
+      return Math.atan2(matrix.b, matrix.a) * 180 / Math.PI;
+    } catch (_) {
+      return currentAngle;
+    }
+  }
+
+  function spin(direction) {
+    if (reducedMotion.matches || !finePointer.matches) return;
+
+    const start = getCurrentAngle();
+    if (rotationAnimation) rotationAnimation.cancel();
+
+    const end = start + (direction === 'in' ? -360 : 360);
+    rotationAnimation = orbit.animate(
+      [{ transform: `rotate(${start}deg)` }, { transform: `rotate(${end}deg)` }],
+      {
+        duration: 850,
+        easing: 'cubic-bezier(.2,.75,.25,1)',
+        fill: 'forwards'
+      }
+    );
+    rotationAnimation.onfinish = () => {
+      currentAngle = end;
+      orbit.style.transform = `rotate(${currentAngle}deg)`;
+      rotationAnimation = null;
+    };
+  }
+
+  frame.addEventListener('pointerenter', () => {
+    if (!finePointer.matches) return;
+    frame.classList.add('is-hovered');
+    spin('in');
+  });
+
+  frame.addEventListener('pointerleave', () => {
+    if (!finePointer.matches) return;
+    frame.classList.remove('is-hovered');
+    spin('out');
+  });
+})();
+</script>
+
 </body></html>
