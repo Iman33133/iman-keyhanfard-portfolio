@@ -721,3 +721,97 @@ body {
     transition: none !important;
   }
 }
+
+
+/* Services redesign — individual cards, expanded animated editorial visual, responsive bilingual layout */
+.service-tabs{
+  display:grid;
+  grid-template-columns:repeat(5,minmax(0,1fr));
+  gap:12px;
+  margin:24px 0 0;
+  border:0;
+}
+.service-tab{
+  min-height:86px;
+  padding:18px 16px;
+  border:1px solid rgba(255,255,255,.13);
+  border-radius:12px;
+  background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.018));
+  color:#c4cad4;
+  font:600 13px/1.55 var(--font-en);
+  letter-spacing:0;
+  text-align:left;
+  white-space:normal;
+  cursor:pointer;
+  transition:transform .28s ease,border-color .28s ease,background .28s ease,box-shadow .28s ease;
+}
+.service-tab:hover,.service-tab:focus-visible{
+  transform:translateY(-4px);
+  border-color:var(--accent,#d94b45);
+  background:rgba(255,255,255,.075);
+  outline:none;
+}
+.service-tab.active{
+  color:#fff;
+  border-color:var(--accent,#d94b45);
+  background:linear-gradient(145deg,color-mix(in srgb,var(--accent,#d94b45) 17%,transparent),rgba(255,255,255,.035));
+  box-shadow:0 10px 28px rgba(0,0,0,.18),inset 0 0 0 1px color-mix(in srgb,var(--accent,#d94b45) 18%,transparent);
+}
+.service-content{min-height:0;padding:24px 0 34px}
+.service-expanded{display:grid;grid-template-columns:minmax(280px,.92fr) minmax(0,1.08fr);gap:28px;align-items:stretch}
+.service-visual{min-height:260px;display:flex;align-items:center;overflow:hidden;border:1px solid rgba(255,255,255,.1);border-radius:16px;background:linear-gradient(145deg,rgba(255,255,255,.045),rgba(255,255,255,.012))}
+.service-visual svg{display:block;width:100%;height:auto;max-height:320px}
+.service-detail{min-width:0;padding:4px 0}
+.service-content-head{display:block}
+.service-content h3{font:600 27px/1.25 var(--font-en);margin:0 0 10px}
+.service-content .service-intro{max-width:650px;color:#aeb6c4;font-size:14px;line-height:1.85;margin:0}
+.service-columns{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:22px}
+.service-column{border-top:1px solid var(--line);padding-top:13px}
+.service-column h4,.service-client-use h4,.service-process h4{font-size:11px;letter-spacing:1px;color:var(--accent,#d94b45);margin:0 0 12px}
+.service-column ul{margin:0;padding:0;list-style:none;display:grid;gap:9px}
+.service-column li{font-size:12px;line-height:1.7;color:#c0c6d0;padding-left:15px;position:relative}
+.service-column li:before{content:"+";position:absolute;left:0;color:var(--accent,#d94b45)}
+.service-client-use{margin-top:20px;padding:15px 17px;border-left:2px solid var(--accent,#d94b45);background:rgba(255,255,255,.035)}
+.service-client-use p,.service-deliverable p{font-size:13px;line-height:1.8;color:#c0c6d0;margin:0}
+.service-process{display:grid;grid-template-columns:1.15fr .85fr;gap:18px;margin-top:20px}
+.service-process-block,.service-deliverable{border:1px solid rgba(255,255,255,.11);border-radius:12px;padding:18px 20px;background:rgba(255,255,255,.025)}
+.service-process ol{margin:0;padding-left:20px;display:grid;gap:8px}
+.service-process li{font-size:12px;line-height:1.65;color:#bfc6d1;padding-left:4px}
+.service-deliverable{border-color:color-mix(in srgb,var(--accent,#d94b45) 38%,rgba(255,255,255,.1));background:color-mix(in srgb,var(--accent,#d94b45) 6%,transparent)}
+html[dir=rtl] .service-tab{text-align:right;font-family:var(--font-fa,var(--font-en))}
+html[dir=rtl] .service-column li{padding-left:0;padding-right:15px}
+html[dir=rtl] .service-column li:before{left:auto;right:0}
+html[dir=rtl] .service-client-use{border-left:0;border-right:2px solid var(--accent,#d94b45)}
+html[dir=rtl] .service-process ol{padding-left:0;padding-right:20px}
+.sv-camera{transform-origin:180px 145px;animation:svCamera 4s ease-in-out infinite}
+.sv-signal{animation:svPulse 2.4s ease-in-out infinite}
+.sv-live{transform-box:fill-box;transform-origin:center;animation:svBlink 1.1s ease-in-out infinite}
+.sv-paper{transform-origin:center;animation:svFloat 4s ease-in-out infinite}
+.sv-node{transform-origin:center;animation:svPulse 3s ease-in-out infinite}
+.sv-node-two{animation-delay:1.1s}
+.sv-wave{animation:svWave 1.1s ease-in-out infinite alternate}
+.sv-bubble-left{animation:svBubble 3.5s ease-in-out infinite}
+.sv-bubble-right{animation:svBubble 3.5s ease-in-out infinite reverse}
+.sv-arrow{stroke-dasharray:8 7;animation:svDash 2s linear infinite}
+.sv-orbit{transform-origin:260px 137px;animation:svRotate 16s linear infinite}
+@keyframes svCamera{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-7px) rotate(-1deg)}}
+@keyframes svPulse{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes svBlink{0%,100%{opacity:1}50%{opacity:.2}}
+@keyframes svFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes svWave{from{transform:scaleY(.72)}to{transform:scaleY(1.18)}}
+@keyframes svBubble{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes svDash{to{stroke-dashoffset:-30}}
+@keyframes svRotate{to{transform:rotate(360deg)}}
+@media(max-width:1050px){.service-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}.service-expanded{grid-template-columns:1fr}.service-visual{max-width:680px}.service-process{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){
+  .service-tabs{grid-template-columns:1fr 1fr;gap:8px}
+  .service-tab{min-height:76px;padding:13px 12px;font-size:12px}
+  .service-expanded{grid-template-columns:1fr;gap:18px}
+  .service-visual{min-height:190px}
+  .service-content h3{font-size:23px}
+  .service-columns,.service-process{grid-template-columns:1fr;gap:14px}
+}
+@media(prefers-reduced-motion:reduce){
+  .service-tab,.service-visual *{animation:none!important;transition:none!important}
+  .service-tab:hover{transform:none}
+}
