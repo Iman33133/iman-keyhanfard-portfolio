@@ -497,3 +497,92 @@ body {
 
 /* Keep a clear visual word gap between the two hero-name lines */
 .hero h1{row-gap:.18em}
+
+
+/* Final agreed refinements — 11 November 2026 */
+/* A restrained hover response on the top welcome banner: grows, then returns. */
+.welcome-drop {
+  scale: 1;
+  transition: scale .28s cubic-bezier(.2,.8,.2,1);
+}
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .welcome-drop:hover { scale: 1.025; }
+}
+
+/* Make the two lines of the home-page name read as clearly separated words. */
+.hero h1 { row-gap: .26em; }
+
+/* Raise the floor on small supporting labels throughout the site. */
+.welcome-kicker,
+.micro-label,
+.availability,
+.visual-top,
+.visual-caption,
+.visual-side-label,
+.hero-bottomline,
+.stat-label,
+.stat-list span,
+.work-stage-top,
+.topic-tab,
+.topic-tab .tab-count,
+.story-tags span,
+.topic-detail .detail-tags,
+.story-open-hint,
+.topic-card .story-number,
+.drag-hint,
+.work-footnote,
+.original-post,
+.experience-content .period,
+.exp-tab,
+.capability-list li,
+.experience-content h4,
+.service-tab,
+.service-column h4,
+.service-column li,
+.flow-steps span,
+.delivery-flow p,
+.client-ideas strong,
+.client-ideas p,
+.contact-card .micro-label,
+.site-footer {
+  font-size: max(12px, .86em) !important;
+}
+@media (max-width: 680px) {
+  .welcome-kicker,
+  .micro-label,
+  .availability,
+  .visual-top,
+  .visual-caption,
+  .visual-side-label,
+  .hero-bottomline,
+  .stat-label,
+  .stat-list span,
+  .work-stage-top,
+  .topic-tab,
+  .topic-tab .tab-count,
+  .story-tags span,
+  .topic-detail .detail-tags,
+  .story-open-hint,
+  .topic-card .story-number,
+  .drag-hint,
+  .work-footnote,
+  .original-post,
+  .experience-content .period,
+  .exp-tab,
+  .capability-list li,
+  .experience-content h4,
+  .service-tab,
+  .service-column h4,
+  .service-column li,
+  .flow-steps span,
+  .delivery-flow p,
+  .client-ideas strong,
+  .client-ideas p,
+  .contact-card .micro-label,
+  .site-footer {
+    font-size: max(11px, .86em) !important;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .welcome-drop { transition: none; }
+}
