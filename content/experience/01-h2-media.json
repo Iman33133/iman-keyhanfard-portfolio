@@ -21,5 +21,12 @@
     "هماهنگی میان تحریریه، گروه میدانی و تدوینگر"
   ],
   "order": 1,
-  "visible": true
+  "visible": true,
+  "tab_en": "H2 MEDIA · RT · VIORY",
+  "tab_fa": "H2 MEDIA · RT · VIORY",
+  "image": "iman-field.jpg",
+  "image_alt": "Iman Keyhanfard working in field production",
+  "image_caption": "FIELD PRODUCTION · TEHRAN",
+  "client_value_en": "International newsrooms can commission Tehran-based field production support: local research, contributor coordination, interview arrangements, crew and access planning, Persian–English editorial support, shot lists and structured handover to editors.",
+  "client_value_fa": "تحریریه‌های بین‌المللی می‌توانند پشتیبانی تولید میدانی در تهران سفارش دهند: پژوهش محلی، هماهنگی افراد و مصاحبه‌شوندگان، برنامه‌ریزی گروه و دسترسی، پشتیبانی تحریریه‌ای فارسی–انگلیسی، فهرست نماها و تحویل ساختارمند به تدوینگر."
 }
