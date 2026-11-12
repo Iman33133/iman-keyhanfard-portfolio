@@ -27,10 +27,10 @@
       const l=lang(), org=text(item["organization_"+l])||item.organization_en||"", role=text(item["role_"+l])||item.role_en||"";
       const desc=text(item["description_"+l])||item.description_en||"";
       const caps=item["capabilities_"+l]?.length?item["capabilities_"+l]:(item.capabilities_en||[]);
-      panel.innerHTML = `<div class="period">${esc(item.period)}</div><h3>${esc(org)}</h3><div class="role">${esc(role)}</div><p>${esc(desc)}</p>${caps.length?`<h4>${l==="fa"?"توانمندی‌های مرتبط":"RELEVANT CAPABILITIES"}</h4><ul class="capability-list">${caps.map(c=>`<li>${esc(c)}</li>`).join("")}</ul>`:""}`;
+      panel.innerHTML = `${item.image?`<div class="experience-visual"><img src="${esc(item.image)}" alt="${esc(item.image_alt||org)}" loading="lazy"><span>${esc(item.image_caption||"FIELD & EDITORIAL EXPERIENCE")}</span></div>`:""}<div class="period">${esc(item.period)}</div><h3>${esc(org)}</h3><div class="role">${esc(role)}</div><p>${esc(desc)}</p>${caps.length?`<h4>${l==="fa"?"توانمندی‌های مرتبط":"RELEVANT CAPABILITIES"}</h4><ul class="capability-list">${caps.map(c=>`<li>${esc(c)}</li>`).join("")}</ul>`:""}${item.client_value?`<div class="client-ideas"><strong>${l==="fa"?"ارزش این تجربه برای پروژه شما":"HOW THIS EXPERIENCE SUPPORTS YOUR PROJECT"}</strong><p>${esc(item["client_value_"+l]||item.client_value)}</p></div>`:""}`;
       tabs.querySelectorAll(".exp-tab").forEach((b,i)=>b.classList.toggle("active",i===index));
     }
-    tabs.innerHTML=visible.map((x,i)=>`<button class="exp-tab" type="button" data-cms-exp="${i}">${String(i+1).padStart(2,"0")} / ${esc(x["organization_"+lang()]||x.organization_en)}</button>`).join("");
+    tabs.innerHTML=visible.map((x,i)=>`<button class="exp-tab" type="button" data-cms-exp="${i}">${esc(x["tab_"+lang()]||x["organization_"+lang()]||x.organization_en)}</button>`).join("");
     tabs.querySelectorAll("[data-cms-exp]").forEach(b=>b.addEventListener("click",()=>show(visible[Number(b.dataset.cmsExp)],Number(b.dataset.cmsExp))));
     show(visible[0],0);
     document.addEventListener("portfolio-language-change",()=>show(visible[Number(tabs.querySelector(".active")?.dataset.cmsExp)||0],Number(tabs.querySelector(".active")?.dataset.cmsExp)||0));
@@ -42,10 +42,10 @@
     if(!tabs||!panel)return;
     function show(item,index) {
       const l=lang(), title=text(item["title_"+l])||item.title_en||"", intro=text(item["intro_"+l])||item.intro_en||"", details=item["details_"+l]?.length?item["details_"+l]:(item.details_en||[]);
-      panel.innerHTML=`<div class="service-content-head"><div><h3>${esc(title)}</h3><p class="service-intro">${esc(intro)}</p></div><span class="service-number">${String(index+1).padStart(2,"0")}</span></div><div class="service-columns"><div class="service-column"><h4>${l==="fa"?"جزئیات خدمات":"SERVICE DETAILS"}</h4><ul>${details.map(d=>`<li>${esc(d)}</li>`).join("")}</ul></div></div>`;
+      panel.innerHTML=`<div class="service-expanded">${item.image?`<div class="service-visual"><img src="${esc(item.image)}" alt="${esc(item.image_alt||title)}" loading="lazy"></div>`:""}<div class="service-detail"><div class="service-content-head"><div><h3>${esc(title)}</h3><p class="service-intro">${esc(intro)}</p></div></div><div class="service-columns"><div class="service-column"><h4>${l==="fa"?"دامنه خدمات":"SERVICE SCOPE"}</h4><ul>${details.map(d=>`<li>${esc(d)}</li>`).join("")}</ul></div></div>${item.delivery_en||item.delivery_fa?`<div class="service-client-use"><h4>${l==="fa"?"خروجی قابل سفارش":"WHAT YOU CAN COMMISSION"}</h4><p>${esc(item["delivery_"+l]||item.delivery_en||item.delivery_fa)}</p></div>`:""}</div></div>`;
       tabs.querySelectorAll(".service-tab").forEach((b,i)=>b.classList.toggle("active",i===index));
     }
-    tabs.innerHTML=visible.map((x,i)=>`<button class="service-tab" type="button" data-cms-service="${i}">${String(i+1).padStart(2,"0")} / ${esc(x["title_"+lang()]||x.title_en)}</button>`).join("");
+    tabs.innerHTML=visible.map((x,i)=>`<button class="service-tab" type="button" data-cms-service="${i}">${esc(x["tab_"+lang()]||x["title_"+lang()]||x.title_en)}</button>`).join("");
     tabs.querySelectorAll("[data-cms-service]").forEach(b=>b.addEventListener("click",()=>show(visible[Number(b.dataset.cmsService)],Number(b.dataset.cmsService))));
     show(visible[0],0);
     document.addEventListener("portfolio-language-change",()=>{const i=Number(tabs.querySelector(".active")?.dataset.cmsService)||0;show(visible[i],i);});
