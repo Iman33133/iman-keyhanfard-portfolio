@@ -2,18 +2,34 @@
   "title_en": "Audio & voice",
   "title_fa": "صدا و گویندگی",
   "slug": "audio",
-  "intro_en": "English narration and voice-over support for news, documentary and digital media.",
-  "intro_fa": "خدمات نریشن و ویس‌اور انگلیسی برای خبر، مستند و رسانه‌های دیجیتال.",
+  "intro_en": "Voice, narration and audio production support for news, documentary, studio and digital media — delivered directly or coordinated with specialist talent.",
+  "intro_fa": "پشتیبانی صدا، نریشن و تولید صوت برای خبر، مستند، استودیو و رسانه دیجیتال؛ به‌صورت مستقیم یا با هماهنگی عوامل تخصصی.",
   "details_en": [
-    "English narration and voice-over",
-    "Script preparation and adaptation for spoken delivery",
-    "Audio coordination for media packages"
+    "English and Persian narration and voice-over",
+    "Script adaptation for natural spoken delivery",
+    "Voice casting and recording coordination",
+    "Field audio and interview sound recording",
+    "Sound editing, cleanup, balancing and mix coordination",
+    "Dubbing and dialogue replacement coordination",
+    "Audio-to-text transcription and subtitle alignment",
+    "Final audio quality checks and delivery"
   ],
   "details_fa": [
-    "نریشن و ویس‌اور انگلیسی",
-    "آماده‌سازی و انطباق متن برای اجرا",
-    "هماهنگی صوت برای بسته‌های رسانه‌ای"
+    "نریشن و ویس‌اور فارسی و انگلیسی",
+    "تطبیق متن برای اجرای طبیعی و گفتاری",
+    "انتخاب صدا و هماهنگی ضبط",
+    "صدابرداری میدانی و ضبط صدای مصاحبه",
+    "تدوین، پاک‌سازی، متعادل‌سازی و هماهنگی میکس",
+    "هماهنگی دوبله و جایگزینی دیالوگ",
+    "پیاده‌سازی صوت و تطبیق با زیرنویس",
+    "کنترل کیفیت و تحویل فایل صوتی نهایی"
   ],
   "order": 3,
-  "visible": true
+  "visible": true,
+  "tab_en": "Audio & Voice",
+  "tab_fa": "صدا و گویندگی",
+  "delivery_en": "Narration and voice-over, recorded interviews, field sound, transcripts, aligned subtitles and coordinated audio post-production, according to the agreed brief.",
+  "delivery_fa": "نریشن و ویس‌اور، صدای مصاحبه ضبط‌شده، صدابرداری میدانی، متن پیاده‌شده، زیرنویس هماهنگ و هماهنگی پس‌تولید صدا طبق سفارش توافق‌شده.",
+  "image": "https://images.unsplash.com/photo-1764664035176-8e92ff4f128e?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=82&w=1600",
+  "image_alt": "Microphone and camera in a recording studio"
 }
