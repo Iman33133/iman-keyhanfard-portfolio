@@ -2,20 +2,34 @@
   "title_en": "Studio, campaigns & media coordination",
   "title_fa": "استودیو، کمپین و هماهنگی رسانه‌ای",
   "slug": "studio",
-  "intro_en": "Planning and coordination for studio productions, institutional media and communication projects.",
-  "intro_fa": "برنامه‌ریزی و هماهنگی تولیدات استودیویی، رسانه‌های نهادی و پروژه‌های ارتباطی.",
+  "intro_en": "A single point of coordination for studio, location and campaign production — bringing together the people, equipment and workflow required by the brief.",
+  "intro_fa": "یک نقطه هماهنگی برای تولید استودیویی، لوکیشن و کمپین؛ با گردآوری عوامل، تجهیزات و روند اجرایی متناسب با سفارش.",
   "details_en": [
-    "Studio and remote production coordination",
-    "Media project planning and delivery tracking",
-    "Institutional and event media support",
-    "Coordination across editorial, production and delivery teams"
+    "Studio and location sourcing and booking",
+    "Camera operators, directors and production assistants",
+    "Lighting, sound, teleprompter and technical crew coordination",
+    "Studio interviews, presenter-led explainers and panel formats",
+    "Corporate, institutional, campaign and event films",
+    "Livestream and remote interview setup coordination",
+    "Video editing, graphics, voice-over and subtitles",
+    "Production schedules, call sheets and final delivery management"
   ],
   "details_fa": [
-    "هماهنگی تولید استودیویی و از راه دور",
-    "برنامه‌ریزی پروژه رسانه‌ای و پیگیری تحویل",
-    "پشتیبانی رسانه‌ای رویدادها و نهادها",
-    "هماهنگی میان تحریریه، تولید و تیم تحویل"
+    "شناسایی و رزرو استودیو و لوکیشن",
+    "هماهنگی تصویربردار، کارگردان و دستیار تولید",
+    "هماهنگی نور، صدا، تله‌پرومپتر و عوامل فنی",
+    "مصاحبه استودیویی، ویدئوی توضیحی با مجری و میزگرد",
+    "فیلم سازمانی، نهادی، کمپین و رویداد",
+    "هماهنگی پخش زنده و راه‌اندازی مصاحبه از راه دور",
+    "تدوین، گرافیک، ویس‌اور و زیرنویس",
+    "برنامه تولید، برگه فراخوان و مدیریت تحویل نهایی"
   ],
   "order": 5,
-  "visible": true
+  "visible": true,
+  "tab_en": "Studio & Crews",
+  "tab_fa": "استودیو و گروه‌ها",
+  "delivery_en": "A coordinated production team and complete workflow, from concept and pre-production to filming, editing, quality control and final assets for broadcast, web and social platforms.",
+  "delivery_fa": "گروه تولید و روند اجرایی هماهنگ، از ایده و پیش‌تولید تا تصویربرداری، تدوین، کنترل کیفیت و تحویل خروجی نهایی برای پخش، وب و شبکه‌های اجتماعی.",
+  "image": "https://images.unsplash.com/photo-1764664035176-8e92ff4f128e?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=82&w=1600",
+  "image_alt": "Professional studio camera and audio setup"
 }
