@@ -932,3 +932,12 @@ body:before{content:none!important;display:none!important}
 html[dir=rtl] .experience-visual span{left:auto;right:20px}
 @media(max-width:950px){.service-expanded{grid-template-columns:1fr}.service-visual{min-height:220px;max-height:280px}.service-visual img{min-height:220px;max-height:280px}}
 @media(max-width:680px){.experience-visual{height:170px;margin-bottom:20px}.service-detail .service-columns{grid-template-columns:1fr}.service-visual,.service-visual img{min-height:190px;max-height:220px}}
+
+
+@keyframes workflowIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+@keyframes workflowArrow{0%,100%{opacity:.55;transform:translateX(0)}50%{opacity:1;transform:translateX(4px)}}
+.flow-steps span{animation:workflowIn .65s ease both;transition:transform .25s ease,border-color .25s ease}
+.flow-steps span:nth-of-type(2){animation-delay:.07s}.flow-steps span:nth-of-type(3){animation-delay:.14s}.flow-steps span:nth-of-type(4){animation-delay:.21s}.flow-steps span:nth-of-type(5){animation-delay:.28s}.flow-steps span:nth-of-type(6){animation-delay:.35s}
+.flow-steps span:hover{transform:translateY(-3px);border-color:rgba(109,174,255,.5)}
+.flow-steps i{animation:workflowArrow 1.8s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){.flow-steps span,.flow-steps i{animation:none!important;transition:none!important}}
