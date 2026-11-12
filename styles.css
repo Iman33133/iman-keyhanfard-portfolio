@@ -915,3 +915,20 @@ body:before{content:none!important;display:none!important}
  .flow-steps i{display:none}
  .delivery-flow{padding:24px 17px}
 }
+
+
+/* Image-led CMS experience and service cards */
+.experience-visual{height:clamp(150px,19vw,230px);position:relative;overflow:hidden;border-radius:13px;margin:-6px 0 28px;background:#111923}
+.experience-visual:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,9,14,.62),rgba(6,9,14,.04) 80%),linear-gradient(0deg,rgba(6,9,14,.58),transparent 65%)}
+.experience-visual img,.service-visual img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.76);transition:transform .8s ease}
+.experience-content:hover .experience-visual img,.service-expanded:hover .service-visual img{transform:scale(1.035)}
+.experience-visual span{position:absolute;z-index:1;left:20px;bottom:17px;color:#fff;font-size:10px;letter-spacing:1.8px;font-weight:700}
+.service-visual{min-height:300px;max-height:460px}
+.service-visual img{min-height:300px;max-height:460px;object-fit:cover}
+.service-detail .service-columns{grid-template-columns:1fr 1fr}
+.service-detail .service-column li{font-size:13px;line-height:1.75}
+.service-client-use{border-radius:0 12px 12px 0;padding:20px 22px}
+.service-client-use p{font-size:13px;line-height:1.9}
+html[dir=rtl] .experience-visual span{left:auto;right:20px}
+@media(max-width:950px){.service-expanded{grid-template-columns:1fr}.service-visual{min-height:220px;max-height:280px}.service-visual img{min-height:220px;max-height:280px}}
+@media(max-width:680px){.experience-visual{height:170px;margin-bottom:20px}.service-detail .service-columns{grid-template-columns:1fr}.service-visual,.service-visual img{min-height:190px;max-height:220px}}
