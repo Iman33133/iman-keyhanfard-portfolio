@@ -2,22 +2,34 @@
   "title_en": "Field production & video packages",
   "title_fa": "تولید میدانی و بسته‌های ویدئویی",
   "slug": "field",
-  "intro_en": "Coordinated support from story idea to usable footage and a finished news or feature package.",
-  "intro_fa": "پشتیبانی هماهنگ از ایده سوژه تا تصویربرداری و تحویل بسته خبری یا گزارشی.",
+  "intro_en": "A coordinated production service for international broadcasters and agencies — from local reporting and camera crews to sound, editing and delivery.",
+  "intro_fa": "خدمات هماهنگ تولید برای شبکه‌ها و آژانس‌های بین‌المللی؛ از گزارشگری محلی و گروه تصویربرداری تا صدا، تدوین و تحویل.",
   "details_en": [
-    "Field producer and local crew coordination",
+    "Reporter and field producer sourcing and coordination",
+    "Local fixers, camera operators and videographers",
+    "Sound recordists, lighting teams and camera equipment",
     "Interview research, booking and on-location production",
-    "Vox pops, event coverage and press conference support",
-    "Location planning, access and production schedules",
-    "Shot lists, background notes and editorial handover"
+    "Live coverage, press conferences, events and vox pops",
+    "Location access, call sheets, schedules and production logistics",
+    "Video editing, story assembly and editorial finishing",
+    "Graphics, subtitles, captions and broadcast-ready delivery"
   ],
   "details_fa": [
-    "هماهنگی تهیه‌کننده میدانی و گروه محلی",
-    "پژوهش و تنظیم مصاحبه و تولید در محل",
-    "گرفتن نظر مردم، پوشش رویداد و نشست خبری",
-    "برنامه‌ریزی لوکیشن، دسترسی و زمان‌بندی تولید",
-    "فهرست نماها، یادداشت پیش‌زمینه و تحویل تحریریه‌ای"
+    "تأمین و هماهنگی خبرنگار و تهیه‌کننده میدانی",
+    "هماهنگی عوامل محلی، تصویربردار و فیلمبردار",
+    "صدابردار، گروه نور و تجهیزات تصویربرداری",
+    "پژوهش مصاحبه، تنظیم قرار و تولید در محل",
+    "پوشش زنده، نشست خبری، رویداد و مصاحبه مردمی",
+    "دسترسی به لوکیشن، برنامه تولید و لجستیک",
+    "تدوین و ساختاردهی روایت تصویری",
+    "گرافیک، زیرنویس، کپشن و تحویل آماده پخش"
   ],
   "order": 1,
-  "visible": true
+  "visible": true,
+  "tab_en": "Field & Video",
+  "tab_fa": "میدان و ویدئو",
+  "delivery_en": "A complete field assignment or a tailored crew package. Specialist roles — reporting, camera, sound, lighting, editing and transmission — are coordinated according to the brief, location, availability and technical requirements.",
+  "delivery_fa": "اجرای کامل مأموریت میدانی یا پکیج گروه تخصصی متناسب با سفارش. نقش‌های تخصصی از خبرنگاری، تصویربرداری، صدا و نور تا تدوین و ارسال، بر اساس سفارش، محل، دسترسی عوامل و نیازهای فنی هماهنگ می‌شوند.",
+  "image": "https://images.unsplash.com/photo-1759659334772-c3a05b8178e9?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=82&w=1600",
+  "image_alt": "Interview being filmed with a professional camera and microphone"
 }
