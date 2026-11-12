@@ -842,3 +842,76 @@ html[dir=rtl] .service-process ol{padding-left:0;padding-right:20px}
     padding: 14px 12px;
   }
 }
+
+
+/* Portfolio refinement: remove distracting watermark and strengthen editorial hierarchy */
+body:before{content:none!important;display:none!important}
+.projects-frame{display:block;width:100%;min-height:1100px;border:0;background:transparent}
+.work-layout{display:flex;flex-direction:column;gap:30px;min-height:0}
+.work-aside{border:0;padding:0;display:block}
+.topic-tabs{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:20px}
+.topic-tab{min-height:76px;width:100%;padding:16px 17px;border:1px solid rgba(255,255,255,.13);border-radius:13px;background:linear-gradient(135deg,rgba(255,255,255,.055),rgba(255,255,255,.015));color:#e1e5ed;font-size:14px;font-weight:700;letter-spacing:.1px;box-shadow:0 8px 24px rgba(0,0,0,.12)}
+.topic-tab:hover{transform:translateY(-3px);border-color:rgba(109,174,255,.55);background:linear-gradient(135deg,rgba(109,174,255,.14),rgba(255,255,255,.025))}
+.topic-tab.active{border-color:var(--accent);background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 20%,transparent),rgba(255,255,255,.035));box-shadow:0 10px 28px rgba(0,0,0,.2),inset 0 0 0 1px color-mix(in srgb,var(--accent) 30%,transparent);color:#fff}
+.topic-tab .tab-count{font:600 12px var(--font-en);color:#aeb8c9}
+.topic-tab.active .tab-count{color:var(--accent)}
+.work-aside-foot{display:none}
+.work-stage{scroll-margin-top:24px;border:1px solid var(--line);border-radius:18px;padding:22px 26px;background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(255,255,255,.008))}
+.topic-card{padding:30px 3% 28px 1%;min-height:320px}
+.topic-card h3{font-size:clamp(28px,3.7vw,48px)}
+.topic-detail{padding-top:24px}
+.experience-shell{grid-template-columns:285px 1fr;border-radius:18px;overflow:hidden;background:linear-gradient(145deg,rgba(255,255,255,.04),rgba(255,255,255,.01))}
+.experience-tabs{padding:16px;gap:7px}
+.exp-tab{font-size:12px;line-height:1.4;letter-spacing:.35px;padding:15px 14px;border-radius:9px}
+.exp-tab.active{border-left-color:var(--red);background:linear-gradient(90deg,rgba(255,64,86,.13),rgba(255,255,255,.035))}
+.experience-content{padding:38px 42px}
+.experience-content .period{font-size:11px;letter-spacing:1.8px}
+.experience-content h3{font-size:clamp(27px,3vw,38px);line-height:1.18;margin:12px 0 8px}
+.experience-content .role{font-size:14px;line-height:1.6;color:#dfe4ed}
+.experience-content p{font-size:14px;line-height:2.05;color:#b5bdca}
+.experience-content h4{font-size:12px;letter-spacing:1.2px;margin:28px 0 13px}
+.capability-list{gap:12px 26px}
+.capability-list li{font-size:13px;line-height:1.7;color:#c3cad5}
+.client-ideas{margin-top:28px;padding:22px 24px;border-radius:0 12px 12px 0}
+.client-ideas strong{font-size:11px;letter-spacing:.8px}
+.client-ideas p{font-size:13px;line-height:1.9;color:#c8d0db}
+.service-tabs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin:22px 0 0;border:0}
+.service-tab{min-height:92px;border:1px solid rgba(255,255,255,.13);border-radius:13px;background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.012));padding:17px 14px;font-size:12px;line-height:1.55;font-weight:700;letter-spacing:.1px;color:#c7cfdb}
+.service-tab:hover{transform:translateY(-3px);border-color:rgba(114,224,174,.5)}
+.service-tab.active{color:#fff;background:linear-gradient(145deg,rgba(255,255,255,.10),rgba(255,255,255,.025));border-color:var(--accent);box-shadow:inset 0 -3px var(--accent),0 12px 30px rgba(0,0,0,.15)}
+.service-content{padding:30px 0 42px}
+.service-content h3{font-size:clamp(26px,3vw,36px)}
+.service-content .service-intro{font-size:14px;line-height:1.9}
+.service-columns{gap:34px;margin-top:30px}
+.service-column{padding-top:18px}
+.service-column h4{font-size:12px;letter-spacing:1.2px}
+.service-column li{font-size:13px;line-height:1.75}
+.service-client-use,.service-process-block,.service-deliverable{border-radius:14px}
+.delivery-flow{margin-top:38px;padding:30px clamp(20px,4vw,44px);border-radius:18px;background:radial-gradient(ellipse at 10% 0%,rgba(109,174,255,.13),transparent 45%),linear-gradient(135deg,#151b27,#0c1017);box-shadow:0 24px 70px rgba(0,0,0,.25);overflow:hidden;position:relative}
+.delivery-flow:after{content:"";position:absolute;width:250px;height:250px;right:-70px;top:-130px;border:1px solid rgba(109,174,255,.22);border-radius:50%;box-shadow:0 0 0 24px rgba(109,174,255,.035),0 0 0 50px rgba(109,174,255,.025);pointer-events:none}
+.delivery-flow>.micro-label{font-size:11px;letter-spacing:2px;color:#9fc7ff}
+.flow-steps{display:grid;grid-template-columns:repeat(11,auto);justify-content:space-between;align-items:center;gap:12px;margin:30px 0 24px;position:relative;z-index:1}
+.flow-steps span{font-size:12px;white-space:normal;color:#aab5c7;letter-spacing:.5px}
+.flow-steps b{display:block;font-size:clamp(12px,1.15vw,16px);letter-spacing:.8px;color:#fff;margin:0}
+.flow-steps i{font-size:20px;color:var(--blue)}
+.delivery-flow p{max-width:900px;font-size:13px;line-height:1.9;color:#b8c2d1}
+.projects-frame{border-radius:18px;overflow:hidden}
+@media(max-width:950px){.experience-shell{grid-template-columns:230px 1fr}.experience-content{padding:28px}.service-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}.flow-steps{grid-template-columns:repeat(6,1fr)}.flow-steps i{display:none}}
+@media(max-width:680px){
+ .topic-tabs{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .topic-tab{min-height:64px;padding:12px;font-size:12px}
+ .work-stage{padding:15px 13px}
+ .experience-shell{display:block}
+ .experience-tabs{display:flex;flex-direction:row;overflow-x:auto;border:0;border-bottom:1px solid var(--line)}
+ .exp-tab{white-space:nowrap;flex:0 0 auto;font-size:11px}
+ .experience-content{padding:24px 18px}
+ .experience-content h3{font-size:27px}
+ .experience-content p{font-size:13px}
+ .capability-list{grid-template-columns:1fr}
+ .service-tabs{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .service-tab{min-height:74px;padding:12px 10px;font-size:11px}
+ .flow-steps{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 20px}
+ .flow-steps span{padding:10px 12px;border:1px solid rgba(255,255,255,.12);border-radius:8px;background:#ffffff08}
+ .flow-steps i{display:none}
+ .delivery-flow{padding:24px 17px}
+}
