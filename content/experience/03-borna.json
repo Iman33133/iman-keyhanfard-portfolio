@@ -4,18 +4,27 @@
   "role_en": "International News · Sports Ministry International Desk",
   "role_fa": "اخبار بین‌الملل · میز بین‌الملل وزارت ورزش",
   "period": "2014 — 2015",
-  "description_en": "Worked on international-desk content and coverage connected with the sports beat.",
-  "description_fa": "فعالیت در محتوای گروه بین‌الملل و پوشش سوژه‌های مرتبط با حوزه ورزش.",
+  "description_en": "Worked with the international desk on news and editorial material connected with the sports beat and the international activities of the Sports Ministry. The role brought together international news awareness, English-language research and the preparation of material for a broader audience.",
+  "description_fa": "همکاری با گروه بین‌الملل در زمینه اخبار و محتوای تحریریه‌ای مرتبط با حوزه ورزش و فعالیت‌های بین‌المللی وزارت ورزش. این نقش ترکیبی از شناخت اخبار بین‌الملل، پژوهش انگلیسی‌زبان و آماده‌سازی محتوا برای مخاطبان گسترده‌تر بود.",
   "capabilities_en": [
-    "International news desk support",
-    "International sports news and coverage",
-    "English-language research and editorial preparation"
+    "International news desk support and editorial preparation",
+    "International sports coverage and subject research",
+    "English-language research and copy preparation",
+    "Monitoring international developments and official sources"
   ],
   "capabilities_fa": [
-    "پشتیبانی تحریریه گروه بین‌الملل",
-    "پوشش اخبار و سوژه‌های بین‌المللی ورزش",
-    "پژوهش و آماده‌سازی محتوای انگلیسی"
+    "پشتیبانی و آماده‌سازی تحریریه گروه بین‌الملل",
+    "پوشش و پژوهش سوژه‌های بین‌المللی ورزش",
+    "پژوهش و آماده‌سازی متن انگلیسی",
+    "رصد تحولات بین‌المللی و منابع رسمی"
   ],
   "order": 3,
-  "visible": true
+  "visible": true,
+  "tab_en": "BORNA · INTERNATIONAL DESK",
+  "tab_fa": "برنا · گروه بین‌الملل",
+  "image": "https://images.unsplash.com/photo-1774779685524-cc735ae11a9e?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=82&w=1600",
+  "image_alt": "Middle East map as an illustrative regional news visual",
+  "image_caption": "INTERNATIONAL NEWS · SPORTS",
+  "client_value_en": "Relevant to international desks, sports broadcasters and organizations that need English-language research, subject monitoring and editorial support around regional and international events.",
+  "client_value_fa": "این تجربه برای گروه‌های بین‌الملل، رسانه‌های ورزشی و سازمان‌هایی که به پژوهش انگلیسی‌زبان، رصد سوژه و پشتیبانی تحریریه‌ای درباره رویدادهای منطقه‌ای و بین‌المللی نیاز دارند، کاربرد دارد."
 }
