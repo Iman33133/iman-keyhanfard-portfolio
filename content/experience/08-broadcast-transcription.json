@@ -1,0 +1,34 @@
+{
+  "organization_en": "Television, Narration & Transcription",
+  "organization_fa": "تلویزیون، نریشن و پیاده‌سازی متن",
+  "tab_en": "BROADCAST & TRANSCRIPTION",
+  "tab_fa": "تلویزیون و پیاده‌سازی متن",
+  "role_en": "Broadcast Coordination · Voice-over · Subtitling & Transcription",
+  "role_fa": "هماهنگی پخش · گویندگی · زیرنویس و ترنسکریپشن",
+  "period": "Additional television & language production",
+  "description_en": "Further work across iFilm, Ofogh TV, Channel 4 of IRIB, Sahar TV and the Raz programme broadened the broadcast side of the portfolio. This includes narration and voice-over experience as well as subtitle and transcription work for iFilm — practical skills that help convert recorded interviews and audiovisual material into accurate, searchable and publication-ready text.",
+  "description_fa": "همکاری‌های تکمیلی در iFilm، شبکه افق، شبکه چهار سیما، شبکه سحر و برنامه راز، بُعد تلویزیونی و تولیدی این پورتفولیو را گسترش می‌دهد. این سوابق شامل تجربه نریشن و ویس‌اور و همچنین کار زیرنویس و پیاده‌سازی متن برای iFilm است؛ مهارت‌هایی که به تبدیل مصاحبه‌ها و محتوای صوتی‌تصویری به متن دقیق، قابل جست‌وجو و آماده انتشار کمک می‌کند.",
+  "capabilities_en": [
+    "iFilm subtitle and transcription work",
+    "English narration and voice-over",
+    "Broadcast content preparation and coordination",
+    "Audio-to-text transcription and speaker-focused editing",
+    "Subtitle preparation and language quality control",
+    "Coordination of television and documentary content"
+  ],
+  "capabilities_fa": [
+    "زیرنویس و پیاده‌سازی متن برای iFilm",
+    "نریشن و ویس‌اور انگلیسی",
+    "آماده‌سازی و هماهنگی محتوای تلویزیونی",
+    "پیاده‌سازی فایل صوتی و ویرایش متن بر اساس گوینده",
+    "آماده‌سازی زیرنویس و کنترل کیفیت زبانی",
+    "هماهنگی محتوای تلویزیونی و مستند"
+  ],
+  "image": "https://images.unsplash.com/photo-1764664035176-8e92ff4f128e?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=82&w=1600",
+  "image_alt": "Camera, microphone and monitor in a recording studio",
+  "image_caption": "BROADCAST · VOICE · TRANSCRIPTION",
+  "client_value_en": "Broadcasters, documentary producers and localization teams can commission Persian–English transcription, subtitle preparation, narration, voice-over coordination and broadcast-ready language support for interviews, programmes and documentary material.",
+  "client_value_fa": "شبکه‌های تلویزیونی، تهیه‌کنندگان مستند و تیم‌های بومی‌سازی می‌توانند برای پیاده‌سازی فارسی–انگلیسی، آماده‌سازی زیرنویس، نریشن، هماهنگی ویس‌اور و پشتیبانی زبانی آماده پخش برای مصاحبه‌ها، برنامه‌ها و مستندها سفارش ثبت کنند.",
+  "order": 8,
+  "visible": true
+}
