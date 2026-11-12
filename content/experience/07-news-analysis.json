@@ -1,0 +1,34 @@
+{
+  "organization_en": "News, Political & Regional Editorial Work",
+  "organization_fa": "خبر، پژوهش سیاسی و تحریریه منطقه‌ای",
+  "tab_en": "NEWS & POLITICAL EDITORIAL",
+  "tab_fa": "خبر و تحریریه سیاسی",
+  "role_en": "News Production · Political Research · Editorial Contribution",
+  "role_fa": "تولید خبر · پژوهش سیاسی · مشارکت تحریریه‌ای",
+  "period": "Additional editorial & research experience",
+  "description_en": "Additional work across Tasnim News Agency, LHV News, Vatan-e Emrooz, Iranian parliamentary and institutional settings, and the Europe & Americas section of Islamic Awakening magazine, including coverage and editorial work related to the Palestinian Intifada. This background adds experience beyond daily news production: following political developments, working with institutional and regional subject matter, and shaping information for audiences that need context as well as headlines.",
+  "description_fa": "سوابق تکمیلی در خبرگزاری تسنیم، LHV News، روزنامه وطن امروز، موضوعات پارلمانی و نهادی و بخش اروپا و آمریکا در مجله بیداری اسلامی، از جمله پوشش و کار تحریریه‌ای مرتبط با انتفاضه فلسطین. این سوابق تجربه‌ای فراتر از تولید روزانه خبر را در پیگیری تحولات سیاسی، کار با موضوعات نهادی و منطقه‌ای و ارائه اطلاعات همراه با زمینه و تحلیل نشان می‌دهد.",
+  "capabilities_en": [
+    "News and editorial work associated with Tasnim News Agency and LHV News",
+    "News and political coverage connected with Vatan-e Emrooz",
+    "Institutional and parliamentary subject matter",
+    "Regional affairs and Palestinian Intifada coverage",
+    "Editorial work for the Europe & Americas section of Islamic Awakening magazine",
+    "Political background research, source review and contextual writing"
+  ],
+  "capabilities_fa": [
+    "فعالیت خبری و تحریریه‌ای با خبرگزاری تسنیم و LHV News",
+    "پوشش خبری و سیاسی مرتبط با روزنامه وطن امروز",
+    "موضوعات نهادی و پارلمانی",
+    "امور منطقه‌ای و پوشش انتفاضه فلسطین",
+    "کار تحریریه‌ای در بخش اروپا و آمریکا مجله بیداری اسلامی",
+    "پژوهش سیاسی، بررسی منابع و نگارش زمینه‌ای"
+  ],
+  "image": "https://images.unsplash.com/photo-1774779685524-cc735ae11a9e?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=82&w=1600",
+  "image_alt": "Map of the Middle East for regional and political research",
+  "image_caption": "POLITICAL RESEARCH · REGIONAL AFFAIRS",
+  "client_value_en": "For international media, research firms and policy-facing organizations, this experience supports political and regional monitoring, source-led background research, concise analytical briefs, editorial development and coverage of Iran and the wider Middle East.",
+  "client_value_fa": "این سوابق برای رسانه‌های بین‌المللی، شرکت‌های پژوهشی و سازمان‌های سیاست‌محور در زمینه رصد سیاسی و منطقه‌ای، پژوهش مستند، یادداشت تحلیلی موجز، توسعه محتوای تحریریه‌ای و پوشش ایران و خاورمیانه کاربرد دارد.",
+  "order": 7,
+  "visible": true
+}
