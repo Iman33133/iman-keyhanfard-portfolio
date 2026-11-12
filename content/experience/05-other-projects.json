@@ -4,20 +4,29 @@
   "role_en": "Research · Production Coordination · Operations",
   "role_fa": "پژوهش · هماهنگی تولید · عملیات",
   "period": "Selected additional experience",
-  "description_en": "Additional project work includes documentary and television coordination, institutional and conference media support, and inventory and procurement coordination at Laban Dairy using an ERP system.",
-  "description_fa": "سوابق تکمیلی شامل هماهنگی پروژه‌های مستند و تلویزیونی، پشتیبانی رسانه‌ای رویدادها و همایش‌ها و هماهنگی موجودی و تدارکات در شرکت لبنیات لبن با استفاده از سامانه ERP است.",
+  "description_en": "Additional project work includes documentary research and production coordination, television and institutional media support, and coordination of inventory and procurement at Laban Dairy using an ERP system. These assignments demonstrate an ability to organize information, people and operational workflows across different project environments.",
+  "description_fa": "سوابق تکمیلی شامل پژوهش و هماهنگی تولید مستند، پشتیبانی رسانه‌ای تلویزیونی و نهادی و هماهنگی موجودی و تدارکات در شرکت لبنیات لبن با استفاده از سامانه ERP است. این پروژه‌ها توانایی سامان‌دهی اطلاعات، افراد و روندهای اجرایی را در محیط‌های کاری متفاوت نشان می‌دهند.",
   "capabilities_en": [
     "Documentary research and production coordination",
-    "Television project coordination",
-    "Conference and institutional event support",
+    "Television and institutional media project coordination",
+    "Conference and event media support",
+    "Production planning and operational follow-through",
     "Inventory and procurement coordination using ERP"
   ],
   "capabilities_fa": [
     "پژوهش و هماهنگی تولید مستند",
-    "هماهنگی پروژه‌های تلویزیونی",
-    "پشتیبانی رسانه‌ای همایش‌ها و رویدادهای نهادی",
-    "هماهنگی موجودی و تدارکات با ERP"
+    "هماهنگی پروژه‌های تلویزیونی و رسانه‌ای نهادی",
+    "پشتیبانی رسانه‌ای همایش‌ها و رویدادها",
+    "برنامه‌ریزی تولید و پیگیری امور اجرایی",
+    "هماهنگی موجودی و تدارکات با استفاده از ERP"
   ],
   "order": 5,
-  "visible": true
+  "visible": true,
+  "tab_en": "DOCUMENTARY & MEDIA PROJECTS",
+  "tab_fa": "پروژه‌های مستند و رسانه‌ای",
+  "image": "https://images.unsplash.com/photo-1764664035176-8e92ff4f128e?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=82&w=1600",
+  "image_alt": "Camera and microphone in a recording studio",
+  "image_caption": "DOCUMENTARY · TELEVISION · PRODUCTION",
+  "client_value_en": "Useful to production companies and organizations that need a coordinator able to connect research, editorial requirements, production logistics and operational delivery.",
+  "client_value_fa": "مناسب شرکت‌های تولید و سازمان‌هایی که به هماهنگ‌کننده‌ای نیاز دارند که پژوهش، نیازهای تحریریه، لجستیک تولید و تحویل اجرایی را به یکدیگر متصل کند."
 }
