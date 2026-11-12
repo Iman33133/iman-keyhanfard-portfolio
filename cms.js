@@ -10,7 +10,7 @@
     if (!r.ok) throw new Error("GitHub API " + r.status);
     const files = await r.json();
     return Promise.all(files.filter(f => f.type === "file" && f.name.endsWith(".json"))
-      .map(async f => { const x = await fetch(f.download_url); if (!x.ok) throw new Error("Content " + x.status); return x.json(); }));
+      .map(async f => { const x = await fetch(f.download_url + "?v=" + Date.now(), {cache:"no-store"}); if (!x.ok) throw new Error("Content " + x.status); return x.json(); }));
   }
   async function one(path) {
     const r = await fetch(raw + path + "?v=" + Date.now());
