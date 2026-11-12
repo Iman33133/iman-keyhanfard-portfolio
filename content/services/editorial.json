@@ -2,20 +2,34 @@
   "title_en": "Editorial & research",
   "title_fa": "تحریریه و پژوهش",
   "slug": "editorial",
-  "intro_en": "Research-led editorial support for international newsrooms and media projects.",
-  "intro_fa": "پشتیبانی تحریریه‌ای مبتنی بر پژوهش برای تحریریه‌های بین‌المللی و پروژه‌های رسانه‌ای.",
+  "intro_en": "Editorial and analytical support for international newsrooms, research teams and organizations working on Iran and the wider Middle East.",
+  "intro_fa": "پشتیبانی تحریریه‌ای و تحلیلی برای رسانه‌های بین‌المللی، گروه‌های پژوهشی و سازمان‌های فعال در حوزه ایران و خاورمیانه.",
   "details_en": [
-    "Political and regional background research",
-    "Fact-checking and source mapping",
-    "Story development and interview briefs",
-    "English-language scripts, summaries and explainers"
+    "Political, geopolitical and regional background research",
+    "News monitoring and development tracking",
+    "Fact-checking, source mapping and claim cross-checking",
+    "Chronologies, backgrounders and issue briefs",
+    "Interview research, guest identification and question briefs",
+    "News scripts, headlines, explainers and editorial copy",
+    "Media narrative and source-context analysis",
+    "English-language research summaries for decision-makers"
   ],
   "details_fa": [
-    "پژوهش سیاسی و منطقه‌ای",
-    "راستی‌آزمایی و شناسایی منابع",
-    "توسعه سوژه و آماده‌سازی محورهای مصاحبه",
-    "نگارش متن، خلاصه و توضیح‌نامه انگلیسی"
+    "پژوهش سیاسی، ژئوپلیتیک و زمینه‌های منطقه‌ای",
+    "رصد خبر و پیگیری روند تحولات",
+    "راستی‌آزمایی، شناسایی منابع و تطبیق ادعاها",
+    "خط زمانی، گزارش پیش‌زمینه و یادداشت موضوعی",
+    "پژوهش مصاحبه، شناسایی مهمان و تنظیم محور پرسش",
+    "متن خبر، تیتر، محتوای توضیحی و ویرایش تحریریه‌ای",
+    "تحلیل روایت‌های رسانه‌ای و زمینه منابع",
+    "خلاصه پژوهشی انگلیسی برای تصمیم‌گیران"
   ],
   "order": 2,
-  "visible": true
+  "visible": true,
+  "tab_en": "Research",
+  "tab_fa": "پژوهش",
+  "delivery_en": "Research briefs, source lists, timelines, interview packs, analytical notes, scripts and publication-ready English copy — with uncertainty and source limitations clearly identified.",
+  "delivery_fa": "گزارش پژوهشی، فهرست منابع، خط زمانی، بسته مصاحبه، یادداشت تحلیلی، متن مجری و محتوای انگلیسی آماده انتشار؛ همراه با مشخص‌کردن ابهام‌ها و محدودیت منابع.",
+  "image": "https://images.unsplash.com/photo-1774779685524-cc735ae11a9e?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=82&w=1600",
+  "image_alt": "Middle East map used as a visual for political and regional research"
 }
