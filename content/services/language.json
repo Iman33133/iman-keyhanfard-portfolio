@@ -2,20 +2,34 @@
   "title_en": "Persian–English language services",
   "title_fa": "خدمات زبانی فارسی–انگلیسی",
   "slug": "language",
-  "intro_en": "Professional translation and editorial adaptation between Persian and English.",
-  "intro_fa": "ترجمه حرفه‌ای و انطباق تحریریه‌ای میان فارسی و انگلیسی.",
+  "intro_en": "Persian–English language services built for broadcast, journalism, documentary and institutional communication, with consistent terminology and editorial context.",
+  "intro_fa": "خدمات زبانی فارسی–انگلیسی برای پخش، روزنامه‌نگاری، مستند و ارتباطات نهادی، با حفظ یکدستی اصطلاحات و زمینه تحریریه‌ای.",
   "details_en": [
     "Persian-to-English and English-to-Persian translation",
-    "News and interview transcription",
-    "Subtitling and editorial adaptation",
-    "Terminology and background checks"
+    "News, interview, documentary and meeting transcription",
+    "Subtitling, captions and time-coded transcripts",
+    "Editing and proofreading for broadcast and publication",
+    "Name, title and terminology verification",
+    "Speaker identification and transcript formatting",
+    "Localization of scripts, statements and media copy",
+    "Bilingual editorial coordination and quality control"
   ],
   "details_fa": [
     "ترجمه فارسی به انگلیسی و انگلیسی به فارسی",
-    "پیاده‌سازی متن خبر و مصاحبه",
-    "زیرنویس و انطباق تحریریه‌ای",
-    "بررسی اصطلاحات و اطلاعات زمینه‌ای"
+    "پیاده‌سازی متن خبر، مصاحبه، مستند و نشست",
+    "زیرنویس، کپشن و متن پیاده‌شده همراه تایم‌کد",
+    "ویرایش و بازخوانی برای پخش و انتشار",
+    "بررسی نام‌ها، سمت‌ها و اصطلاحات",
+    "تفکیک گویندگان و قالب‌بندی متن پیاده‌شده",
+    "بومی‌سازی متن مجری، بیانیه و محتوای رسانه‌ای",
+    "هماهنگی تحریریه دوزبانه و کنترل کیفیت"
   ],
   "order": 4,
-  "visible": true
+  "visible": true,
+  "tab_en": "Language",
+  "tab_fa": "خدمات زبانی",
+  "delivery_en": "Accurate translations, publication-ready transcripts, timed subtitles, edited scripts and bilingual editorial support for newsrooms, broadcasters and production teams.",
+  "delivery_fa": "ترجمه دقیق، متن پیاده‌شده آماده انتشار، زیرنویس زمان‌بندی‌شده، متن ویرایش‌شده و پشتیبانی تحریریه دوزبانه برای رسانه‌ها، شبکه‌ها و تیم‌های تولید.",
+  "image": "https://images.unsplash.com/photo-1759659334772-c3a05b8178e9?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=82&w=1600",
+  "image_alt": "Interview and microphone representing transcription and language services"
 }
