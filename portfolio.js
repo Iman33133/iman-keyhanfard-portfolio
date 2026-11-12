@@ -81,23 +81,23 @@
   };
 
   const groups=[
-    {id:"hormuz",en:"Hormuz & Maritime Security",fa:"تنگه هرمز و امنیت دریایی",color:"#6daeff",items:posts.hormuz},
-    {id:"conflict",en:"War & Regional Security",fa:"جنگ و امنیت منطقه‌ای",color:"#ff4056",items:posts.conflict},
-    {id:"diplomacy",en:"Diplomacy & Officials",fa:"دیپلماسی و مواضع مقامات",color:"#b18aff",items:posts.diplomacy},
-    {id:"rezaei",en:"Mohsen Rezaei",fa:"محسن رضایی",color:"#e2a45b",items:[...posts.hormuz,...posts.conflict].filter((p,i,a)=>p[4].some(t=>/Mohsen Rezaei/i.test(t))&&a.findIndex(x=>x[0]===p[0])===i)},
-    {id:"ghalibaf",en:"Mohammad Bagher Ghalibaf",fa:"محمدباقر قالیباف",color:"#71c7a5",items:[...posts.conflict,...posts.diplomacy].filter((p,i,a)=>(p[4].some(t=>/Ghalibaf/i.test(t))||/Ghalibaf/i.test(p[1]))&&a.findIndex(x=>x[0]===p[0])===i)}
-    ,{id:"nuclear",en:"Nuclear Technology & IAEA",fa:"فناوری هسته‌ای و آژانس",color:"#73c9d6",items:posts.nuclear}
-    ,{id:"energy",en:"Energy & Oil Markets",fa:"انرژی و بازار نفت",color:"#d8b45b",items:posts.energy}
-    ,{id:"usPolitics",en:"US Politics & Midterm Debate",fa:"سیاست آمریکا و انتخابات میان‌دوره‌ای",color:"#8fa5ff",items:posts.usPolitics}
-    ,{id:"jordan",en:"Jordan & US Military Presence",fa:"اردن و حضور نظامی آمریکا",color:"#c18d72",items:posts.jordan}
-    ,{id:"media",en:"Media Narratives & Accountability",fa:"روایت رسانه‌ای و پاسخ‌گویی",color:"#d58bb8",items:posts.media}
-    ,{id:"president",en:"President & National Speeches",fa:"رئیس‌جمهور و سخنرانی‌های ملی",color:"#8ac58a",items:posts.president}
-    ,{id:"judiciaryIndia",en:"Judiciary, India & Interfaith Outreach",fa:"قوه قضائیه، هند و تعاملات بین‌مذهبی",color:"#8ca9dc",items:posts.judiciaryIndia}
-    ,{id:"drones",en:"Drones, Missiles & Military Footage",fa:"پهپادها، موشک‌ها و تصاویر نظامی",color:"#d47c72",items:posts.drones}
-    ,{id:"yemen",en:"Yemen & Regional Armed Groups",fa:"یمن و گروه‌های مسلح منطقه‌ای",color:"#c79b64",items:posts.yemen}
-    ,{id:"sanctionsEconomy",en:"Sanctions & Economic Pressure",fa:"تحریم‌ها و فشار اقتصادی",color:"#c3a56b",items:[...posts.hormuz,...posts.diplomacy].filter((p,i,a)=>(p[4].some(t=>/frozen assets|economic pressure/i.test(t))||/UAE moves to cut off Iran/i.test(p[1]))&&a.findIndex(x=>x[0]===p[0])===i)}
-    ,{id:"unDiplomacy",en:"United Nations & International Diplomacy",fa:"سازمان ملل و دیپلماسی بین‌المللی",color:"#78a9c7",items:posts.conflict.filter(p=>p[4].some(t=>/United Nations/i.test(t)))}
-    ,{id:"detainedPilots",en:"Detained Personnel & Humanitarian Law",fa:"بازداشت‌شدگان و حقوق بشردوستانه",color:"#b88f9b",items:posts.detainedPilots}
+    {id:"hormuz",en:"Hormuz",fa:"هرمز",color:"#6daeff",items:posts.hormuz},
+    {id:"conflict",en:"Conflict",fa:"درگیری",color:"#ff4056",items:posts.conflict},
+    {id:"diplomacy",en:"Diplomacy",fa:"دیپلماسی",color:"#b18aff",items:posts.diplomacy},
+    {id:"rezaei",en:"Rezaei",fa:"رضایی",color:"#e2a45b",items:[...posts.hormuz,...posts.conflict].filter((p,i,a)=>p[4].some(t=>/Mohsen Rezaei/i.test(t))&&a.findIndex(x=>x[0]===p[0])===i)},
+    {id:"ghalibaf",en:"Ghalibaf",fa:"قالیباف",color:"#71c7a5",items:[...posts.conflict,...posts.diplomacy].filter((p,i,a)=>(p[4].some(t=>/Ghalibaf/i.test(t))||/Ghalibaf/i.test(p[1]))&&a.findIndex(x=>x[0]===p[0])===i)}
+    ,{id:"nuclear",en:"Nuclear",fa:"هسته‌ای",color:"#73c9d6",items:posts.nuclear}
+    ,{id:"energy",en:"Energy",fa:"انرژی",color:"#d8b45b",items:posts.energy}
+    ,{id:"usPolitics",en:"America",fa:"آمریکا",color:"#8fa5ff",items:posts.usPolitics}
+    ,{id:"jordan",en:"Jordan",fa:"اردن",color:"#c18d72",items:posts.jordan}
+    ,{id:"media",en:"Media",fa:"رسانه",color:"#d58bb8",items:posts.media}
+    ,{id:"president",en:"President",fa:"رئیس‌جمهور",color:"#8ac58a",items:posts.president}
+    ,{id:"judiciaryIndia",en:"Judiciary",fa:"قضایی",color:"#8ca9dc",items:posts.judiciaryIndia}
+    ,{id:"drones",en:"Drones",fa:"پهپاد",color:"#d47c72",items:posts.drones}
+    ,{id:"yemen",en:"Yemen",fa:"یمن",color:"#c79b64",items:posts.yemen}
+    ,{id:"sanctionsEconomy",en:"Sanctions",fa:"تحریم",color:"#c3a56b",items:[...posts.hormuz,...posts.diplomacy].filter((p,i,a)=>(p[4].some(t=>/frozen assets|economic pressure/i.test(t))||/UAE moves to cut off Iran/i.test(p[1]))&&a.findIndex(x=>x[0]===p[0])===i)}
+    ,{id:"unDiplomacy",en:"UN",fa:"سازمان ملل",color:"#78a9c7",items:posts.conflict.filter(p=>p[4].some(t=>/United Nations/i.test(t)))}
+    ,{id:"detainedPilots",en:"Humanitarian",fa:"انسانی",color:"#b88f9b",items:posts.detainedPilots}
   ];
   // Exclude empty filters so every visible category has at least one story.
   const usableGroups=groups.filter(g=>Array.isArray(g.items)&&g.items.length>0);
@@ -112,7 +112,7 @@
   const currentGroup=()=>groups[groupIndex],currentPost=()=>currentGroup().items[itemIndex];
   function renderTabs(){
     tabs.innerHTML=groups.map((g,i)=>'<button class="topic-tab '+(i===groupIndex?'active':'')+'" type="button" role="tab" aria-selected="'+(i===groupIndex)+'" data-group="'+i+'"><span>'+safe(g[lang()])+'</span><span class="tab-count">'+String(g.items.length).padStart(2,"0")+'</span></button>').join("");
-    tabs.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{groupIndex=Number(b.dataset.group);itemIndex=0;expanded=false;progressValue=0;lastTick=Date.now();render();}));
+    tabs.querySelectorAll("button").forEach(b=>b.addEventListener("click",()=>{groupIndex=Number(b.dataset.group);itemIndex=0;expanded=false;progressValue=0;lastTick=Date.now();render();document.querySelector(".work-stage")?.scrollIntoView({behavior:"smooth",block:"start"});}));
   }
   function render(){
     const g=currentGroup(),p=currentPost(),isFa=lang()==="fa",title=isFa?p[2]:p[1],tags=p[4];
