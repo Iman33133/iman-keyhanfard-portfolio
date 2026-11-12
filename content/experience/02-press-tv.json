@@ -4,22 +4,31 @@
   "role_en": "Newsroom Coordination · News Editing Support · Narration & Voice-over",
   "role_fa": "هماهنگی تحریریه · پشتیبانی سردبیری خبر · نریشن و ویس‌اور",
   "period": "2007 — 2016",
-  "description_en": "Worked across daily English-language international newsroom operations, including news assistance, newsroom coordination, crawl editing, guest research and booking support, narration and voice-over, and preparation of news content under broadcast deadlines.",
-  "description_fa": "فعالیت در عملیات روزانه تحریریه بین‌المللی انگلیسی‌زبان؛ شامل دستیاری خبر، هماهنگی تحریریه، ویرایش زیرنویس‌های خبری، پژوهش و پشتیبانی دعوت از مهمانان، نریشن و ویس‌اور و آماده‌سازی محتوای خبری در ضرب‌الاجل پخش.",
+  "description_en": "Worked across the daily operation of an English-language international news network, developing practical newsroom experience under broadcast deadlines. Responsibilities included news assistance, newsroom coordination, crawl and on-screen text editing, guest and expert research, interview booking support, narration and English voice-over, and the preparation and handling of news content for transmission.",
+  "description_fa": "فعالیت در عملیات روزانه یک شبکه خبری بین‌المللی انگلیسی‌زبان و کسب تجربه عملی در تحریریه و شرایط ضرب‌الاجل پخش. مسئولیت‌ها شامل دستیاری خبر، هماهنگی تحریریه، ویرایش زیرنویس و متن روی تصویر، پژوهش درباره مهمانان و کارشناسان، پشتیبانی تنظیم مصاحبه، نریشن و ویس‌اور انگلیسی و آماده‌سازی محتوای خبری برای پخش بود.",
   "capabilities_en": [
-    "Newsroom workflow and rundown support",
-    "Guest research and interview preparation",
-    "Crawl and on-screen text editing",
-    "Narration and English voice-over",
-    "News monitoring and editorial coordination"
+    "Newsroom workflow, rundown and editorial coordination",
+    "Guest and expert research and interview preparation",
+    "Crawl, subtitles and on-screen text editing",
+    "English narration and voice-over",
+    "News monitoring, script preparation and deadline delivery",
+    "Coordination between editorial, production and transmission teams"
   ],
   "capabilities_fa": [
-    "پشتیبانی روند کار تحریریه و ترتیب خبرها",
-    "پژوهش مهمان و آماده‌سازی مصاحبه",
+    "پشتیبانی جریان کار تحریریه، راندون و هماهنگی سردبیری",
+    "پژوهش مهمان و کارشناس و آماده‌سازی مصاحبه",
     "ویرایش زیرنویس و متن روی تصویر",
     "نریشن و ویس‌اور انگلیسی",
-    "رصد خبر و هماهنگی تحریریه‌ای"
+    "رصد خبر، آماده‌سازی متن و تحویل در ضرب‌الاجل",
+    "هماهنگی میان تحریریه، تولید و پخش"
   ],
   "order": 2,
-  "visible": true
+  "visible": true,
+  "tab_en": "PRESS TV",
+  "tab_fa": "پرس‌تی‌وی",
+  "image": "https://images.unsplash.com/photo-1764664035176-8e92ff4f128e?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=82&w=1600",
+  "image_alt": "Professional camera and microphone in a recording studio",
+  "image_caption": "BROADCAST NEWSROOM · NARRATION",
+  "client_value_en": "This newsroom background is directly useful to broadcasters and digital news teams that need editorial overflow support, guest research, script preparation, English narration, crawl editing and coordinated delivery under tight deadlines.",
+  "client_value_fa": "این پیشینه برای شبکه‌های تلویزیونی و تیم‌های خبری دیجیتال در پشتیبانی تحریریه، پژوهش مهمان، آماده‌سازی متن، نریشن انگلیسی، ویرایش زیرنویس و تحویل هماهنگ در مهلت‌های فشرده کاربرد دارد."
 }
