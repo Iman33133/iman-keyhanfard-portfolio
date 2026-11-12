@@ -8,7 +8,10 @@ body>p:not(.projects-back){max-width:760px;color:#aeb5c4;font-size:16px}
 .project-cover:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,8,13,.72),transparent 75%),linear-gradient(0deg,rgba(5,8,13,.65),transparent 60%)}
 .project-cover img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.78);transition:transform .8s ease}
 /* Keep the interview subject's full head in frame */
-body>section.featured-project:first-of-type .project-cover img{object-position:center 8%;}
+/* Show the complete 4:3 Rezaei interview photo without cropping */
+body>section.featured-project:first-of-type .project-cover{height:auto;aspect-ratio:4/3;}
+body>section.featured-project:first-of-type .project-cover img{object-fit:contain;object-position:center;}
+body>section.featured-project:first-of-type:hover .project-cover img{transform:none;}
 .project:hover .project-cover img{transform:scale(1.045)}
 .project-cover span{position:absolute;z-index:1;left:28px;bottom:22px;color:#fff;font-size:11px;letter-spacing:2px;font-weight:700}
 .project>.kicker,.project>h2,.project>p,.project>h3,.project>a:not(.original-post),.project>.original-post{margin-left:clamp(20px,3vw,38px);margin-right:clamp(20px,3vw,38px)}
