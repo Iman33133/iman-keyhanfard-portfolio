@@ -96,8 +96,8 @@
     ,{id:"drones",en:"Drones",fa:"پهپاد",color:"#d47c72",items:posts.drones}
     ,{id:"yemen",en:"Yemen",fa:"یمن",color:"#c79b64",items:posts.yemen}
     ,{id:"sanctionsEconomy",en:"Sanctions",fa:"تحریم",color:"#c3a56b",items:[...posts.hormuz,...posts.diplomacy].filter((p,i,a)=>(p[4].some(t=>/frozen assets|economic pressure/i.test(t))||/UAE moves to cut off Iran/i.test(p[1]))&&a.findIndex(x=>x[0]===p[0])===i)}
-    ,{id:"unDiplomacy",en:"UN",fa:"سازمان ملل",color:"#78a9c7",items:posts.conflict.filter(p=>p[4].some(t=>/United Nations/i.test(t)))}
-    ,{id:"detainedPilots",en:"Humanitarian",fa:"انسانی",color:"#b88f9b",items:posts.detainedPilots}
+    ,{id:"unDiplomacy",en:"UN",fa:"ملل",color:"#78a9c7",items:posts.conflict.filter(p=>p[4].some(t=>/United Nations/i.test(t)))}
+    ,{id:"detainedPilots",en:"Detentions",fa:"بازداشت",color:"#b88f9b",items:posts.detainedPilots}
   ];
   // Exclude empty filters so every visible category has at least one story.
   const usableGroups=groups.filter(g=>Array.isArray(g.items)&&g.items.length>0);
