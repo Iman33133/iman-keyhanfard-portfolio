@@ -1,21 +1,32 @@
 {
   "organization_en": "Green Giant Tourism",
   "organization_fa": "گرین جاینت توریسم",
-  "role_en": "Tourism-sector Project Work",
-  "role_fa": "فعالیت پروژه‌ای در حوزه گردشگری",
+  "role_en": "Tourism Project Coordination & Communications",
+  "role_fa": "هماهنگی پروژه و ارتباطات در حوزه گردشگری",
   "period": "2016 — 2017",
-  "description_en": "Project experience with Green Giant Tourism in the tourism sector. This was not employment or an assignment in the UAE.",
-  "description_fa": "تجربه همکاری پروژه‌ای با گرین جاینت توریسم در حوزه گردشگری؛ این سابقه به‌معنای اشتغال یا انجام مأموریت در امارات متحده عربی نیست.",
+  "description_en": "Project experience in the tourism sector, developing practical insight into visitor services, destination-related coordination and the communication needs of people arriving in an unfamiliar market. This experience can be applied to the practical support of incoming media crews, production teams and visiting business groups.",
+  "description_fa": "تجربه پروژه‌ای در حوزه گردشگری که شناختی عملی از خدمات بازدیدکنندگان، هماهنگی مرتبط با مقصد و نیازهای ارتباطی افراد و گروه‌هایی که وارد محیطی ناآشنا می‌شوند ایجاد کرد. این تجربه می‌تواند در پشتیبانی عملی از گروه‌های رسانه‌ای ورودی، تیم‌های تولید و هیئت‌های تجاری بازدیدکننده به کار گرفته شود.",
   "capabilities_en": [
-    "Tourism-sector coordination",
-    "Communications and content support",
-    "Project coordination"
+    "Tourism-sector project coordination",
+    "Visitor information and communications",
+    "Local partner and service-provider liaison",
+    "Itinerary and logistics coordination for incoming teams",
+    "Persian–English communication and local orientation"
   ],
   "capabilities_fa": [
-    "هماهنگی در حوزه گردشگری",
-    "پشتیبانی ارتباطات و محتوا",
-    "هماهنگی پروژه"
+    "هماهنگی پروژه در حوزه گردشگری",
+    "اطلاع‌رسانی و ارتباطات با بازدیدکنندگان",
+    "ارتباط با شرکای محلی و ارائه‌دهندگان خدمات",
+    "هماهنگی برنامه سفر و لجستیک گروه‌های ورودی",
+    "ارتباط دوزبانه فارسی و انگلیسی و راهنمایی محلی"
   ],
   "order": 4,
-  "visible": true
+  "visible": true,
+  "tab_en": "GREEN GIANT TOURISM",
+  "tab_fa": "گرین جاینت توریسم",
+  "image": "https://images.unsplash.com/photo-1774779685524-cc735ae11a9e?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=82&w=1600",
+  "image_alt": "Map of the Middle East as a visual for local orientation and incoming team coordination",
+  "image_caption": "LOCAL COORDINATION · INCOMING TEAMS",
+  "client_value_en": "Support for incoming media crews, production teams, business delegations and visiting groups: local orientation, itinerary and logistics coordination, liaison with service providers, and clear Persian–English communication tailored to each team’s schedule and operational brief.",
+  "client_value_fa": "پشتیبانی از گروه‌های رسانه‌ای ورودی، تیم‌های تولید، هیئت‌های تجاری و گروه‌های بازدیدکننده: آشنایی اولیه با محیط، هماهنگی برنامه و لجستیک، ارتباط با ارائه‌دهندگان خدمات و ارتباط شفاف فارسی–انگلیسی متناسب با برنامه و نیاز عملیاتی هر گروه."
 }
